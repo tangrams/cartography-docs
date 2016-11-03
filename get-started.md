@@ -1,6 +1,7 @@
 # Get started with Mapzen basemaps
 
-_Mapzen basemaps are written in Tangram's scene file syntax._
+_Mapzen basemaps are written in Tangram's scene file syntax. They can be displayed in web maps using [Tangram JS](
+https://mapzen.com/documentation/tangram/Javascript-API/) or [mapzen.js](https://mapzen.com/documentation/mapzen-js/) and on [iOS](https://mapzen.com/documentation/ios/) and [Android](https://mapzen.com/documentation/tangram/android-walkthrough/) using [Tangram ES](https://github.com/tangrams/tangram-es)._
 
 ## Add a basemap to a project
 
