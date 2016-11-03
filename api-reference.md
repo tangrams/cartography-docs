@@ -61,7 +61,7 @@ Common language codes values include:
 - `tr` Turkish
 - `vi` Vietnamese
 
-## Map customization
+## Data visualization
 
 To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering) docs).
 
@@ -138,8 +138,7 @@ Tip: disable earth layer.
 * `sdk_order_under_everything_8`: eight above default
 * `sdk_order_under_everything_9`: nine above default
 
-
-## Transit
+## Transit overlay
 
 Some house styles support transit overlays.
 
