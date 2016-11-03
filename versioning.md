@@ -8,11 +8,11 @@ Semantic versioning (or [SemVer](http://semver.org/)) is a formalized way of mak
 
 ### Version components
 
-- `MAJOR`.`MINOR`.`PATCH`, example: `1.0.0`
+- `MAJOR`.`MINOR`.`PATCH`, example: `-0.0`
 
 ### Version parts:
 
-1. **MAJOR** version **X** for incompatible API changes.
+- **MAJOR** version **X** for incompatible API changes.
 2. **MINOR** version **Y** when adding functionality in a backwards-compatible manner, and
 3. **PATCH** version **Z** when fixing backwards-compatible bugs
 
@@ -53,41 +53,41 @@ We don't recommend pegging to a **patch** vesion.
 
 ### MAJOR version increments:
 
-1. **Remove** global `property`
-1. **Change** global `property` **name** or default value
-1. **Remove** draw `layer`
-1. **Change** draw `layer` **name**
-1. **Remove** draw  `style`
-1. **Change** draw `style` **name**
-1. **Remove** `sprite` icon
-1. **Change** `sprite` icon **name**
-1. Requires new **major** version of **Tangram** (or minor version if before 1.0)
-1. Requires new **major** version of **Mapzen Vector Tiles**
-1. Requires new **minor** version of **Mapzen Vector Tiles** when recommended map sandwich feature order values change.
+- **Remove** global `property`
+- **Change** global `property` **name** or default value
+- **Remove** draw `layer`
+- **Change** draw `layer` **name**
+- **Remove** draw  `style`
+- **Change** draw `style` **name**
+- **Remove** `sprite` icon
+- **Change** `sprite` icon **name**
+- Requires new **major** version of **Tangram** (or minor version if before -0)
+- Requires new **major** version of **Mapzen Vector Tiles**
+- Requires new **minor** version of **Mapzen Vector Tiles** when recommended map sandwich feature order values change.
 
 ### MINOR version increments:
 
-1. **Add** global `property`
-1. **Add** draw `layer`
-1. **Add** draw `style`
-1. **Add** `sprite` icon
-1. **Change** draw `style` default visual appearance
-1. **Remove** `sprite` icon
-1. **Change** `sprite` icon **name**
-1. **Change** `sprite` icon asset
-1. **Change** to scene elements not documented by API reference
-1. Requires new **minor** version of **Tangram** (or patch version if before 1.0)
-1. Requires new **minor** version of **Mapzen Vector Tiles**
+- **Add** global `property`
+- **Add** draw `layer`
+- **Add** draw `style`
+- **Add** `sprite` icon
+- **Change** draw `style` default visual appearance
+- **Remove** `sprite` icon
+- **Change** `sprite` icon **name**
+- **Change** `sprite` icon asset
+- **Change** to scene elements not documented by API reference
+- Requires new **minor** version of **Tangram** (or patch version if before -0)
+- Requires new **minor** version of **Mapzen Vector Tiles**
 
 ### PATCH version increments
 
-1. **Correct** a regression in a documented scene element (to the last good version)
-1. **Correct** a newly added global `property` **name** or default value
-1. **Correct** a newly added draw `layer` **name**
-1. **Correct** a newly added draw `style` **name** or default visual appearance
-1. **Correct** a newly added `sprite` icon **name** or asset
-1. Bug fix **change** to scene elements not documented by API reference
-1. Requires new **patch** version of **Mapzen Vector Tiles**
+- **Correct** a regression in a documented scene element (to the last good version)
+- **Correct** a newly added global `property` **name** or default value
+- **Correct** a newly added draw `layer` **name**
+- **Correct** a newly added draw `style` **name** or default visual appearance
+- **Correct** a newly added `sprite` icon **name** or asset
+- Bug fix **change** to scene elements not documented by API reference
+- Requires new **patch** version of **Mapzen Vector Tiles**
 
 ## See also
 

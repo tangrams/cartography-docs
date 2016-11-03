@@ -1,4 +1,4 @@
-# Icons
+# Icons (page still in active development, not referenced in the cartography.yml yet)
 
 Sprites and sprite sheets used in Mapzen house styles.
 

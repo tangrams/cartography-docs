@@ -1,14 +1,14 @@
-# Get started with Mapzen House Styles
+# Get started with Mapzen basemaps
 
-House styles are written in Tangram's scene file syntax.
+_Mapzen basemaps are written in Tangram's scene file syntax._
 
-## Draw basemap
+## Add a basemap to a project
 
-We offer two convenient methods to incorporate Mapzen house styles into your project.
+We offer two convenient methods to incorporate Mapzen house styles into your project:
 
 ### mapzen.js
 
-mapzen.js is an easy way to embed Mapzen house styles into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen house styles into an general toolkit.
+[mapzen.js](https://mapzen.com/documentation/mapzen-js/) is an easy way to embed Mapzen house styles into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen house styles into an general toolkit.
 
 For example:
 
@@ -24,32 +24,32 @@ See the mapzen.js [Get Started](https://mapzen.com/documentation/mapzen-js/get-s
 
 The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#basemap-styles) lists out all named Mapzen house styles and is currently:
 
-* **Bubble Wrap**
-  * `L.Mapzen.BasemapStyles.BubbleWrap`
-* **Refill**
-  * `L.Mapzen.BasemapStyles.Refill`
-  * `L.Mapzen.BasemapStyles.RefillMoreLabels`
-  * `L.Mapzen.BasemapStyles.RefillNoLabels`
-* **Walkabout**
-  * `L.Mapzen.BasemapStyles.Walkabout`
-  * `L.Mapzen.BasemapStyles.WalkaboutMoreLabels`
-  * `L.Mapzen.BasemapStyles.WalkaboutNoLabels`
-* **Tron**
-  * `L.Mapzen.BasemapStyles.Tron`
-  * `L.Mapzen.BasemapStyles.TronMoreLabels`
-  * `L.Mapzen.BasemapStyles.TronNoLabels`
-* **Cinnabar**
-  * `L.Mapzen.BasemapStyles.Cinnabar`
-  * `L.Mapzen.BasemapStyles.CinnabarMoreLabels`
-  * `L.Mapzen.BasemapStyles.CinnabarNoLabels`
-* **Zinc**
-  * `L.Mapzen.BasemapStyles.Zinc`
-  * `L.Mapzen.BasemapStyles.ZincMoreLabels`
-  * `L.Mapzen.BasemapStyles.ZincNoLabels`
+* **[Bubble Wrap](https://mapzen.com/products/maps/bubble-wrap)**
+    * `L.Mapzen.BasemapStyles.BubbleWrap`
+* **[Refill](https://mapzen.com/products/maps/refill/more-labels)**
+    * `L.Mapzen.BasemapStyles.Refill`
+    * `L.Mapzen.BasemapStyles.RefillMoreLabels`
+    * `L.Mapzen.BasemapStyles.RefillNoLabels`
+* **[Walkabout](https://mapzen.com/products/maps/walkabout/more-labels)**
+    * `L.Mapzen.BasemapStyles.Walkabout`
+    * `L.Mapzen.BasemapStyles.WalkaboutMoreLabels`
+    * `L.Mapzen.BasemapStyles.WalkaboutNoLabels`
+* **[Tron](https://mapzen.com/products/maps/tron/more-labels)**
+    * `L.Mapzen.BasemapStyles.Tron`
+    * `L.Mapzen.BasemapStyles.TronMoreLabels`
+    * `L.Mapzen.BasemapStyles.TronNoLabels`
+* **[Cinnabar](https://mapzen.com/products/maps/cinnabar/more-labels)**
+    * `L.Mapzen.BasemapStyles.Cinnabar`
+    * `L.Mapzen.BasemapStyles.CinnabarMoreLabels`
+    * `L.Mapzen.BasemapStyles.CinnabarNoLabels`
+* **[Zinc](https://mapzen.com/products/maps/zinc/more-labels)**
+    * `L.Mapzen.BasemapStyles.Zinc`
+    * `L.Mapzen.BasemapStyles.ZincMoreLabels`
+    * `L.Mapzen.BasemapStyles.ZincNoLabels`
 
 ### Tangram
 
-It's possible to build data visualizations in Tangram over Mapzen house styles as a basemap (or in map sandwiches).
+You can also use Mapzen's GL map renderer, [Tangram](https://mapzen.com/documentation/tangram/) to add basemaps to your project.
 
 Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/tangram/import/)) allows one scene file to import another:
 
@@ -63,9 +63,9 @@ Scene files and related assets are available for use in Tangram and Leaflet dire
 
 * `https://mapzen.com/carto/{stylename}/{stylefile}.{format}`
 
-Where `{stylename}` and `{stylefile}` are generally the same and will converge over time.
+Where `{stylename}` and `{stylefile}` are generally the same and will likely converge in future versions.
 
-And where `{format}` is mostly `yaml` but Tangram scene file bundles can also be specified as `zip`. Only Tron support ZIP scene [bundles](https://github.com/tangrams/bundler) at the time of writing.
+And where `{format}` is mostly `yaml` but Tangram scene file bundles can also be specified as `zip`. Only [Tron](https://mapzen.com/products/maps/tron/more-labels) currently supports a ZIP scene [bundles](https://github.com/tangrams/bundler).
 
 Looking to peg to a specific **version** of a style? We have you covered!
 

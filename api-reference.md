@@ -4,8 +4,7 @@ Mapzen House Styles offer several global properties to customize and extend the 
 
 Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen house style. See [Styles](styles.md) for what's supported.
 
-As the house styles are still in active development we recommend peggging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
-
+As the basemaps are still in active development we recommend peggging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
 
 ## Language
 
@@ -44,25 +43,25 @@ globals:
 
 Common language codes values include:
 
-1. `ar` Arabic
-1. `zh` Chinese, traditional or simplified
-1. `en` English
-1. `fr` French
-1. `ru` Russian
-1. `es` Spanish
-1. `bn` Bengali
-1. `de` German
-1. `gr` Greek
-1. `hi` Hindi
-1. `id` Indonesian
-1. `it` Italian
-1. `ja` Japanese
-1. `ko` Korean
-1. `pt` Portugese
-1. `tr` Turkish
-1. `vi` Vietnamese
+- `ar` Arabic
+- `zh` Chinese, traditional or simplified
+- `en` English
+- `fr` French
+- `ru` Russian
+- `es` Spanish
+- `bn` Bengali
+- `de` German
+- `gr` Greek
+- `hi` Hindi
+- `id` Indonesian
+- `it` Italian
+- `ja` Japanese
+- `ko` Korean
+- `pt` Portugese
+- `tr` Turkish
+- `vi` Vietnamese
 
-## Map sandwiches
+## Map customization
 
 To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering) docs).
 
@@ -81,7 +80,7 @@ _layername:
 
 ### Overlay
 
-Your classic overlay: Over all line and polygon features, but under map labels (icons and text), and under UI elements (like routeline and search result pins).
+Your classic overlay: Over all line and polygon features, but under map labels (icons and text), and under UI elements (like route line and search result pins).
 
 * `sdk_order_over_everything_but_text_0`: default
 * `sdk_order_over_everything_but_text_1`: one above default

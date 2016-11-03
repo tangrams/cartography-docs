@@ -8,11 +8,11 @@ We only recommend pegging to the **LATEST** vesion if you are not modifying docu
 
 ## Bubble Wrap
 
-A full-featured wayfinding style loaded with helpful icons for points of interest. See it in action in our very own Eraser Map on Android.
+A full-featured wayfinding style loaded with helpful icons for points of interest. See it in action in our very own [Eraser Map on Android](https://mapzen.com/blog/erasermap-beta/).
 
 Bubble Wrap is only available in the "more labels" version.
 
-**Try Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap) 
+**Try Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap)
 
 Current **MAJOR** release (includes any minor and patch updates):
 
