@@ -13,8 +13,8 @@ Semantic versioning (or [SemVer](http://semver.org/)) is a formalized way of mak
 ### Version parts:
 
 - **MAJOR** version **X** for incompatible API changes.
-2. **MINOR** version **Y** when adding functionality in a backwards-compatible manner, and
-3. **PATCH** version **Z** when fixing backwards-compatible bugs
+- **MINOR** version **Y** when adding functionality in a backwards-compatible manner, and
+- **PATCH** version **Z** when fixing backwards-compatible bugs
 
 ### Developer level of effort:
 
