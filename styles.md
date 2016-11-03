@@ -1,8 +1,8 @@
-# House Styles
+# Basemap Styles
 
 Use gorgeous 2D and 3D basemap styles created by Mapzen's expert cartographers for Tangram.
 
-As Mapzen's house styles are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `5`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
+As Mapzen's basemap styles are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `5`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
 We only recommend pegging to the **LATEST** vesion if you are not modifying documented API scene elements.
 
