@@ -1,8 +1,11 @@
 # API reference
 
-Mapzen House Styles offer several global properties to customize and extend the map. 
+Mapzen House Styles offer several global properties to customize and extend the basemap.
 
 Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen house style. See [Styles](styles.md) for what's supported.
+
+As the house styles are still in active development we recommend peggging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
+
 
 ## Language
 
@@ -39,7 +42,7 @@ globals:
 
 ### Language codes
 
-Common language codes include:
+Common language codes values include:
 
 1. `ar` Arabic
 1. `zh` Chinese, traditional or simplified
@@ -61,77 +64,81 @@ Common language codes include:
 
 ## Map sandwiches
 
-To facilitate map customization and data visualizations several recommended sort orders are provided. These properties abstract the values which work best with the paired version of Mapzen vector tiles it's recommendations about [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering).
+To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering) docs).
 
 Example Tangram usage:
 
 ```
+import: https://mapzen.com/carto/refill-style-more-labels/5/refill-style-more-labels.yaml
+
 _layername:
     draw:
         line:
             order: global.sdk_order_over_everything_but_text_0
+            width: 1px
+            color: red
 ```
 
 ### Overlay
 
 Your classic overlay: Over all line and polygon features, but under map labels (icons and text), and under UI elements (like routeline and search result pins).
 
-
-    sdk_order_over_everything_but_text_0
-    sdk_order_over_everything_but_text_1
-    sdk_order_over_everything_but_text_2
-    sdk_order_over_everything_but_text_3
-    sdk_order_over_everything_but_text_4
-    sdk_order_over_everything_but_text_5
-    sdk_order_over_everything_but_text_6
-    sdk_order_over_everything_but_text_7
-    sdk_order_over_everything_but_text_8
-    sdk_order_over_everything_but_text_9
+* `sdk_order_over_everything_but_text_0`: default
+* `sdk_order_over_everything_but_text_1`: one above default
+* `sdk_order_over_everything_but_text_2`: two above default
+* `sdk_order_over_everything_but_text_3`: three above default
+* `sdk_order_over_everything_but_text_4`: four above default
+* `sdk_order_over_everything_but_text_5`: five above default
+* `sdk_order_over_everything_but_text_6`: six above default
+* `sdk_order_over_everything_but_text_7`: seven above default
+* `sdk_order_over_everything_but_text_8`: eight above default
+* `sdk_order_over_everything_but_text_9`: nine above default
 
 ### Basic underlay
 
 Under roads. Above borders, water, landuse, and earth.
 
-    sdk_order_under_roads_0
-    sdk_order_under_roads_1
-    sdk_order_under_roads_2
-    sdk_order_under_roads_3
-    sdk_order_under_roads_4
-    sdk_order_under_roads_5
-    sdk_order_under_roads_6
-    sdk_order_under_roads_7
-    sdk_order_under_roads_8
-    sdk_order_under_roads_9
+* `sdk_order_under_roads_0`: default
+* `sdk_order_under_roads_1`: one above default
+* `sdk_order_under_roads_2`: twp above default
+* `sdk_order_under_roads_3`: three above default
+* `sdk_order_under_roads_4`: four above default
+* `sdk_order_under_roads_5`: five above default
+* `sdk_order_under_roads_6`: six above default
+* `sdk_order_under_roads_7`: seven above default
+* `sdk_order_under_roads_8`: eight above default
+* `sdk_order_under_roads_9`: nine above default
 
 ### Under water
 
 Above earth and most landuse.
 
-    sdk_order_under_water_0
-    sdk_order_under_water_1
-    sdk_order_under_water_2
-    sdk_order_under_water_3
-    sdk_order_under_water_4
-    sdk_order_under_water_5
-    sdk_order_under_water_6
-    sdk_order_under_water_7
-    sdk_order_under_water_8
-    sdk_order_under_water_9
+* `sdk_order_under_water_0`: default
+* `sdk_order_under_water_1`: one above default
+* `sdk_order_under_water_2`: two above default
+* `sdk_order_under_water_3`: three above default
+* `sdk_order_under_water_4`: four above default
+* `sdk_order_under_water_5`: five above default
+* `sdk_order_under_water_6`: six above default
+* `sdk_order_under_water_7`: seven above default
+* `sdk_order_under_water_8`: eight above default
+* `sdk_order_under_water_9`: nine above default
 
 ### Under everything
 
 Tip: disable earth layer.
 
-    sdk_order_under_everything_0
-    sdk_order_under_everything_1
-    sdk_order_under_everything_2
-    sdk_order_under_everything_3
-    sdk_order_under_everything_4
-    sdk_order_under_everything_5
-    sdk_order_under_everything_6
-    sdk_order_under_everything_7
-    sdk_order_under_everything_8
-    sdk_order_under_everything_9
+* `sdk_order_under_everything_0`: default
+* `sdk_order_under_everything_1`: one above default
+* `sdk_order_under_everything_2`: two above default
+* `sdk_order_under_everything_3`: three above default
+* `sdk_order_under_everything_4`: four above default
+* `sdk_order_under_everything_5`: five above default
+* `sdk_order_under_everything_6`: six above default
+* `sdk_order_under_everything_7`: seven above default
+* `sdk_order_under_everything_8`: eight above default
+* `sdk_order_under_everything_9`: nine above default
+
 
 ## Transit
 
@@ -142,20 +149,20 @@ Some house styles support transit overlays.
 Example Tangram usage:
 
 ```
+import: https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml
+
 globals:
     sdk_transit_overlay: true
 ```
 
-
-
 ## Default draw styles
 
-Custom draw styles for point, line, and polygon overlays on the map.
+Custom draw styles for point, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay.
 
 ### Points
 
 * **draw style:** `sdk-point-overlay`
-* **sprite:** ux-search-active
+* **sprite:** `ux-search-active`
 
 ### Lines
 
@@ -168,21 +175,26 @@ Custom draw styles for point, line, and polygon overlays on the map.
 
 ## User experience
 
-Several special data sources, styles, and sprites (icons) are provided for building and customizing mapping applications.
+Several special data sources, draw styles, and sprites (icons) are provided for building and customizing mapping applications. These set the feature order and blend order to be above all other map elements.
+
+If you add a any of the following named data sources to the scene file (or update features into the named data source) the draw style will activate automatically.
 
 ### Current location
 
 * **data source:** `mz_current_location`
+* **draw style:** `ux-location-gem-overlay`
 * **sprite:** `ux-current-location`
 
 ### Dropped pin
 
 * **data source:** `mz_dropped_pin`
+* **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-search-active`
 
 ### Search results
 
 * **data source:** `mz_search_result`
+* **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-search-active`
 
 When a search feature is marked `state: inactive`, the following resources is used:

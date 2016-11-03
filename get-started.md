@@ -2,20 +2,160 @@
 
 House styles are written in Tangram's scene file syntax.
 
-## Drawing map
+## Draw basemap
+
+We offer two convenient methods to incorporate Mapzen house styles into your project.
 
 ### mapzen.js
 
-Please reference the [Getting Started with mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) documentation.
+mapzen.js is an easy way to embed Mapzen house styles into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen house styles into an general toolkit.
 
-### Tangram + Leaflet
+For example:
 
-Please reference the [Tangram JS Walkthru](https://mapzen.com/documentation/tangram/walkthrough/) documentation or the [Tangram ES Walkthru](https://mapzen.com/documentation/tangram/android-walkthrough/).
+```
+var map = L.Mapzen.map('map', {
+  scene: L.Mapzen.BasemapStyles.Refill
+})
+```
 
-## Customize map
+See the mapzen.js [Get Started](https://mapzen.com/documentation/mapzen-js/get-started/) guide for full examples.
 
-Modify Mapzen House Style using the scene file's global properties. See API reference for details.
+**mapzen.js house styles**
+
+The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#basemap-styles) lists out all named Mapzen house styles and is currently:
+
+* **Bubble Wrap**
+  * `L.Mapzen.BasemapStyles.BubbleWrap`
+* **Refill**
+  * `L.Mapzen.BasemapStyles.Refill`
+  * `L.Mapzen.BasemapStyles.RefillMoreLabels`
+  * `L.Mapzen.BasemapStyles.RefillNoLabels`
+* **Walkabout**
+  * `L.Mapzen.BasemapStyles.Walkabout`
+  * `L.Mapzen.BasemapStyles.WalkaboutMoreLabels`
+  * `L.Mapzen.BasemapStyles.WalkaboutNoLabels`
+* **Tron**
+  * `L.Mapzen.BasemapStyles.Tron`
+  * `L.Mapzen.BasemapStyles.TronMoreLabels`
+  * `L.Mapzen.BasemapStyles.TronNoLabels`
+* **Cinnabar**
+  * `L.Mapzen.BasemapStyles.Cinnabar`
+  * `L.Mapzen.BasemapStyles.CinnabarMoreLabels`
+  * `L.Mapzen.BasemapStyles.CinnabarNoLabels`
+* **Zinc**
+  * `L.Mapzen.BasemapStyles.Zinc`
+  * `L.Mapzen.BasemapStyles.ZincMoreLabels`
+  * `L.Mapzen.BasemapStyles.ZincNoLabels`
+
+### Tangram
+
+It's possible to build data visualizations in Tangram over Mapzen house styles as a basemap (or in map sandwiches).
+
+Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/tangram/import/)) allows one scene file to import another:
+
+```
+import: https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml
+```
+
+Scene files and related assets are available for use in Tangram and Leaflet directly via the Mapzen CDN.
+
+**Template**
+
+* `https://mapzen.com/carto/{stylename}/{stylefile}.{format}`
+
+Where `{stylename}` and `{stylefile}` are generally the same and will converge over time.
+
+And where `{format}` is mostly `yaml` but Tangram scene file bundles can also be specified as `zip`. Only Tron support ZIP scene [bundles](https://github.com/tangrams/bundler) at the time of writing.
+
+Looking to peg to a specific **version** of a style? We have you covered!
+
+* `https://mapzen.com/carto/{stylename}/{version}/{stylefile}.{format}`
+
+Where {version} is optional and can be major (eg: `1`), major + minor (`1.0`), or major + minor + patch (`1.0.0`).
+
+**Partial listing of Refill versions:**
+
+In this case, these all resolve to the same asset.
+
+* `https://mapzen.com/carto/refill-style/1/refill-style.yaml`
+* `https://mapzen.com/carto/refill-style/1.0/refill-style.yaml`
+* `https://mapzen.com/carto/refill-style/1.0.0/refill-style.yaml`
+
+**Mapzen CDN house styles**
+
+* **Bubble Wrap**
+  * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
+* **Refill**
+  * `https://mapzen.com/carto/refill-style-more-labels/refill-style-more-labels.yaml`
+  * `https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml`
+  * `https://mapzen.com/carto/refill-style/refill-style.yaml`
+* **Walkabout**
+  * `https://mapzen.com/carto/walkabout-style-more-labels/walkabout-style-more-labels.yaml`
+  * `https://mapzen.com/carto/walkabout-style-no-labels/walkabout-style-no-labels.yaml`
+  * `https://mapzen.com/carto/walkabout-style/walkabout-style.yaml`
+* **Tron**
+  * `https://mapzen.com/carto/tron-style/tron-style.zip`
+  * `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
+  * `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
+* **Cinnabar**
+  * `https://mapzen.com/carto/cinnabar-style-more-labels/cinnabar-style-more-labels.yaml`
+  * `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.yaml`
+  * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.yaml`
+* **Zinc**
+  * `https://mapzen.com/carto/zinc-style-more-labels/zinc-style-more-labels.yaml`
+  * `https://mapzen.com/carto/zinc-style-no-labels/zinc-style-no-labels.yaml`
+  * `https://mapzen.com/carto/zinc-style/zinc-style.yaml`
+
+## Customize basemap
+
+Modify Mapzen House Style using the scene file's global properties. See [API reference](api-reference.md) for details.
+
+For example, modify the default labels in Bubble Wrap to show Kannada, an Indian language:
+
+```
+import: https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml
+
+global:
+    ux_language: kn
+```
 
 ## Data visualization
 
 Import Mapzen House Styles into your own Tangram project as a basemap and overlay your own data.
+
+For example:
+
+```
+import: https://mapzen.com/carto/refill-style/refill-style.yaml
+
+sources:
+    polygons_in_polls:
+        type: GeoJSON
+        url: https://gist.githubusercontent.com/burritojustice/e80e4b55c0fecd6f93cc8dae20ac2686/raw/c350c17d0697a52e73dc39ab261f4d0f14ca1afa/LAC_neightborhoods_polling_places_2014_general.geojson
+
+styles:
+    choropleth:
+        base: polygons
+        blend: multiply
+
+layers:
+    my_data_viz:
+        data: { source: polygons_in_polls}
+        draw:
+            choropleth:
+                order: global.sdk_order_under_roads_0
+                color: |
+                    function() {
+                        var count = feature.poll_count;
+                        var OrRd = ['fef0d9', 'fdcc8a', 'fc8d59', 'e34a33', 'b30000'];
+                        var color =
+                        count = 0 ? '000' :
+                        count < 15 ? OrRd[0] :
+                        count < 30 ? OrRd[1] :
+                        count < 60 ? OrRd[2] :
+                        count < 120 ? OrRd[3] :
+                        OrRd[4] ;
+                        return "#" + color;
+                    }
+
+```
