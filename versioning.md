@@ -1,6 +1,6 @@
 # Versioning
 
-When a new version of a Mapzen House Style or icon packs are released, developers should be able to tell from the version increment how much effort it will take them to integrate the new basemap with their map. We use semantic versioning to communicate this.
+When a new version of a Mapzen basemap or icon pack is released, developers should be able to tell from the version increment how much effort it will take them to integrate the new basemap with their map. We use semantic versioning to communicate this.
 
 ## What is Semantic Versioning?
 
@@ -26,7 +26,7 @@ Semantic versioning (or [SemVer](http://semver.org/)) is a formalized way of mak
 
 **MAJOR versions**
 
-As Mapzen's house styles are still in active development we recommend peggging an import to a specific major version, eg: `5`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
+As Mapzen's basemap styles are still in active development we recommend peggging an import to a specific major version, eg: `5`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
 ```
 import: https://mapzen.com/carto/refill-style-more-labels/5/refill-style-more-labels.yaml

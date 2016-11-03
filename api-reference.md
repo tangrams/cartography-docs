@@ -1,8 +1,8 @@
 # API reference
 
-Mapzen House Styles offer several global properties to customize and extend the basemap.
+Mapzen basemaps offer several global properties to customize and extend the map.
 
-Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen house style. See [Styles](styles.md) for what's supported.
+Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen map style. See [Styles](styles.md) for what's supported.
 
 As the basemaps are still in active development we recommend peggging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
 
@@ -140,7 +140,7 @@ Tip: disable earth layer.
 
 ## Transit overlay
 
-Some house styles support transit overlays.
+Some basemap styles support transit overlays.
 
 * `sdk_transit_overlay`: default `false`
 

@@ -2,7 +2,7 @@
 
 Sprites and sprite sheets used in Mapzen basemap styles.
 
-## House styles
+## Basemaps
 
 ### Refill
 

@@ -5,11 +5,11 @@ https://mapzen.com/documentation/tangram/Javascript-API/) or [mapzen.js](https:/
 
 ## Add a basemap to a project
 
-We offer two convenient methods to incorporate Mapzen house styles into your project:
+We offer two convenient methods to incorporate Mapzen basemaps into your project:
 
 ### mapzen.js
 
-[mapzen.js](https://mapzen.com/documentation/mapzen-js/) is an easy way to embed Mapzen house styles into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen house styles into an general toolkit.
+[mapzen.js](https://mapzen.com/documentation/mapzen-js/) is an easy way to embed Mapzen basemaps into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen basemaps into an general toolkit.
 
 For example:
 
@@ -21,9 +21,9 @@ var map = L.Mapzen.map('map', {
 
 See the mapzen.js [Get Started](https://mapzen.com/documentation/mapzen-js/get-started/) guide for full examples.
 
-**mapzen.js house styles**
+**mapzen.js basemap styles**
 
-The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#basemap-styles) lists out all named Mapzen house styles and is currently:
+The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#basemap-styles) lists out all named Mapzen basemap styles and is currently:
 
 * **[Bubble Wrap](https://mapzen.com/products/maps/bubble-wrap)**
     * `L.Mapzen.BasemapStyles.BubbleWrap`
@@ -82,7 +82,7 @@ In this case, these all resolve to the same asset.
 * `https://mapzen.com/carto/refill-style/1.0/refill-style.yaml`
 * `https://mapzen.com/carto/refill-style/1.0.0/refill-style.yaml`
 
-**Mapzen CDN house styles**
+**Mapzen CDN basemap styles**
 
 * **Bubble Wrap**
     * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
@@ -109,7 +109,7 @@ In this case, these all resolve to the same asset.
 
 ## Customize basemap
 
-Modify Mapzen House Style using the scene file's global properties. See [API reference](api-reference.md) for details.
+Modify Mapzen basemap styles using the scene file's global properties. See [API reference](api-reference.md) for details.
 
 For example, modify the default labels in Bubble Wrap to show Kannada, an Indian language:
 
@@ -122,7 +122,7 @@ global:
 
 ## Data visualization
 
-Import Mapzen House Styles into your own Tangram project as a basemap and overlay your own data.
+Import Mapzen basemaps into your own Tangram project and overlay your own data.
 
 For example:
 
