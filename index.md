@@ -1,0 +1,1 @@
+Mapzen provides several open-source map styles and hundreds of map icon that can be used in Mapzen.js or Tangram as an extension of [Leaflet](http://leafletjs.com/) for making maps for the web and mobile devices. Mapzen house styles simplify the process of using Mapzen's vector tiles within Leaflet.
