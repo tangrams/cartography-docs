@@ -15,7 +15,7 @@ Bubble Wrap is only available in the "more labels" version.
 **Supported:**
 
 * Language
-* Map sandwiches
+* Data visualization
 * Transit overlay
 * Default draw styles
 * Basic user experience styles
@@ -42,7 +42,7 @@ A minimalist map style designed for data visualization overlays. Inspired by the
 **Supported:**
 
 * Language
-* Map sandwiches
+* Data visualization
 * Default draw styles
 * Basic user experience styles
 
@@ -76,7 +76,7 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 **Not supported:**
 
 * Language
-* Map sandwiches
+* Data visualization
 * Transit overlay
 * Default draw styles
 * Basic user experience styles
@@ -103,7 +103,7 @@ Will autonomous cars dream as they charge overnight? We’re pushing mapping to 
 **Supported:**
 
 * Language
-* Map sandwiches
+* Data visualization
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
@@ -138,7 +138,7 @@ A classic web map style for general mapping applications.
 **Not supported:**
 
 * Language
-* Map sandwiches
+* Data visualization
 * Transit overlay
 * Transit user experience styles
 
@@ -168,7 +168,7 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 **Not supported:**
 
 * Language
-* Map sandwiches
+* Data visualization
 * Transit overlay
 * Transit user experience styles
 
