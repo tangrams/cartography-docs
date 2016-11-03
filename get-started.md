@@ -84,27 +84,27 @@ In this case, these all resolve to the same asset.
 **Mapzen CDN house styles**
 
 * **Bubble Wrap**
-  * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
+    * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
 * **Refill**
-  * `https://mapzen.com/carto/refill-style-more-labels/refill-style-more-labels.yaml`
-  * `https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml`
-  * `https://mapzen.com/carto/refill-style/refill-style.yaml`
+    * `https://mapzen.com/carto/refill-style-more-labels/refill-style-more-labels.yaml`
+    * `https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml`
+    * `https://mapzen.com/carto/refill-style/refill-style.yaml`
 * **Walkabout**
-  * `https://mapzen.com/carto/walkabout-style-more-labels/walkabout-style-more-labels.yaml`
-  * `https://mapzen.com/carto/walkabout-style-no-labels/walkabout-style-no-labels.yaml`
-  * `https://mapzen.com/carto/walkabout-style/walkabout-style.yaml`
+    * `https://mapzen.com/carto/walkabout-style-more-labels/walkabout-style-more-labels.yaml`
+    * `https://mapzen.com/carto/walkabout-style-no-labels/walkabout-style-no-labels.yaml`
+    * `https://mapzen.com/carto/walkabout-style/walkabout-style.yaml`
 * **Tron**
-  * `https://mapzen.com/carto/tron-style/tron-style.zip`
-  * `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
-  * `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
+    * `https://mapzen.com/carto/tron-style/tron-style.zip`
+    * `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
+    * `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
 * **Cinnabar**
-  * `https://mapzen.com/carto/cinnabar-style-more-labels/cinnabar-style-more-labels.yaml`
-  * `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.yaml`
-  * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.yaml`
+    * `https://mapzen.com/carto/cinnabar-style-more-labels/cinnabar-style-more-labels.yaml`
+    * `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.yaml`
+    * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.yaml`
 * **Zinc**
-  * `https://mapzen.com/carto/zinc-style-more-labels/zinc-style-more-labels.yaml`
-  * `https://mapzen.com/carto/zinc-style-no-labels/zinc-style-no-labels.yaml`
-  * `https://mapzen.com/carto/zinc-style/zinc-style.yaml`
+    * `https://mapzen.com/carto/zinc-style-more-labels/zinc-style-more-labels.yaml`
+    * `https://mapzen.com/carto/zinc-style-no-labels/zinc-style-no-labels.yaml`
+    * `https://mapzen.com/carto/zinc-style/zinc-style.yaml`
 
 ## Customize basemap
 
