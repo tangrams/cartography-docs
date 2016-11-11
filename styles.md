@@ -71,16 +71,15 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 
 **Supported:**
 
-* None
+* Data visualization
+* Default draw styles
+* Basic user experience styles
+* Transit user experience styles
 
 **Not supported:**
 
 * Language
-* Data visualization
 * Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
 
 **Try Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
 
