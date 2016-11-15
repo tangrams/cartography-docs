@@ -8,6 +8,8 @@ We only recommend pegging to the **LATEST** vesion if you are not modifying docu
 
 ## Bubble Wrap
 
+![Bubble Wrap](./img/bubble-wrap-style.png)
+
 A full-featured wayfinding style loaded with helpful icons for points of interest. See it in action in our very own [Eraser Map on Android](https://mapzen.com/blog/erasermap-beta/).
 
 Bubble Wrap is only available in the "more labels" version.
@@ -36,6 +38,8 @@ Current **MAJOR** release (includes any minor and patch updates):
 * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
 
 ## Refill
+
+![Refill](./img/refill-style.png)
 
 A minimalist map style designed for data visualization overlays. Inspired by the seminal Toner style by Stamen Design.
 
@@ -67,6 +71,8 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 ## Walkabout
 
+![Walkabout](./img/walkabout-style.png)
+
 This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
 
 **Supported:**
@@ -96,6 +102,8 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 * `https://mapzen.com/carto/walkabout-style-no-labels/walkabout-style-no-labels.yaml`
 
 ## Tron
+
+![Tron](./img/tron-style.gif)
 
 Will autonomous cars dream as they charge overnight? We’re pushing mapping to new extremes with Tron, and it will push your GPU and fan to the limit.
 
@@ -127,6 +135,8 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 ## Cinnabar
 
+![Cinnabar](./img/cinnabar-style.png)
+
 A classic web map style for general mapping applications.
 
 **Supported:**
@@ -156,6 +166,8 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 * `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.yaml`
 
 ## Zinc
+
+![Zinc](./img/zinc-style.png)
 
 A dark, minimalist style that helps bright data overlays stand out. A great alternative to Refill.
 
