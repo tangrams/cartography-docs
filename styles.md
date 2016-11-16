@@ -49,11 +49,11 @@ A minimalist map style designed for data visualization overlays. Inspired by the
 * Data visualization
 * Default draw styles
 * Basic user experience styles
+* Transit user experience styles
 
 **Not supported:**
 
 * Transit overlay
-* Transit user experience styles
 
 **Try Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
 
@@ -143,13 +143,13 @@ A classic web map style for general mapping applications.
 
 * Default draw styles
 * Basic user experience styles
+* Transit user experience styles
 
 **Not supported:**
 
 * Language
 * Data visualization
 * Transit overlay
-* Transit user experience styles
 
 **Try Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
 
@@ -175,13 +175,13 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 
 * Default draw styles
 * Basic user experience styles
+* Transit user experience styles
 
 **Not supported:**
 
 * Language
 * Data visualization
 * Transit overlay
-* Transit user experience styles
 
 **Try Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
 
