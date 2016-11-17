@@ -4,7 +4,39 @@ Mapzen basemaps offer several global properties to customize and extend the map.
 
 Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen map style. See [Styles](styles.md) for what's supported.
 
-As the basemaps are still in active development we recommend peggging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
+As the basemaps are still in active development we recommend pegging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
+
+## Global API keys
+
+API keys can be set as a global variable which allows you to easily change them when starting a new project or updating your key. As API keys are not set to a particular product, you can use the same key for using both vector and terrain tile services. This is set in Tangram JS and updates the YAML files as a global variable.
+
+### sdk_api_key
+
+* `sdk_api_key`: defaults to `false`
+
+Example Tangram & Tangram JS usage:
+
+Using Tangram JS's API:
+```
+Scene.load({
+      import: 'https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml',
+      global: { sdk_api_key: `mapzen-xxxxxx` }
+    });
+```
+
+In the Tangram YAML file:
+```
+global:
+    sdk_api_key: false
+
+sources:
+    mapzen:
+        type: MVT
+        url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
+        max_zoom: 16
+        url_params:
+            api_key: global.sdk_api_key
+```
 
 ## Language
 
