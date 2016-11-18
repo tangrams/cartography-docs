@@ -142,13 +142,13 @@ A classic web map style for general mapping applications.
 **Supported:**
 
 * Default draw styles
+* Data visualization
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
 * Language
-* Data visualization
 * Transit overlay
 
 **Try Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
@@ -174,13 +174,13 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 **Supported:**
 
 * Default draw styles
+* Data visualization
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
 * Language
-* Data visualization
 * Transit overlay
 
 **Try Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
