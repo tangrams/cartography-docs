@@ -8,7 +8,7 @@ As the basemaps are still in active development we recommend pegging an import t
 
 ## Mapzen API keys
 
-API keys can be set as a global variable which allows you to easily change them when starting a new project or updating your key. As API keys are not set to a particular product, you can use the same key for using both vector and terrain tile services. This is set in Tangram JS and updates the YAML files as a global variable.
+API keys can be set as a global variable which allows you to easily change them when starting a new project or updating your key. As API keys are not set to a particular product, you can use the same key for using both vector and terrain tile services. This is set in Tangram and updates the YAML files as a global variable.
 
 ### sdk_api_key
 
