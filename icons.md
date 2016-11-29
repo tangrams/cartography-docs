@@ -30,7 +30,7 @@ Reuses the same sprites as Refill.
 
 ## Sprites
 
-Sprite names are paired with the `kind` values from Tilezen, the open-source project that powers Mapzen vector tiles.
+Sprite names are generally paired with the `kind` values from Tilezen, the open-source project that powers Mapzen vector tiles. There are some exceptions for road shields which are generally sourced from the `network` values, and user experience assets which are prefixed with `ux-`.
 
 sprite | Bubble Wrap | Walkabout | Tron | Refill | Cinnabar | Zinc
 :----- | :---------: | :-------: | :--: | :----: | :------: | :--:
