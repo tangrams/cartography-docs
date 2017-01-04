@@ -1,17 +1,29 @@
 # Icon Library
 
-Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. The library has expanded to a several hundred icons with more continuing to be added. Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
+Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. 
 
-Sprite names are generally paired with the `kind` values that are in the [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) Points of Interest (pois) layer and follow [OpenStreetMap tagging conventions](http://wiki.openstreetmap.org/wiki/Tags).
+The library has expanded to a several hundred icons with more continuing to be added. Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
+
+Sprite names are generally paired with the `kind` values that are in [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) points of interest (pois) layer.
 
 [Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
+
+Icons for sports pitches and religious places of worship are based on `kind_detail`.
 
 Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
 
 ## Basic usage
 
+Need an icon for your data visualization overlay?
+
 
 ```
+sources:
+    my-source:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+        max_zoom: 16
+
 layers:
     my-layer:
         data: { source: my-source }
