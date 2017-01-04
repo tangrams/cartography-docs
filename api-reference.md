@@ -155,7 +155,12 @@ globals:
 
 ## Default draw styles
 
-Custom draw styles for point, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay.
+Custom draw styles for icons, point, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay.
+
+### Icons
+
+* **draw style:** `icons`
+* **sprite:** multiple sprites supported in the `pois` texture, see [icons](icons.md)
 
 ### Points
 
