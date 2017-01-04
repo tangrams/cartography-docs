@@ -1,6 +1,6 @@
 # Icon Library
 
-Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. The library has expanded to a several hundred icons with more continuing to be added. Icons can be added to a Tangram map using the [sprites block](https://mapzen.com/documentation/tangram/draw/#sprite).
+Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. The library has expanded to a several hundred icons with more continuing to be added. Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
 
 Sprite names are generally paired with the `kind` values that are in the [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) Points of Interest (pois) layer and follow [OpenStreetMap tagging conventions](http://wiki.openstreetmap.org/wiki/Tags).
 
