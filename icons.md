@@ -4,6 +4,52 @@ Mapzen basemap styles use custom icons (or sprites) to display points of interes
 
 Sprite names are generally paired with the `kind` values that are in the [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) Points of Interest (pois) layer and follow [OpenStreetMap tagging conventions](http://wiki.openstreetmap.org/wiki/Tags).
 
+Paired with one of these basemaps:
+
+
+```
+layers:
+    my-layer:
+        data: { source: my-source, layer: my-layer }
+        draw:
+            icons:
+                size: [[13, 18px], [16, 18px], [18, 22px]]
+                sprite: zoo
+```
+
+Independent of one of these basemaps:
+
+- You'll need to setup your own textures block with the spritesheet, and named sprites block.
+- You'll need to create a new style based on points, referencing the textures
+- In each layer's draw block, include the style:
+
+```
+textures:
+    example-spritesheet:
+        url: images/walkabout@2x.png
+        filtering: mipmap
+        sprites:
+            # define sprites: [x origin, y origin, width, height]
+            airport: [952, 0, 36, 36]
+            zoo: [0, 126, 36, 36]
+
+styles:
+    icons:
+        base: points
+        texture: example-spritesheet
+
+layers:
+    pois:
+        data: { source: mapzen, layer: pois }
+        filter: { kind: airport }
+        draw:
+            icons:
+                sprite: airport
+                # necesary as the asset is 2x, but we want to show in CSS dimensions
+                size: 18px
+```
+
+
 [Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
 
 Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
