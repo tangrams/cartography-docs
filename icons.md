@@ -31,13 +31,14 @@ layers:
 
 ## Sprites
 
-Sprite names are generally paired with the `kind` values that are in [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) points of interest (pois) layer.
+Sprite names generally match the `kind` values from the [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) points of interest (pois) layer.
 
-[Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
+Some exceptions:
 
-Icons for sports pitches and religious places of worship are based on `kind_detail`.
-
-Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
+- [Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
+- Icons for sports pitches and religious places of worship are based on `kind_detail`.
+- Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation)
+- User experience assets are prefixed with `ux-`.
 
 
 sprite | Bubble Wrap | Walkabout | Tron | Refill | Cinnabar | Zinc
