@@ -2,6 +2,12 @@
 
 Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. 
 
+Sprite names are generally paired with the `kind` values that are in the [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) Points of Interest (pois) layer and follow [OpenStreetMap tagging conventions](http://wiki.openstreetmap.org/wiki/Tags).
+
+[Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use either `capital` or `townspot` values.
+
+Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
+
 ## Basemaps
 
 ### Bubble Wrap
@@ -29,8 +35,6 @@ Reuses the same sprites as Refill.
 Reuses the same sprites as Refill.
 
 ## Sprites
-
-Sprite names are generally paired with the `kind` values from Tilezen, the open-source project that powers Mapzen vector tiles. There are some exceptions for road shields which are generally sourced from the `network` values, and user experience assets which are prefixed with `ux-`.
 
 sprite | Bubble Wrap | Walkabout | Tron | Refill | Cinnabar | Zinc
 :----- | :---------: | :-------: | :--: | :----: | :------: | :--:
