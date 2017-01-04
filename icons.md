@@ -8,24 +8,6 @@ Sprite names are generally paired with the `kind` values that are in the [Mapzen
 
 Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
 
-## Basemaps
-
-### Bubble Wrap
-
-tk tk tk
-
-### Walkabout
-
-tk tk tk
-
-### Tron
-
-tk tk tk
-
-### Refill, Cinnabar, and Zinc
-
-
-
 ## Sprites
 
 sprite | Bubble Wrap | Walkabout | Tron | Refill | Cinnabar | Zinc
