@@ -2,19 +2,14 @@
 
 Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. 
 
-The library has expanded to a several hundred icons with more continuing to be added. Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
+The library has expanded to a several hundred icons with more continuing to be added. Most but not all icons are available in 4 or more styles.
 
-Sprite names are generally paired with the `kind` values that are in [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) points of interest (pois) layer.
 
-[Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
-
-Icons for sports pitches and religious places of worship are based on `kind_detail`.
-
-Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
-
-## Basic usage
+## Basic
 
 Need an icon for your data visualization overlay?
+
+Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
 
 
 ```
@@ -35,6 +30,15 @@ layers:
 
 
 ## Sprites
+
+Sprite names are generally paired with the `kind` values that are in [Mapzen vector tiles](https://mapzen.com/documentation/vector-tiles/layers/#points-of-interest) points of interest (pois) layer.
+
+[Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
+
+Icons for sports pitches and religious places of worship are based on `kind_detail`.
+
+Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), and user experience assets which are prefixed with `ux-`.
+
 
 sprite | Bubble Wrap | Walkabout | Tron | Refill | Cinnabar | Zinc
 :----- | :---------: | :-------: | :--: | :----: | :------: | :--:
@@ -360,7 +364,7 @@ winter_sports | ![winter_sports](https://github.com/tangrams/icons/raw/master/sp
 works | ![works](https://github.com/tangrams/icons/raw/master/sprite/bubble-wrap-style/2x/works.png) | ![works](https://github.com/tangrams/icons/raw/master/sprite/walkabout-style/2x/works.png) | ![works](https://github.com/tangrams/icons/raw/master/sprite/tron-style/2x/works.png) | ![works](https://github.com/tangrams/icons/raw/master/sprite/refill-style/2x/works.png) | ![works](https://github.com/tangrams/icons/raw/master/sprite/refill-style/2x/works.png) | ![works](https://github.com/tangrams/icons/raw/master/sprite/refill-style/2x/works.png)
 zoo | ![zoo](https://github.com/tangrams/icons/raw/master/sprite/bubble-wrap-style/2x/zoo.png) | ![zoo](https://github.com/tangrams/icons/raw/master/sprite/walkabout-style/2x/zoo.png) | ![zoo](https://github.com/tangrams/icons/raw/master/sprite/tron-style/2x/zoo.png) | ![zoo](https://github.com/tangrams/icons/raw/master/sprite/refill-style/2x/zoo.png) | ![zoo](https://github.com/tangrams/icons/raw/master/sprite/refill-style/2x/zoo.png) | ![zoo](https://github.com/tangrams/icons/raw/master/sprite/refill-style/2x/zoo.png)
 
-## Advanced usage
+## Advanced
 
 Independent of one of these basemaps:
 
