@@ -10,7 +10,7 @@ Paired with one of these basemaps:
 ```
 layers:
     my-layer:
-        data: { source: my-source, layer: my-layer }
+        data: { source: my-source }
         draw:
             icons:
                 size: [[13, 18px], [16, 18px], [18, 22px]]
