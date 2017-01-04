@@ -1,6 +1,6 @@
-# Icons (page still in active development, not referenced in the cartography.yml yet)
+# Icon Library
 
-Sprites and sprite sheets used in Mapzen basemap styles.
+Mapzen basemap styles use custom icons (or sprites) to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own. 
 
 ## Basemaps
 
