@@ -197,26 +197,66 @@ global:
 
 ## Default draw styles
 
-Custom draw styles for icons, point, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay.
+Custom **draw styles** for icons, point, shield, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay.
+
+Special `mz_*` sources are available to automatically render content using the associated draw styles for point, shield, line, and polygon draw styles. To render features in one of these draw styles, create the specified `mz_*` layer source.
+
+Example **Tangram YAML** examples for `mz_*` source names:
+
+```
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+
+sources:
+    mz_default_polygon:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+```
 
 ### Icons
 
 * **draw style:** `icons`
 * **sprite:** multiple sprites supported in the `pois` texture, see [icons](icons.md)
 
+Example **Tangram YAML** usage:
+
+```
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+
+sources:
+    _my_source:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+
+layers:
+    _my_layer:
+        data: { source: _my_source }
+        draw:
+            icons:
+                size: [[13, 18px], [16, 18px], [18, 22px]]
+                sprite: zoo
+```
+
 ### Points
 
 * **draw style:** `sdk-point-overlay`
 * **sprite:** `ux-search-active`
+* **data source:** `mz_default_point`
+
+### Shields
+
+* **draw style:** `sdk-shield-overlay`
+* **sprite:** `sdk_shield_1char`, `sdk_shield_2char`, `sdk_shield_3char`, `sdk_shield_4char`, `sdk_shield_5char`
+* **data source:** `mz_default_shield`
 
 ### Lines
 
 * **draw style:** `sdk-line-overlay`
+* **data source:** `mz_default_line`
 
 ### Polygons
 
 * **draw style:** `sdk-polygon-overlay`
-
+* **data source:** `mz_default_polygon`
 
 ## User experience
 
@@ -226,21 +266,21 @@ If you add a any of the following named data sources to the scene file (or updat
 
 ### Current location
 
-* **data source:** `mz_current_location`
 * **draw style:** `ux-location-gem-overlay`
 * **sprite:** `ux-current-location`
+* **data source:** `mz_current_location`
 
 ### Dropped pin
 
-* **data source:** `mz_dropped_pin`
 * **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-search-active`
+* **data source:** `mz_dropped_pin`
 
 ### Search results
 
-* **data source:** `mz_search_result`
 * **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-search-active`
+* **data source:** `mz_search_result`
 
 When a search feature is marked `state: inactive`, the following resources is used:
 
@@ -250,46 +290,46 @@ When a search feature is marked `state: inactive`, the following resources is us
 
 #### Route line
 
-* **data source:** `mz_route_line`
 * **draw style:** `ux-route-line-overlay`
+* **data source:** `mz_route_line`
 
 #### Progress along the route line
 
-* **data source:** `mz_route_location`
 * **draw style:** `ux-location-gem-overlay`
 * **sprite:** `ux-route-arrow`
+* **data source:** `mz_route_location`
 
 #### Starting location icon
 
-* **data source:** `mz_route_start`
 * **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-route-start`
+* **data source:** `mz_route_start`
 
 #### Destination location icon
 
-* **data source:** `mz_route_destination`
 * **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-route-stop`
+* **data source:** `mz_route_destination`
 
 #### Transit route line
 
 Each transit route segment could be a different "line" each with it's own `color` data driven styling. But some transit lines don't define a color, in those cases default to blue.
 
-* **data source:** `mz_route_line_transit`
 * **data source feature property:** `color`
 * **draw style:** `ux-transit-line-overlay`
+* **data source:** `mz_route_line_transit`
 
 #### Transit stop
 
 For major transit stops related to onboarding, offboarding, and transfers. If pass-thru stops are provided in the data source they will also be rendered (but are not in the general Mapzen Turn-by-Turn response).
 
-* **data source:** `mz_route_transit_stop`
 * **draw style:** `ux-icons-overlay`
 * **sprite:** `ux-transit-stop`
+* **data source:** `mz_route_transit_stop`
 
 #### Dashed route line
 
 Used to show walking segments of multi-modal routes.
 
-* **data source:** `mz_dash_line`
 * **draw style:** `ux-route-line-dash-overlay`
+* **data source:** `mz_dash_line`
