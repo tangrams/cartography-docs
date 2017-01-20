@@ -4,7 +4,7 @@ Mapzen basemaps offer several global properties to customize and extend the map.
 
 Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen map style. See [Styles](styles.md) for what's supported.
 
-As the basemaps are still in active development we recommend pegging an import to a specific major version, eg: `5`. See the [versioning](versioning.md) doc for more details.
+As the basemaps are still in active development we recommend pegging an import to a specific major version, eg: `6`. See the [versioning](versioning.md) doc for more details.
 
 ## Mapzen API keys
 
