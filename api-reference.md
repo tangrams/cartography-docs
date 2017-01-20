@@ -10,21 +10,38 @@ As the basemaps are still in active development we recommend pegging an import t
 
 API keys can be set as a global variable which allows you to easily change them when starting a new project or updating your key. As API keys are not set to a particular product, you can use the same key for using both vector and terrain tile services. This is set in Tangram and updates the YAML files as a global variable.
 
+[Sign up](https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys) for a Mapzen API key to enjoy higher rate limits.
+
 ### sdk_api_key
 
-* `sdk_api_key`: defaults to `false`
+* `sdk_mapzen_api_key`: defaults to `''` (an empty string)
 
-Example Tangram usage:
+Example **Tangram YAML** usage:
+
 ```
-globals:
-    sdk_api_key: false
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
 
-sources:
-    _tiles:
-        type: MVT
-        url:  https://tile.mapzen.com/mapzen/vector/v1/all/{z}/{x}/{y}.mvt
-        url_params:
-            api_key: globals.sdk_api_key
+global:
+    sdk_mapzen_api_key: mapzen-xxxxxx
+```
+
+Example **Tangram JS** usage:
+
+```
+var layer = Tangram.leafletLayer({
+        scene: { import: 'path/to/scene.yaml', global: { sdk_mapzen_api_key: 'mapzen-xxxxxx' } },
+        attribution: '&copy; <a href="https://www.mapzen.com/rights" target="_blank">Mapzen</a>,  <a href="https://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>
+, and <a href="https://www.mapzen.com/rights/#services-and-data-sources" target="_blank">others</a>.'});
+```
+
+Example **Tangram ES** usage:
+
+```
+map->loadScene(
+    "https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml",
+    false,
+    { "global.sdk_mapzen_api_key", "mapzen-xxxxxx" }
+);
 ```
 
 ## Language
@@ -37,10 +54,12 @@ If you ask for a language that isn't present in the data, it will automatically 
 
 * `ux_language`: defaults to `false`
 
-Example Tangram usage:
+Example **Tangram YAML** usage:
 
 ```
-globals:
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+
+global:
     ux_language: fr
 ```
 
@@ -52,10 +71,12 @@ For instance, if someone reads French but not Japanese they would prefer to see 
 
 * `ux_language_fallback`: defaults to `false`
 
-Example Tangram usage:
+Example **Tangram YAML** usage:
 
 ```
-globals:
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+
+global:
     ux_language: fr
     ux_language_fallback: en
 ```
@@ -86,10 +107,10 @@ Common language codes values include:
 
 To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering) docs).
 
-Example Tangram usage:
+Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/5/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
 
 _layername:
     draw:
@@ -165,12 +186,12 @@ Some basemap styles support transit overlays.
 
 * `sdk_transit_overlay`: default `false`
 
-Example Tangram usage:
+Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
 
-globals:
+global:
     sdk_transit_overlay: true
 ```
 
