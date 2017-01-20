@@ -31,11 +31,19 @@ Bubble Wrap is only available in the "more labels" version.
 
 Current **MAJOR** release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/bubble-wrap-style/5/bubble-wrap.yaml`
+* `https://mapzen.com/carto/bubble-wrap-style/6/bubble-wrap-style.yaml`
+* `https://mapzen.com/carto/bubble-wrap-style-more-labels/6/bubble-wrap-style-more-labels.yaml`
+* `https://mapzen.com/carto/bubble-wrap-style-no-labels/6/bubble-wrap-style-no-labels.yaml`
 
 **LATEST** (same assets as MAJOR version above):
 
-* `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
+* `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap-style.yaml`
+* `https://mapzen.com/carto/bubble-wrap-style-more-labels/bubble-wrap-style-more-labels.yaml`
+* `https://mapzen.com/carto/bubble-wrap-style-no-labels/refbubble-wrapill-style-no-labels.yaml`
+
+_NOTE: Bubble Wrap adopted the standard default (some), more, and no labels configuration
+ starting at version 6. Earlier versions of the default (1, 2, 3, 4, and 5) use the `more`
+ labels configuration, and `no` labels assets are only available starting with version 6._
 
 ## Refill
 
@@ -47,21 +55,22 @@ A minimalist map style designed for data visualization overlays. Inspired by the
 
 * Language
 * Data visualization
+* Transit overlay
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
-* Transit overlay
+* None
 
 **Try Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/refill-style/4/refill-style.yaml`
-* `https://mapzen.com/carto/refill-style-more-labels/5/refill-style-more-labels.yaml`
-* `https://mapzen.com/carto/refill-style-no-labels/4/refill-style-no-labels.yaml`
+* `https://mapzen.com/carto/refill-style/6/refill-style.yaml`
+* `https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml`
+* `https://mapzen.com/carto/refill-style-no-labels/6/refill-style-no-labels.yaml`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -77,23 +86,24 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 
 **Supported:**
 
+* Language
 * Data visualization
+* Transit overlay
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
-* Language
-* Transit overlay
+* None
 
 **Try Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/walkabout-style/2/walkabout-style.yaml`
-* `https://mapzen.com/carto/walkabout-style-more-labels/2/walkabout-style-more-labels.yaml`
-* `https://mapzen.com/carto/walkabout-style-no-labels/2/walkabout-style-no-labels.yaml`
+* `https://mapzen.com/carto/walkabout-style/3/walkabout-style.yaml`
+* `https://mapzen.com/carto/walkabout-style-more-labels/3/walkabout-style-more-labels.yaml`
+* `https://mapzen.com/carto/walkabout-style-no-labels/3/walkabout-style-no-labels.yaml`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -111,21 +121,22 @@ Will autonomous cars dream as they charge overnight? We’re pushing mapping to 
 
 * Language
 * Data visualization
+* Transit overlay
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
-* Transit overlay
+* None
 
 **Try Tron:** [default](https://mapzen.com/products/maps/tron) | [more labels](https://mapzen.com/products/maps/tron/more-labels) | [no labels](https://mapzen.com/products/maps/tron/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/tron-style/2/tron-style.zip`
-* `https://mapzen.com/carto/tron-style-more-labels/2/tron-style-more-labels.zip`
-* `https://mapzen.com/carto/tron-style-no-labels/2/tron-style-no-labels.zip`
+* `https://mapzen.com/carto/tron-style/3/tron-style.zip`
+* `https://mapzen.com/carto/tron-style-more-labels/3/tron-style-more-labels.zip`
+* `https://mapzen.com/carto/tron-style-no-labels/3/tron-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -141,23 +152,24 @@ A classic web map style for general mapping applications.
 
 **Supported:**
 
-* Default draw styles
+* Language
 * Data visualization
+* Transit overlay
+* Default draw styles
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
-* Language
-* Transit overlay
+* None
 
 **Try Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/cinnabar-style/4/cinnabar-style.yaml`
-* `https://mapzen.com/carto/cinnabar-style-more-labels/5/cinnabar-style-more-labels.yaml`
-* `https://mapzen.com/carto/cinnabar-style-no-labels/4/cinnabar-style-no-labels.yaml`
+* `https://mapzen.com/carto/cinnabar-style/6/cinnabar-style.yaml`
+* `https://mapzen.com/carto/cinnabar-style-more-labels/6/cinnabar-style-more-labels.yaml`
+* `https://mapzen.com/carto/cinnabar-style-no-labels/6/cinnabar-style-no-labels.yaml`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -173,23 +185,24 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 
 **Supported:**
 
-* Default draw styles
+* Language
 * Data visualization
+* Transit overlay
+* Default draw styles
 * Basic user experience styles
 * Transit user experience styles
 
 **Not supported:**
 
-* Language
-* Transit overlay
+* None
 
 **Try Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/zinc-style/4/zinc-style.yaml`
-* `https://mapzen.com/carto/zinc-style-more-labels/4/zinc-style-more-labels.yaml`
-* `https://mapzen.com/carto/zinc-style-no-labels/4/zinc-style-no-labels.yaml`
+* `https://mapzen.com/carto/zinc-style/5/zinc-style.yaml`
+* `https://mapzen.com/carto/zinc-style-more-labels/5/zinc-style-more-labels.yaml`
+* `https://mapzen.com/carto/zinc-style-no-labels/5/zinc-style-no-labels.yaml`
 
 **LATEST** (same assets as MAJOR version above):
 
