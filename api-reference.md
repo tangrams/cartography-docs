@@ -197,9 +197,9 @@ global:
 
 ## Default draw styles
 
-Custom **draw styles** for icons, point, shield, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay.
+Custom **draw styles** for icons, point, shield, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay. For icons, point, and shield styles a default sprite is also set.
 
-Special `mz_*` sources are available to automatically render content using the associated draw styles for point, shield, line, and polygon draw styles. To render features in one of these draw styles, create the specified `mz_*` layer source.
+Special `mz_*` **data sources** are available to automatically render content using the associated draw styles for point, shield, line, and polygon draw styles. To render features in one of these draw styles, create the specified `mz_*` data source.
 
 Example **Tangram YAML** examples for `mz_*` source names:
 
