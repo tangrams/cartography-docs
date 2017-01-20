@@ -29,8 +29,8 @@ Example **Tangram JS** usage:
 
 ```
 var layer = Tangram.leafletLayer({
-        scene: { import: 'path/to/scene.yaml', global: { sdk_mapzen_api_key: 'mapzen-xxxxxx' } },
-        attribution: '&copy; <a href="https://www.mapzen.com/rights" target="_blank">Mapzen</a>,  <a href="https://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>
+    scene: { import: 'path/to/scene.yaml', global: { sdk_mapzen_api_key: 'mapzen-xxxxxx' } },
+    attribution: '&copy; <a href="https://www.mapzen.com/rights" target="_blank">Mapzen</a>,  <a href="https://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>
 , and <a href="https://www.mapzen.com/rights/#services-and-data-sources" target="_blank">others</a>.'});
 ```
 
