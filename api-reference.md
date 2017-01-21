@@ -10,7 +10,7 @@ As the basemaps are still in active development we recommend pegging an import t
 
 Mapzen basemaps require setting a Mapzen API key to access related Mapzen vector tile and terrain tile services. 
 
-[Sign up](https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys) for a Mapzen API key to enjoy higher rate limits.
+[Sign up](https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys) for a Mapzen API key here.
 
 ### sdk_api_key
 
