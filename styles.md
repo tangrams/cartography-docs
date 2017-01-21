@@ -29,6 +29,7 @@ Bubble Wrap is only available in the "more labels" version.
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
+* Mapzen API key
 
 **Not supported:**
 
@@ -66,6 +67,7 @@ A minimalist map style designed for data visualization overlays. Inspired by the
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
+* Mapzen API key
 
 **Not supported:**
 
@@ -99,6 +101,7 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
+* Mapzen API key
 
 **Not supported:**
 
@@ -132,6 +135,7 @@ Will autonomous cars dream as they charge overnight? We’re pushing mapping to 
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
+* Mapzen API key
 
 **Not supported:**
 
@@ -165,6 +169,7 @@ A classic web map style for general mapping applications.
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
+* Mapzen API key
 
 **Not supported:**
 
@@ -198,6 +203,7 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 * Default draw styles
 * Basic user experience styles
 * Transit user experience styles
+* Mapzen API key
 
 **Not supported:**
 
