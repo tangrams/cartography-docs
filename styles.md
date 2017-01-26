@@ -24,6 +24,8 @@ Bubble Wrap is only available in the "more labels" version.
 **Supported:**
 
 * Language
+* Labels
+* Basemap styling
 * Data visualization
 * Transit overlay
 * Default draw styles
@@ -62,6 +64,8 @@ A minimalist map style designed for data visualization overlays. Inspired by the
 **Supported:**
 
 * Language
+* Labels
+* Basemap styling
 * Data visualization
 * Transit overlay
 * Default draw styles
@@ -96,6 +100,8 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 **Supported:**
 
 * Language
+* Labels
+* Basemap styling
 * Data visualization
 * Transit overlay
 * Default draw styles
@@ -130,6 +136,8 @@ Will autonomous cars dream as they charge overnight? We’re pushing mapping to 
 **Supported:**
 
 * Language
+* Labels
+* Basemap styling
 * Data visualization
 * Transit overlay
 * Default draw styles
@@ -164,6 +172,8 @@ A classic web map style for general mapping applications.
 **Supported:**
 
 * Language
+* Labels
+* Basemap styling
 * Data visualization
 * Transit overlay
 * Default draw styles
@@ -198,6 +208,8 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 **Supported:**
 
 * Language
+* Labels
+* Basemap styling
 * Data visualization
 * Transit overlay
 * Default draw styles
