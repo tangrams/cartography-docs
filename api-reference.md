@@ -8,7 +8,7 @@ As the basemaps are still in active development we recommend pegging an import t
 
 ## Mapzen API keys
 
-Mapzen basemaps require setting a Mapzen API key to access related Mapzen vector tile and terrain tile services. 
+Mapzen basemaps require setting a Mapzen API key to access related Mapzen vector tile and terrain tile services.
 
 [Sign up](https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys) for a Mapzen API key here.
 
@@ -103,6 +103,44 @@ Common language codes values include:
 - `tr` Turkish
 - `vi` Vietnamese
 
+## Labels
+
+Icons and text make for a chatty, soulful map.
+
+### Road shields
+
+Road shield artwork can be disabled. This can be useful when showing transit overlay and in data visualization use cases.
+
+* `sdk_road_shields`: default `true`
+
+Example **Tangram YAML** usage:
+
+```
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+
+global:
+    sdk_road_shields: false
+```
+
+## Basemap styling
+
+Roads are red, parks are green, water is blue, and buildings extrude.
+
+### Building extrusion
+
+Are the 3d buildings distracting? Turn them off.
+
+* `sdk_building_extrude`: default `true` (except for Zinc which is default `false)
+
+Example **Tangram YAML** usage:
+
+```
+import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+
+global:
+    sdk_building_extrude: false
+```
+
 ## Data visualization
 
 To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering) docs).
@@ -182,7 +220,7 @@ Tip: disable earth layer.
 
 ## Transit overlay
 
-Some basemap styles support transit overlays.
+All basemap styles support transit overlays.
 
 * `sdk_transit_overlay`: default `false`
 
@@ -215,7 +253,7 @@ sources:
 ### Icons
 
 * **draw style:** `icons`
-* **sprite:** multiple sprites supported in the `pois` texture, see [icons](icons.md)
+* **sprite:** multiple sprites supported in the `pois` texture, see [icon library](icons.md)
 
 Example **Tangram YAML** usage:
 
