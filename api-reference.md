@@ -105,7 +105,7 @@ Common language codes values include:
 
 ## Labels
 
-Icons and text make for a chatty, soulful map.
+Icons and text add dimensionality and insight to a map and can be altered for your use case.
 
 ### Road shields
 
