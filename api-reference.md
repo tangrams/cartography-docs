@@ -19,7 +19,7 @@ Mapzen basemaps require setting a Mapzen API key to access related Mapzen vector
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_mapzen_api_key: mapzen-xxxxxx
@@ -29,16 +29,52 @@ Example **Tangram JS** usage:
 
 ```
 var layer = Tangram.leafletLayer({
-    scene: { import: 'https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml', global: { sdk_mapzen_api_key: 'mapzen-xxxxxx' } },
-    attribution: '&copy; <a href="https://www.mapzen.com/rights" target="_blank">Mapzen</a>,  <a href="https://openstreetmap.org/copyright" target="_blank">OpenStreetMap</a>
-, and <a href="https://www.mapzen.com/rights/#services-and-data-sources" target="_blank">others</a>.'});
+    scene: {
+      import: 'https://mapzen.com/carto/refill-style/6/refill-style.yaml',
+      global: { sdk_mapzen_api_key: 'mapzen-xxxxxx' }
+    });
+```
+
+Example **Mapzen.js** usage (all services):
+
+```
+L.Mapzen.apiKey = 'mapzen-xxxxxx';
+
+var map = L.Mapzen.map('map', {
+  center: [40.8041, -124.1506],
+  zoom: 15,
+  maxZoom: 20,
+  tangramOptions: {
+    scene: {
+      import: L.Mapzen.BasemapStyles.Refill,
+    }
+  }
+});
+```
+
+Example **Mapzen.js** usage (just Tangram):
+
+```
+var map = L.Mapzen.map('map', {
+  center: [40.8041, -124.1506],
+  zoom: 15,
+  maxZoom: 20,
+  tangramOptions: {
+    scene: {
+      import: L.Mapzen.BasemapStyles.Refill,
+      global: {
+        sdk_mapzen_api_key: 'mapzen-xxxxxx'
+      }
+    }
+  }
+});
 ```
 
 Example **Tangram ES** usage:
 
 ```
 map->loadScene(
-    "https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml",
+    "https://mapzen.com/carto/refill-style/6/refill-style.yaml",
     false,
     { "global.sdk_mapzen_api_key", "mapzen-xxxxxx" }
 );
@@ -57,10 +93,28 @@ If you ask for a language that isn't present in the data, it will automatically 
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     ux_language: fr
+```
+
+Example **Mapzen.js** usage:
+
+```
+var map = L.Mapzen.map('map', {
+  center: [40.8041, -124.1506],
+  zoom: 15,
+  maxZoom: 20,
+  tangramOptions: {
+    scene: {
+      import: L.Mapzen.BasemapStyles.Refill,
+      global: {
+        ux_language: 'en'
+      }
+    }
+  }
+});
 ```
 
 ### ux_language_fallback
@@ -74,7 +128,7 @@ For instance, if someone reads French but not Japanese they would prefer to see 
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     ux_language: fr
@@ -116,7 +170,7 @@ Road shield artwork can be disabled. This can be useful when showing transit ove
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_road_shields: false
@@ -135,7 +189,7 @@ Are the 3d buildings distracting? Turn them off.
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_building_extrude: false
@@ -148,7 +202,7 @@ To facilitate map customization and data visualizations several recommended sort
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 _layername:
     draw:
@@ -227,7 +281,7 @@ All basemap styles support transit overlays.
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_transit_overlay: true
@@ -242,7 +296,7 @@ Special `mz_*` **data sources** are available to automatically render content us
 Example **Tangram YAML** examples for `mz_*` source names:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 sources:
     mz_default_polygon:
@@ -258,7 +312,7 @@ sources:
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 sources:
     _my_source:
