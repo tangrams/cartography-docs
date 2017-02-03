@@ -11,6 +11,13 @@ We only recommend pegging to the **LATEST** vesion if you are not modifying docu
 
 While it is possible to request the `.yaml` scene file directly, we recommend requesting
  the scene's `.zip` bundle as it includes all required fonts, images, and related imports.
+ 
+ All of Mapzen basemap styles support: 
+* Alter label language and density
+* Customized basemap styling
+* Data visualization overlay
+* Transit overlay
+* Adding a Mapzen API key
 
 ## Bubble Wrap
 
@@ -21,23 +28,7 @@ A full-featured wayfinding style loaded with helpful icons for points of interes
 
 Bubble Wrap is only available in the "more labels" version.
 
-**Supported:**
-
-* Language
-* Labels
-* Basemap styling
-* Data visualization
-* Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
-* Mapzen API key
-
-**Not supported:**
-
-* None
-
-**Try Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap)
+**View Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap)
 
 Current **MAJOR** release (includes any minor and patch updates):
 
@@ -61,23 +52,7 @@ _NOTE: Bubble Wrap adopted the standard default (some), more, and no labels conf
 
 A minimalist map style designed for data visualization overlays. Inspired by the seminal Toner style by Stamen Design.
 
-**Supported:**
-
-* Language
-* Labels
-* Basemap styling
-* Data visualization
-* Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
-* Mapzen API key
-
-**Not supported:**
-
-* None
-
-**Try Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
+**View Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
@@ -97,23 +72,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
 
-**Supported:**
-
-* Language
-* Labels
-* Basemap styling
-* Data visualization
-* Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
-* Mapzen API key
-
-**Not supported:**
-
-* None
-
-**Try Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
+**View Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
@@ -133,23 +92,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 Will autonomous cars dream as they charge overnight? We’re pushing mapping to new extremes with Tron, and it will push your GPU and fan to the limit.
 
-**Supported:**
-
-* Language
-* Labels
-* Basemap styling
-* Data visualization
-* Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
-* Mapzen API key
-
-**Not supported:**
-
-* None
-
-**Try Tron:** [default](https://mapzen.com/products/maps/tron) | [more labels](https://mapzen.com/products/maps/tron/more-labels) | [no labels](https://mapzen.com/products/maps/tron/no-labels)
+**View Tron:** [default](https://mapzen.com/products/maps/tron) | [more labels](https://mapzen.com/products/maps/tron/more-labels) | [no labels](https://mapzen.com/products/maps/tron/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
@@ -169,23 +112,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 A classic web map style for general mapping applications.
 
-**Supported:**
-
-* Language
-* Labels
-* Basemap styling
-* Data visualization
-* Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
-* Mapzen API key
-
-**Not supported:**
-
-* None
-
-**Try Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
+**View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
@@ -205,23 +132,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 A dark, minimalist style that helps bright data overlays stand out. A great alternative to Refill.
 
-**Supported:**
-
-* Language
-* Labels
-* Basemap styling
-* Data visualization
-* Transit overlay
-* Default draw styles
-* Basic user experience styles
-* Transit user experience styles
-* Mapzen API key
-
-**Not supported:**
-
-* None
-
-**Try Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
+**View Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
