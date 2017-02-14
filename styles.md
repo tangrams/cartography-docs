@@ -29,7 +29,7 @@ A full-featured wayfinding style loaded with helpful icons for points of interes
 
 Bubble Wrap is only available in the "more labels" version.
 
-**View Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap/) | [more labels](https://mapzen.com/products/maps/bubble-wrap/more-labels) | [no labels](https://mapzen.com/products/maps/bubble-wrap/no-labels)
+**View Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap) | [more labels](https://mapzen.com/products/maps/bubble-wrap/more-labels) | [no labels](https://mapzen.com/products/maps/bubble-wrap/no-labels)
 
 Current **MAJOR** release (includes any minor and patch updates):
 
