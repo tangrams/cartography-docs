@@ -24,8 +24,6 @@ All of Mapzen basemap styles support:
 A full-featured wayfinding style loaded with helpful icons for points of interest. See it
  in action in our very own [Eraser Map on Android](https://mapzen.com/blog/erasermap-beta/).
 
-Bubble Wrap is only available in the "more labels" version.
-
 **View Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap) | [more labels](https://mapzen.com/products/maps/bubble-wrap/more-labels) | [no labels](https://mapzen.com/products/maps/bubble-wrap/no-labels)
 
 Current **MAJOR** release (includes any minor and patch updates):
