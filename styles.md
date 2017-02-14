@@ -13,11 +13,12 @@ While it is possible to request the `.yaml` scene file directly, we recommend re
  the scene's `.zip` bundle as it includes all required fonts, images, and related imports.
  
  All of Mapzen basemap styles support: 
+* Set Mapzen API key
 * Alter label language and density
-* Customized basemap styling
-* Data visualization overlay
+* Customize basemap styling
+* Data visualization overlays
 * Transit overlay
-* Adding a Mapzen API key
+* Default draw and user experience styles
 
 ## Bubble Wrap
 
