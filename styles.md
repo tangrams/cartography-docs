@@ -9,8 +9,8 @@ As Mapzen's basemap styles are still in active development we recommend peggging
 We only recommend pegging to the **LATEST** vesion if you are not modifying documented API
  scene elements.
 
-While it is possible to request the `.yaml` scene file directly, we recommend requesting
- the scene's `.zip` bundle as it includes all required fonts, images, and related imports.
+Becuase each style imports additional resources, we provide a scene bundle in `.zip` format
+ which includes the scene yaml, image, font, and any other required imports.
  
  All of Mapzen basemap styles support: 
 * Set Mapzen API key
