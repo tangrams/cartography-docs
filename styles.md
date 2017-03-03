@@ -17,6 +17,11 @@ All of Mapzen basemap styles support:
 * Transit overlay
 * Default draw and user experience styles
 
+Some Mapzen basemap styles support:
+
+* Bicycle map (Walkabout only)
+
+
 ## Bubble Wrap
 
 ![Bubble Wrap](./img/bubble-wrap-style.png)
