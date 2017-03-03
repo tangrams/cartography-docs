@@ -7,9 +7,9 @@ As Mapzen's basemap styles are still in active development we recommend peggging
 We only recommend pegging to the **LATEST** vesion if you are not modifying documented API scene elements.
 
 Becuase each style imports additional resources, we provide a scene bundle in `.zip` format which includes the scene yaml, image, font, and any other required imports.
- 
-All of Mapzen basemap styles support: 
- 
+
+All of Mapzen basemap styles support:
+
 * Set Mapzen API key
 * Alter label language and density
 * Customize basemap styling
@@ -72,9 +72,9 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/walkabout-style/3/walkabout-style.zip`
-* `https://mapzen.com/carto/walkabout-style-more-labels/3/walkabout-style-more-labels.zip`
-* `https://mapzen.com/carto/walkabout-style-no-labels/3/walkabout-style-no-labels.zip`
+* `https://mapzen.com/carto/walkabout-style/4/walkabout-style.zip`
+* `https://mapzen.com/carto/walkabout-style-more-labels/4/walkabout-style-more-labels.zip`
+* `https://mapzen.com/carto/walkabout-style-no-labels/4/walkabout-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 

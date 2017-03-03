@@ -287,6 +287,30 @@ global:
     sdk_transit_overlay: true
 ```
 
+## Bicycle overlay
+
+Some basemap styles support bicycle overlays (only Walkabout).
+
+* `sdk_bike_overlay`: default `false`
+
+Example **Tangram YAML** usage:
+
+```
+import: https://mapzen.com/carto/walkabout-style/4/walkabout-style.yaml
+
+global:
+    sdk_bike_overlay: true
+```
+
+**Legend** Walkabout Bicycle Categories
+
+![Walkabout Bike Legend](./img/walkabout-style-bike-map-legend.jpg)
+
+Includes special icon treatments:
+
+![Walkabout Bike Icons](./img/walkabout-style-bike-map-icons.jpg)
+
+
 ## Default draw styles
 
 Custom **draw styles** for icons, point, shield, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay. For icons, point, and shield styles a default sprite is also set.
