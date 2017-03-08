@@ -287,7 +287,7 @@ global:
     sdk_transit_overlay: true
 ```
 
-<img alt='Walkabout Bike Map Legend' src='./img/walkabout-style-bike-map-legend-combo.png' width='300' height='420' align='right'>
+<img alt='Walkabout Bike Map Legend' src='./img/walkabout-style-bike-map-legend-combo.png' width='477' height='420' align='right'>
 
 ## Bicycle overlay
 
