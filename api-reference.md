@@ -289,7 +289,7 @@ global:
 
 ## Bicycle overlay
 
-Some basemap styles support bicycle overlays (only Walkabout).
+Some basemap styles support bicycle overlays (only Walkabout). When enabling the bike map we recommend also disabling the path overlay.
 
 * `sdk_bike_overlay`: default `false`
 
@@ -300,16 +300,30 @@ import: https://mapzen.com/carto/walkabout-style/4/walkabout-style.yaml
 
 global:
     sdk_bike_overlay: true
+    sdk_path_overlay: false
 ```
 
-**Legend** Walkabout Bicycle Categories
+**Legend** Walkabout bike map categories and icon treatments
 
-![Walkabout Bike Legend](./img/walkabout-style-bike-map-legend.jpg)
+<img alt='Walkabout Bike Map Legend' src='./img/walkabout-style-bike-map-legend.png' width='300' height='420'>
 
-Includes special icon treatments:
+<img alt='Walkabout Bike Icons' src='./img/walkabout-style-bike-map-icons.png' width='300' height='420'>
 
-![Walkabout Bike Icons](./img/walkabout-style-bike-map-icons.jpg)
 
+## Path overlay
+
+Some basemap styles support path overlays (only Walkabout).
+
+* `sdk_path_overlay`: default `true`
+
+Example **Tangram YAML** usage:
+
+```
+import: https://mapzen.com/carto/walkabout-style/4/walkabout-style.yaml
+
+global:
+    sdk_path_overlay: false
+```
 
 ## Default draw styles
 
