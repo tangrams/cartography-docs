@@ -274,7 +274,7 @@ Tip: disable earth layer.
 
 ## Transit overlay
 
-All basemap styles support transit overlays.
+All basemap styles support a transit overlay.
 
 * `sdk_transit_overlay`: default `false`
 
@@ -287,9 +287,9 @@ global:
     sdk_transit_overlay: true
 ```
 
-## Bicycle overlay
+## Bike overlay
 
-Some basemap styles support bicycle overlays (only Walkabout). When enabling the bike map we recommend also disabling the path overlay.
+Some basemap styles support a bike overlay showing cycling routes and special icon treatments (only Walkabout). When enabling the bike map we recommend also disabling the path overlay.
 
 * `sdk_bike_overlay`: default `false`
 
@@ -310,7 +310,7 @@ _**Legend** of Walkabout bike map categories and icon treatments (below)_
 
 ## Path overlay
 
-Some basemap styles support path overlays (only Walkabout).
+Some basemap styles support a path overlay (only Walkabout).
 
 * `sdk_path_overlay`: default `true`
 
