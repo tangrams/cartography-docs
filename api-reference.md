@@ -305,7 +305,8 @@ global:
 
 _**Legend** of Walkabout bike map categories and icon treatments (below)_
 
-![Walkabout Bike Map Legend](./img/walkabout-style-bike-map-legend-combo.png)
+<img alt='Walkabout Bike Map Legend' src='./img/walkabout-style-bike-map-legend-combo.png' width='477' height='420'>
+
 
 ## Path overlay
 
