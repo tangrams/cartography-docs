@@ -287,8 +287,6 @@ global:
     sdk_transit_overlay: true
 ```
 
-<img alt='Walkabout Bike Map Legend' src='./img/walkabout-style-bike-map-legend-combo.png' width='477' height='420' align='right'>
-
 ## Bicycle overlay
 
 Some basemap styles support bicycle overlays (only Walkabout). When enabling the bike map we recommend also disabling the path overlay.
@@ -305,8 +303,9 @@ global:
     sdk_path_overlay: false
 ```
 
-_**Legend** of Walkabout bike map categories and icon treatments (right)_
+_**Legend** of Walkabout bike map categories and icon treatments (below)_
 
+![Walkabout Bike Map Legend](./img/walkabout-style-bike-map-legend-combo.png)
 
 ## Path overlay
 
