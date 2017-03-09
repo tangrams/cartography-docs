@@ -19,8 +19,8 @@ All of Mapzen basemap styles support:
 
 Some Mapzen basemap styles support:
 
-* Bike overlay _(Walkabout only)_
-* Path overlay _(Walkabout only)_
+* Bike overlay _(Walkabout)_
+* Path overlay _(Walkabout)_
 
 
 ## Bubble Wrap
