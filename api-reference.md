@@ -12,7 +12,7 @@ Mapzen basemaps require setting a Mapzen API key to access related Mapzen vector
 
 [Sign up](https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys) for a Mapzen API key here.
 
-### sdk_api_key
+### sdk_mapzen_api_key
 
 * `sdk_mapzen_api_key`: defaults to `''` (an empty string)
 
