@@ -1,5 +1,7 @@
 # Get started with Mapzen basemaps
 
+_You will need a free Mapzen API key to use the basemaps. Visit https://mapzen.com/developers to get yours now._
+
 _Mapzen basemaps are written in Tangram's scene file syntax. They can be displayed in web maps using [Tangram JS](
 https://mapzen.com/documentation/tangram/Javascript-API/) or [mapzen.js](https://mapzen.com/documentation/mapzen-js/) and on [iOS](https://mapzen.com/documentation/ios/) and [Android](https://mapzen.com/documentation/tangram/android-walkthrough/) using [Tangram ES](https://github.com/tangrams/tangram-es)._
 
@@ -14,8 +16,14 @@ We offer two convenient methods to incorporate Mapzen basemaps into your project
 For example:
 
 ```
+L.Mapzen.apiKey = 'mapzen-xxxxxx';
+
 var map = L.Mapzen.map('map', {
-  scene: L.Mapzen.BasemapStyles.Refill
+  tangramOptions: {
+    scene: {
+      import: L.Mapzen.BasemapStyles.Refill,
+    }
+  }
 })
 ```
 
@@ -56,6 +64,9 @@ Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/
 
 ```
 import: https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml
+
+global:
+    sdk_mapzen_api_key: mapzen-xxxxxxx
 ```
 
 Scene files and related assets are available for use in Tangram and Leaflet directly via the Mapzen CDN.
