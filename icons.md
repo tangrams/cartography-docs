@@ -4,13 +4,11 @@ Mapzen basemap styles use custom icons to display points of interest on a map, r
 
 The library has expanded to a several hundred icons with more continuing to be added. Most, but not all icons, are available in 4 or more styles.
 
-
 ## Using built-in sprites
 
 Need an icon for your data visualization overlay?
 
 Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
-
 
 ```
 sources:
@@ -27,7 +25,6 @@ layers:
                 size: [[13, 18px], [16, 18px], [18, 22px]]
                 sprite: zoo
 ```
-
 
 ## Sprites
 
@@ -397,3 +394,14 @@ layers:
                 # necesary as the asset is 2x, but we want to show in CSS dimensions
                 size: 18px
 ```
+
+## Versions
+
+While earlier versions of Mapzen basemap styles supported _most_ icons in the table above, the following versions added full support:
+
+* Bubble Wrap: `6.0.0`
+* Walkabout: `3.0.0`
+* Tron: `3.0.0`
+* Refill: `6.0.0`
+* Cinnabar: `6.0.0`
+* Zinc: `5.0.0`
