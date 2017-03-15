@@ -21,7 +21,7 @@ L.Mapzen.apiKey = 'mapzen-xxxxxx';
 var map = L.Mapzen.map('map', {
   tangramOptions: {
     scene: {
-      import: L.Mapzen.BasemapStyles.Refill,
+      import: L.Mapzen.BasemapStyles.Refill
     }
   }
 })
@@ -63,7 +63,7 @@ You can also use Mapzen's GL map renderer, [Tangram](https://mapzen.com/document
 Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/tangram/import/)) allows one scene file to import another:
 
 ```
-import: https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml
+import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_mapzen_api_key: mapzen-xxxxxxx
