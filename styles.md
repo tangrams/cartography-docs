@@ -78,9 +78,9 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/walkabout-style/4/walkabout-style.zip`
-* `https://mapzen.com/carto/walkabout-style-more-labels/4/walkabout-style-more-labels.zip`
-* `https://mapzen.com/carto/walkabout-style-no-labels/4/walkabout-style-no-labels.zip`
+* `https://mapzen.com/carto/walkabout-style/5/walkabout-style.zip`
+* `https://mapzen.com/carto/walkabout-style-more-labels/5/walkabout-style-more-labels.zip`
+* `https://mapzen.com/carto/walkabout-style-no-labels/5/walkabout-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
