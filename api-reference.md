@@ -296,7 +296,7 @@ Some basemap styles support a bike overlay showing cycling routes and special ic
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/walkabout-style/4/walkabout-style.yaml
+import: https://mapzen.com/carto/walkabout-style/5/walkabout-style.yaml
 
 global:
     sdk_bike_overlay: true
@@ -305,7 +305,7 @@ global:
 
 _**Legend** of Walkabout bike map categories and icon treatments (below)_
 
-<img alt='Walkabout Bike Map Legend' src='../img/walkabout-style-bike-map-legend-combo.png' width='477' height='420'>
+<img alt='Walkabout Bike Map Legend' src='./img/walkabout-style-bike-map-legend-combo.png' width='450' height='450'>
 
 
 ## Path overlay
@@ -317,7 +317,7 @@ Some basemap styles support a path overlay (only Walkabout).
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/walkabout-style/4/walkabout-style.yaml
+import: https://mapzen.com/carto/walkabout-style/5/walkabout-style.yaml
 
 global:
     sdk_path_overlay: false
