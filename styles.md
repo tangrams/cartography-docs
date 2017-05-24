@@ -34,9 +34,9 @@ A full-featured wayfinding style loaded with helpful icons for points of interes
 
 Current **MAJOR** release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/bubble-wrap-style/6/bubble-wrap-style.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-more-labels/6/bubble-wrap-style-more-labels.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-no-labels/6/bubble-wrap-style-no-labels.zip`
+* `https://mapzen.com/carto/bubble-wrap-style/7/bubble-wrap-style.zip`
+* `https://mapzen.com/carto/bubble-wrap-style-more-labels/7/bubble-wrap-style-more-labels.zip`
+* `https://mapzen.com/carto/bubble-wrap-style-no-labels/7/bubble-wrap-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
