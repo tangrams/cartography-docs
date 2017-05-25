@@ -323,6 +323,21 @@ global:
     sdk_path_overlay: false
 ```
 
+## Bathymetry
+
+Some basemap styles support [bathymetry](https://en.wikipedia.org/wiki/Bathymetry) – colored shaded relief showing underwater elevation shape (only Walkabout).
+
+* `sdk_bathymetry`: default `false`
+
+Example **Tangram YAML** usage:
+
+```
+import: https://mapzen.com/carto/walkabout-style/5/walkabout-style.yaml
+
+global:
+    sdk_bathymetry: true
+```
+
 ## Default draw styles
 
 Custom **draw styles** for icons, point, shield, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay. For icons, point, and shield styles a default sprite is also set.
