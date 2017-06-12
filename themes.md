@@ -1,6 +1,8 @@
 # Themes
 
-**Like a basemap style but something just a little different?** Some styles are available in a range of colors and other options. This section describes the options and shows how to import them.
+**Like a basemap style but want something just a little different?**
+
+Some styles are available in a range of colors and other options. This section describes the options and shows how to import them.
 
 #### Managing imports
 
@@ -25,9 +27,9 @@ Example **Tangram JS** usage:
 
 ```
 var layer = Tangram.leafletLayer({
-        scene: { 
+        scene: {
           import: [
-            'https://mapzen.com/carto/refill-style/7/refill-style.zip', 
+            'https://mapzen.com/carto/refill-style/7/refill-style.zip',
             'https://mapzen.com/carto/refill-style/7/themes/pink-yellow.zip'],
           global: { 'sdk_mapzen_api_key': 'mapzen-xxxxxx' } },
         attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
