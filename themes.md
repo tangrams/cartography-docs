@@ -1,6 +1,8 @@
 # Themes
 
-**Like a basemap style but something just a little different?** Some styles are available in a range of colors and other options. This section describes the options and shows how to import them.
+**Like a basemap style but want something just a little different?** 
+
+Some styles are available in a range of colors and other options. This section describes the options and shows how to import them.
 
 #### Managing imports
 
@@ -19,7 +21,7 @@ import:
     # other imports to taste...
 ```
 
-_NOTE: As Mapzen's basemaps are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements._
+_NOTE: As Mapzen's basemaps are still in active development we recommend pegging an import to a specific **MAJOR** version, eg: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements._
 
 Example **Tangram JS** usage:
 
