@@ -19,7 +19,7 @@ import:
     # other imports to taste...
 ```
 
-_NOTE: As Mapzen's basemaps are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements._
+_NOTE: As Mapzen's basemaps are still in active development we recommend pegging an import to a specific **MAJOR** version, e.g.: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements._
 
 Example **Tangram JS** usage:
 
@@ -40,7 +40,7 @@ var layer = Tangram.leafletLayer({
 
 Refill includes color variations on black and white, starting with **high-contrast**, original **default**, and **gray**. High-Contrast is basic and minimal, and great for printing.
 
-For data visualization purposes gray and several other muted color themes are includeing single color series in **blue**, **sepia**, and **pink**. Two-color series includes **pink-yellow**, **brown-orange**, and **blue-gray**.
+For data visualization purposes gray and several other muted color themes are including single color series in **blue**, **sepia**, and **pink**. Two-color series includes **pink-yellow**, **brown-orange**, and **blue-gray**.
 
 <img src="img/refill/refill-theme-mallorca_bw.jpg" width=780 height=270>
 
