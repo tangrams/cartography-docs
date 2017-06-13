@@ -2,7 +2,7 @@
 
 Use gorgeous 2D and 3D basemap styles created by Mapzen's expert cartographers for Tangram.
 
-As Mapzen's basemap styles are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `6`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
+As Mapzen's basemap styles are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
 We only recommend pegging to the **LATEST** vesion if you are not modifying documented API scene elements.
 
@@ -21,6 +21,7 @@ Some Mapzen basemap styles support:
 
 * Bike overlay _(Walkabout)_
 * Path overlay _(Walkabout)_
+* Themes _(Refill)_
 
 
 ## Bubble Wrap
@@ -54,13 +55,15 @@ _NOTE: Bubble Wrap adopted the standard default (some), more, and no labels conf
 
 A minimalist map style designed for data visualization overlays. Inspired by the seminal Toner style by Stamen Design.
 
+Refill is offered in a range of [theme colors](themes.md).
+
 **View Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/refill-style/6/refill-style.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/6/refill-style-more-labels.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/6/refill-style-no-labels.zip`
+* `https://mapzen.com/carto/refill-style/7/refill-style.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/7/refill-style-more-labels.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/7/refill-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 

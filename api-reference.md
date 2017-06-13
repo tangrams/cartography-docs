@@ -180,6 +180,10 @@ global:
 
 Roads are red, parks are green, water is blue, and buildings extrude.
 
+### Color
+
+Some basemap styles are available in a range of colors. Importing them is described in the [themes](themes.md) section.
+
 ### Building extrusion
 
 Are the 3d buildings distracting? Turn them off.
