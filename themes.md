@@ -36,6 +36,24 @@ var layer = Tangram.leafletLayer({
     });
 ```
 
+Example **mapzen.js** usage:
+
+```
+L.Mapzen.apiKey = 'mapzen-xxxxxx';
+
+var map = L.Mapzen.map('map', {
+  center: [40.8041, -124.1506],
+  zoom: 15,
+  maxZoom: 20,
+  tangramOptions: {
+    scene: {
+      import: [
+        'https://mapzen.com/carto/refill-style/7/refill-style.zip',
+        'https://mapzen.com/carto/refill-style/7/themes/pink-yellow.zip'
+      ] } }
+});
+```
+
 ## Refill
 
 ### Color
