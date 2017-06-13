@@ -62,11 +62,11 @@ Refill includes color variations on black and white, starting with **high-contra
 
 For data visualization purposes gray and several other muted color themes are including single color series in **blue**, **sepia**, and **pink**. Two-color series includes **pink-yellow**, **brown-orange**, and **blue-gray**.
 
-<img src="img/refill/refill-theme-mallorca_bw.jpg" width=780 height=270>
+<img src="./img/refill/refill-theme-mallorca_bw.jpg" width=780 height=270>
 
-<img src="img/refill/refill-theme-mallorca_color.jpg" width=780 height=270>
+<img src="./img/refill/refill-theme-mallorca_color.jpg" width=780 height=270>
 
-<img src="img/refill/refill-theme-mallorca_2color.jpg" width=780 height=270>
+<img src="./img/refill/refill-theme-mallorca_2color.jpg" width=780 height=270>
 
 #### black
 
