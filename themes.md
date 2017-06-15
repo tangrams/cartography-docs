@@ -62,11 +62,15 @@ Refill includes color variations on black and white, starting with **high-contra
 
 For data visualization purposes gray and several other muted color themes are including single color series in **blue**, **sepia**, and **pink**. Two-color series includes **pink-yellow**, **brown-orange**, and **blue-gray**.
 
-<img src="../img/refill/refill-theme-mallorca_bw.jpg" width=780 height=270>
+The dark series includes **inverted**, **purple-green**, and **gray-gold**.
 
-<img src="../img/refill/refill-theme-mallorca_color.jpg" width=780 height=270>
+<img src="../img/refill/refill-theme-mallorca_bw.jpg" width=780>
 
-<img src="../img/refill/refill-theme-mallorca_2color.jpg" width=780 height=270>
+<img src="../img/refill/refill-theme-mallorca_color.jpg" width=780>
+
+<img src="../img/refill/refill-theme-mallorca_2color.jpg" width=780>
+
+<img src="../img/refill/refill-theme-mallorca_dark.jpg" width=780>
 
 #### black
 
@@ -113,6 +117,15 @@ Current **MAJOR** versioned release:
 * `https://mapzen.com/carto/refill-style-no-labels/7/themes/gray.zip`
 
 
+#### gray-gold
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/7/themes/gray-gold.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/7/themes/gray-gold.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/7/themes/gray-gold.zip`
+
+
 #### high-contrast
 
 Current **MAJOR** versioned release:
@@ -120,6 +133,15 @@ Current **MAJOR** versioned release:
 * `https://mapzen.com/carto/refill-style/7/themes/high-contrast.zip`
 * `https://mapzen.com/carto/refill-style-more-labels/7/themes/high-contrast.zip`
 * `https://mapzen.com/carto/refill-style-no-labels/7/themes/high-contrast.zip`
+
+
+#### inverted
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/7/themes/inverted.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/7/themes/inverted.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/7/themes/inverted.zip`
 
 
 #### pink
@@ -138,6 +160,15 @@ Current **MAJOR** versioned release:
 * `https://mapzen.com/carto/refill-style/7/themes/pink-yellow.zip`
 * `https://mapzen.com/carto/refill-style-more-labels/7/themes/pink-yellow.zip`
 * `https://mapzen.com/carto/refill-style-no-labels/7/themes/pink-yellow.zip`
+
+
+#### purple-green
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/7/themes/purple-green.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/7/themes/purple-green.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/7/themes/purple-green.zip`
 
 
 #### sepia
