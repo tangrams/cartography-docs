@@ -4,7 +4,7 @@ Mapzen basemaps offer several global properties to customize and extend the map.
 
 Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen map style. See [Styles](styles.md) for what's supported.
 
-As the basemaps are still in active development we recommend pegging an import to a specific major version, eg: `6`. See the [versioning](versioning.md) doc for more details.
+As the basemaps are still in active development, Mapzen recommends pegging an import to a specific major version, such as `6`. See the [versioning](versioning.md) doc for more details.
 
 ## Mapzen API keys
 
@@ -22,7 +22,7 @@ Example **Tangram YAML** usage:
 import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
-    sdk_mapzen_api_key: mapzen-xxxxxx
+    sdk_mapzen_api_key: your-mapzen-api-key
 ```
 
 Example **Tangram JS** usage:
@@ -31,14 +31,14 @@ Example **Tangram JS** usage:
 var layer = Tangram.leafletLayer({
     scene: {
       import: 'https://mapzen.com/carto/refill-style/6/refill-style.yaml',
-      global: { sdk_mapzen_api_key: 'mapzen-xxxxxx' }
+      global: { sdk_mapzen_api_key: 'your-mapzen-api-key' }
     });
 ```
 
 Example **Mapzen.js** usage (all services):
 
 ```
-L.Mapzen.apiKey = 'mapzen-xxxxxx';
+L.Mapzen.apiKey = 'your-mapzen-api-key';
 
 var map = L.Mapzen.map('map', {
   center: [40.8041, -124.1506],
@@ -63,7 +63,7 @@ var map = L.Mapzen.map('map', {
     scene: {
       import: L.Mapzen.BasemapStyles.Refill,
       global: {
-        sdk_mapzen_api_key: 'mapzen-xxxxxx'
+        sdk_mapzen_api_key: 'your-mapzen-api-key'
       }
     }
   }
@@ -76,7 +76,7 @@ Example **Tangram ES** usage:
 map->loadScene(
     "https://mapzen.com/carto/refill-style/6/refill-style.yaml",
     false,
-    { "global.sdk_mapzen_api_key", "mapzen-xxxxxx" }
+    { "global.sdk_mapzen_api_key", "your-mapzen-api-key" }
 );
 ```
 

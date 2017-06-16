@@ -7,7 +7,7 @@ https://mapzen.com/documentation/tangram/Javascript-API/) or [mapzen.js](https:/
 
 ## Add a basemap to a project
 
-We offer two convenient methods to incorporate Mapzen basemaps into your project:
+There are two convenient methods to incorporate Mapzen basemaps into your project:
 
 ### mapzen.js
 
@@ -16,7 +16,7 @@ We offer two convenient methods to incorporate Mapzen basemaps into your project
 For example:
 
 ```
-L.Mapzen.apiKey = 'mapzen-xxxxxx';
+L.Mapzen.apiKey = 'your-mapzen-api-key';
 
 var map = L.Mapzen.map('map', {
   tangramOptions: {
@@ -66,7 +66,7 @@ Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/
 import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
 
 global:
-    sdk_mapzen_api_key: mapzen-xxxxxxx
+    sdk_mapzen_api_key: your-mapzen-api-key
 ```
 
 Scene files and related assets are available for use in Tangram and Leaflet directly via the Mapzen CDN.
