@@ -1,12 +1,12 @@
-# Basemap Styles
+# Basemap styles
 
 Use gorgeous 2D and 3D basemap styles created by Mapzen's expert cartographers for Tangram.
 
-As Mapzen's basemap styles are still in active development we recommend peggging an import to a specific **MAJOR** version, eg: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
+As Mapzen's basemap styles are still in active development, you should peg an import to a specific **MAJOR** version, such as `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
-We only recommend pegging to the **LATEST** vesion if you are not modifying documented API scene elements.
+You should only peg to the **LATEST** version if you are not modifying documented API scene elements.
 
-Becuase each style imports additional resources, we provide a scene bundle in `.zip` format which includes the scene yaml, image, font, and any other required imports.
+Because each style imports additional resources, we provide a scene bundle in `.zip` format which includes the scene yaml, image, font, and any other required imports.
 
 All of Mapzen basemap styles support:
 
@@ -28,8 +28,7 @@ Some Mapzen basemap styles support:
 
 ![Bubble Wrap](./img/bubble-wrap-style.png)
 
-A full-featured wayfinding style loaded with helpful icons for points of interest. See it
- in action in our very own [Eraser Map on Android](https://mapzen.com/blog/erasermap-beta/).
+A full-featured wayfinding style loaded with helpful icons for points of interest.
 
 **View Bubble Wrap:** [default](https://mapzen.com/products/maps/bubble-wrap) | [more labels](https://mapzen.com/products/maps/bubble-wrap/more-labels) | [no labels](https://mapzen.com/products/maps/bubble-wrap/no-labels)
 
@@ -95,7 +94,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 ![Tron](./img/tron-style.gif)
 
-Will autonomous cars dream as they charge overnight? We’re pushing mapping to new extremes with Tron, and it will push your GPU and fan to the limit.
+Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping to new extremes with Tron, and it will push your GPU and fan to the limit.
 
 **View Tron:** [default](https://mapzen.com/products/maps/tron) | [more labels](https://mapzen.com/products/maps/tron/more-labels) | [no labels](https://mapzen.com/products/maps/tron/no-labels)
 

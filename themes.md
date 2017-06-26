@@ -31,7 +31,7 @@ var layer = Tangram.leafletLayer({
           import: [
             'https://mapzen.com/carto/refill-style/7/refill-style.zip',
             'https://mapzen.com/carto/refill-style/7/themes/pink-yellow.zip'],
-          global: { 'sdk_mapzen_api_key': 'mapzen-xxxxxx' } },
+          global: { 'sdk_mapzen_api_key': 'your-mapzen-api-key' } },
         attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
     });
 ```
@@ -39,7 +39,7 @@ var layer = Tangram.leafletLayer({
 Example **mapzen.js** usage:
 
 ```
-L.Mapzen.apiKey = 'mapzen-xxxxxx';
+L.Mapzen.apiKey = 'your-mapzen-api-key';
 
 var map = L.Mapzen.map('map', {
   center: [40.8041, -124.1506],
