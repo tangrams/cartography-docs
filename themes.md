@@ -15,13 +15,13 @@ Example **Tangram YAML** usage:
 ```
 import:
     # basemap style
-    - https://mapzen.com/carto/refill-style/7/refill-style.zip
+    - https://mapzen.com/carto/refill-style/8/refill-style.zip
     # recolor basemap style with a theme color
-    - https://mapzen.com/carto/refill-style/7/themes/color-pink-yellow.zip
+    - https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip
     # other imports to taste...
 ```
 
-_NOTE: As Mapzen's basemaps are still in active development we recommend pegging an import to a specific **MAJOR** version, e.g.: `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements._
+_NOTE: As Mapzen's basemaps are still in active development we recommend pegging an import to a specific **MAJOR** version, e.g.: `8`, so you enjoy any minor and patch updates but are ensured of stable named scene elements._
 
 Example **Tangram JS** usage:
 
@@ -29,8 +29,8 @@ Example **Tangram JS** usage:
 var layer = Tangram.leafletLayer({
         scene: {
           import: [
-            'https://mapzen.com/carto/refill-style/7/refill-style.zip',
-            'https://mapzen.com/carto/refill-style/7/themes/color-pink-yellow.zip'],
+            'https://mapzen.com/carto/refill-style/8/refill-style.zip',
+            'https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip'],
           global: { 'sdk_mapzen_api_key': 'your-mapzen-api-key' } },
         attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
     });
@@ -48,8 +48,8 @@ var map = L.Mapzen.map('map', {
   tangramOptions: {
     scene: {
       import: [
-        'https://mapzen.com/carto/refill-style/7/refill-style.zip',
-        'https://mapzen.com/carto/refill-style/7/themes/color-pink-yellow.zip'
+        'https://mapzen.com/carto/refill-style/8/refill-style.zip',
+        'https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip'
       ] } }
 });
 ```
@@ -80,106 +80,106 @@ _Black is the default Refill theme color._
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-black.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-black.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-black.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-black.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-black.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-black.zip`
 
 #### blue
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-blue.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-blue.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-blue.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-blue.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-blue.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-blue.zip`
 
 #### blue-gray
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-blue-gray.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-blue-gray.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-blue-gray.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-blue-gray.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-blue-gray.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-blue-gray.zip`
 
 
 #### brown-orange
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-brown-orange.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-brown-orange.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-brown-orange.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-brown-orange.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-brown-orange.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-brown-orange.zip`
 
 
 #### gray
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-gray.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-gray.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-gray.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-gray.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-gray.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-gray.zip`
 
 
 #### gray-gold
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-gray-gold.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-gray-gold.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-gray-gold.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-gray-gold.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-gray-gold.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-gray-gold.zip`
 
 
 #### high-contrast
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-high-contrast.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-high-contrast.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-high-contrast.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-high-contrast.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-high-contrast.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-high-contrast.zip`
 
 
 #### inverted
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-inverted.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-inverted.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-inverted.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-inverted.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-inverted.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-inverted.zip`
 
 
 #### pink
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-pink.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-pink.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-pink.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-pink.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-pink.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-pink.zip`
 
 
 #### pink-yellow
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-pink-yellow.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-pink-yellow.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-pink-yellow.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-pink-yellow.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-pink-yellow.zip`
 
 
 #### purple-green
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-purple-green.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-purple-green.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-purple-green.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-purple-green.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-purple-green.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-purple-green.zip`
 
 
 #### sepia
 
 Current **MAJOR** versioned release:
 
-* `https://mapzen.com/carto/refill-style/7/themes/color-sepia.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/themes/color-sepia.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/themes/color-sepia.zip`
+* `https://mapzen.com/carto/refill-style/8/themes/color-sepia.zip`
+* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-sepia.zip`
+* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-sepia.zip`
 
 
 ### Label
