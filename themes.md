@@ -2,9 +2,9 @@
 
 **Like a basemap style but want something just a little different?**
 
-Some styles are available in a range of colors and other options. This section describes the options and shows how to import them.
+Some styles are available in range of **color** palettes, **label** steps, and levels of **detail**. This section describes the options and shows how to import them.
 
-#### Managing imports
+Managing imports
 
 Order matters when importing Tangram YAML files. First import the basemap style, then import themes.
 
@@ -74,113 +74,22 @@ The dark series includes **inverted**, **purple-green**, and **gray-gold**.
 
 <img src="../img/refill/refill-theme-mallorca_dark.jpg" width=780>
 
-#### black
+Current **MAJOR** versioned releases:
 
-_Black is the default Refill theme color._
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-black.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-black.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-black.zip`
-
-#### blue
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-blue.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-blue.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-blue.zip`
-
-#### blue-gray
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-blue-gray.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-blue-gray.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-blue-gray.zip`
-
-
-#### brown-orange
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-brown-orange.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-brown-orange.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-brown-orange.zip`
-
-
-#### gray
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-gray.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-gray.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-gray.zip`
-
-
-#### gray-gold
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-gray-gold.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-gray-gold.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-gray-gold.zip`
-
-
-#### high-contrast
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-high-contrast.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-high-contrast.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-high-contrast.zip`
-
-
-#### inverted
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-inverted.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-inverted.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-inverted.zip`
-
-
-#### pink
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-pink.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-pink.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-pink.zip`
-
-
-#### pink-yellow
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-pink-yellow.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-pink-yellow.zip`
-
-
-#### purple-green
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-purple-green.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-purple-green.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-purple-green.zip`
-
-
-#### sepia
-
-Current **MAJOR** versioned release:
-
-* `https://mapzen.com/carto/refill-style/8/themes/color-sepia.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/8/themes/color-sepia.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/8/themes/color-sepia.zip`
-
+| color         | note      | import
+|:--------------|-----------|------------------------------------------------------------
+| black         | _default_ | `https://mapzen.com/carto/refill-style/8/themes/color-black.zip`
+| blue          |           | `https://mapzen.com/carto/refill-style/8/themes/color-blue.zip`
+| blue-gray     |           | `https://mapzen.com/carto/refill-style/8/themes/color-blue-gray.zip`
+| brown-orange  |           | `https://mapzen.com/carto/refill-style/8/themes/color-brown-orange.zip`
+| gray          |           | `https://mapzen.com/carto/refill-style/8/themes/color-gray.zip`
+| gray-gold     |           | `https://mapzen.com/carto/refill-style/8/themes/color-gray-gold.zip`
+| high-contrast |           | `https://mapzen.com/carto/refill-style/8/themes/color-high-contrast.zip`
+| inverted      |           | `https://mapzen.com/carto/refill-style/8/themes/color-inverted.zip`
+| pink          |           | `https://mapzen.com/carto/refill-style/8/themes/color-pink.zip`
+| pink-yellow   |           | `https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip`
+| purple-green  |           | `https://mapzen.com/carto/refill-style/8/themes/color-purple-green.zip`
+| sepia         |           | `https://mapzen.com/carto/refill-style/8/themes/color-sepia.zip`
 
 ### Label
 
@@ -190,20 +99,22 @@ Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most lev
 
 <img src="https://mapzen-assets.s3.amazonaws.com/images/lod/meiji-jingu-z17.jpg" width=780>
 
-| label  | import
-|-------:|--------------------------------------------------------------
-| 0      | `https://mapzen.com/carto/refill-style/8/themes/label-0.zip`
-| 1      | `https://mapzen.com/carto/refill-style/8/themes/label-1.zip`
-| 2      | `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
-| 3      | `https://mapzen.com/carto/refill-style/8/themes/label-3.zip`
-| 4      | `https://mapzen.com/carto/refill-style/8/themes/label-4.zip`
-| 5      | `https://mapzen.com/carto/refill-style/8/themes/label-5.zip`
-| 6      | `https://mapzen.com/carto/refill-style/8/themes/label-6.zip`
-| 7      | `https://mapzen.com/carto/refill-style/8/themes/label-7.zip`
-| 8      | `https://mapzen.com/carto/refill-style/8/themes/label-8.zip`
-| 9      | `https://mapzen.com/carto/refill-style/8/themes/label-9.zip`
-| 10     | `https://mapzen.com/carto/refill-style/8/themes/label-10.zip`
-| 11     | `https://mapzen.com/carto/refill-style/8/themes/label-11.zip`
+Current **MAJOR** versioned releases:
+
+| label  | note      | import
+|-------:|-----------|------------------------------------------------------------
+| 0      | "no"      | `https://mapzen.com/carto/refill-style/8/themes/label-0.zip`
+| 1      |           | `https://mapzen.com/carto/refill-style/8/themes/label-1.zip`
+| 2      |           | `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
+| 3      |           | `https://mapzen.com/carto/refill-style/8/themes/label-3.zip`
+| 4      |           | `https://mapzen.com/carto/refill-style/8/themes/label-4.zip`
+| 5      | _default_ | `https://mapzen.com/carto/refill-style/8/themes/label-5.zip`
+| 6      |           | `https://mapzen.com/carto/refill-style/8/themes/label-6.zip`
+| 7      |           | `https://mapzen.com/carto/refill-style/8/themes/label-7.zip`
+| 8      |           | `https://mapzen.com/carto/refill-style/8/themes/label-8.zip`
+| 9      |           | `https://mapzen.com/carto/refill-style/8/themes/label-9.zip`
+| 10     | "more"    | `https://mapzen.com/carto/refill-style/8/themes/label-10.zip`
+| 11     |           | `https://mapzen.com/carto/refill-style/8/themes/label-11.zip`
 
 
 ### Detail
@@ -216,17 +127,17 @@ Although some levels are clear-cut as to what's visible, each Level of Detail is
 
 Current **MAJOR** versioned releases:
 
-| detail | import
-|-------:|--------------------------------------------------------------
-| 0      | `https://mapzen.com/carto/refill-style/8/themes/detail-0.zip`
-| 1      | `https://mapzen.com/carto/refill-style/8/themes/detail-1.zip`
-| 2      | `https://mapzen.com/carto/refill-style/8/themes/detail-2.zip`
-| 3      | `https://mapzen.com/carto/refill-style/8/themes/detail-3.zip`
-| 4      | `https://mapzen.com/carto/refill-style/8/themes/detail-4.zip`
-| 5      | `https://mapzen.com/carto/refill-style/8/themes/detail-5.zip`
-| 6      | `https://mapzen.com/carto/refill-style/8/themes/detail-6.zip`
-| 7      | `https://mapzen.com/carto/refill-style/8/themes/detail-7.zip`
-| 8      | `https://mapzen.com/carto/refill-style/8/themes/detail-8.zip`
-| 9      | `https://mapzen.com/carto/refill-style/8/themes/detail-9.zip`
-| 10     | `https://mapzen.com/carto/refill-style/8/themes/detail-10.zip`
-| 11     | `https://mapzen.com/carto/refill-style/8/themes/detail-11.zip`
+| detail | note      | import
+|-------:|-----------|------------------------------------------------------------
+| 0      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-0.zip`
+| 1      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-1.zip`
+| 2      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-2.zip`
+| 3      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-3.zip`
+| 4      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-4.zip`
+| 5      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-5.zip`
+| 6      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-6.zip`
+| 7      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-7.zip`
+| 8      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-8.zip`
+| 9      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-9.zip`
+| 10     | _default_ | `https://mapzen.com/carto/refill-style/8/themes/detail-10.zip`
+| 11     |           | `https://mapzen.com/carto/refill-style/8/themes/detail-11.zip`
