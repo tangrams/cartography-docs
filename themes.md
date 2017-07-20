@@ -184,7 +184,9 @@ Current **MAJOR** versioned release:
 
 ### Label
 
-Refill includes **12** levels of labels, **0 to 11**. **11** at the top most level displays all. **0** displays no labels. The original Refill style is set to label level **5**.  including named styles for none, default, and more.
+Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all. **0** displays no labels. The original Refill style is set to **Label Level 5**.  
+
+...including named styles for none, default, and more.
 
 <img src="https://mapzen-assets.s3.amazonaws.com/images/lod/meiji-jingu-z17.jpg" width=780>
 
@@ -263,7 +265,7 @@ Current **MAJOR** versioned release:
 
 ### Detail
 
-Refill includes **12** levels of detail, **0 to 11**. **11** at the top most level displays all. **0** starts with water and earth. Water boundaries start at **Detail Level 2**. Roads begin at **Detail 3**, starting with highways. Major roads and place labels appear at **Detail Level 4** and gradually build up as you go further up the levels. The original Refill style is set to **Detail Level 10**. 
+Refill includes **12 Levels of Detail**, **0 to 11**. **11** at the top most level displays all. **0** starts with water and earth. Water boundaries start at **Detail Level 2**. Roads begin at **Detail Level 3**, starting with highways. Major roads and place labels appear at **Detail Level 4** and gradually build up as you go further up the levels. The original Refill style is set to **Detail Level 10**. 
 
 Although some levels are clear-cut as to what's visible, each Level of Detail is never static, all LOD's show more detail accordingly as you zoom in.
 
