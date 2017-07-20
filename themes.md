@@ -184,7 +184,7 @@ Current **MAJOR** versioned release:
 
 ### Label
 
-Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all. **0** displays no labels. The original Refill style is set to **Label Level 5**.  
+Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none. The original Refill style is set to **label=5** (default).  **Label-10** is equivalent to the the previous setting for "more labels".
 
 ...including named styles for none, default, and more.
 
@@ -265,7 +265,7 @@ Current **MAJOR** versioned release:
 
 ### Detail
 
-Refill includes **12 Levels of Detail**, **0 to 11**. **11** at the top most level displays all. **0** starts with water and earth. Water boundaries start at **Detail Level 2**. Roads begin at **Detail Level 3**, starting with highways. Major roads and place labels appear at **Detail Level 4** and gradually build up as you go further up the levels. The original Refill style is set to **Detail Level 10**. 
+Refill includes **12 levels of detail**, **0 to 11**. **11** at the top most level displays all. **0** starts with *water* and *earth*. *Water boundaries* start at **detail-2**. *Roads* begin at **detail-3**, starting with *highways*. *Major roads* and *place labels* appear at **detail-4** and gradually build up as you go further up the levels. The original Refill style is set to **detail-10** (default). 
 
 Although some levels are clear-cut as to what's visible, each Level of Detail is never static, all LOD's show more detail accordingly as you zoom in.
 
