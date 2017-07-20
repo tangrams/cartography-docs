@@ -200,6 +200,60 @@ Current **MAJOR** versioned release:
 
 * `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
 
+#### 3
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-3.zip`
+
+#### 4
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-4.zip`
+
+#### 5
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-5.zip`
+
+#### 6
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-6.zip`
+
+#### 7
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-7.zip`
+
+#### 8
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-8.zip`
+
+#### 9
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-9.zip`
+
+#### 10
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-10.zip`
+
+#### 11
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-11.zip`
+
 
 ### Detail
 
@@ -218,3 +272,57 @@ Current **MAJOR** versioned release:
 Current **MAJOR** versioned release:
 
 * `https://mapzen.com/carto/refill-style/8/themes/detail-2.zip`
+
+#### 3
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-3.zip`
+
+#### 4
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-4.zip`
+
+#### 5
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-5.zip`
+
+#### 6
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-6.zip`
+
+#### 7
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-7.zip`
+
+#### 8
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-8.zip`
+
+#### 9
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-9.zip`
+
+#### 10
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-10.zip`
+
+#### 11
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-11.zip`
