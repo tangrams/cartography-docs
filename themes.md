@@ -56,6 +56,8 @@ var map = L.Mapzen.map('map', {
 
 ## Refill
 
+Supports 3 different theme options: color, label, and detail...
+
 ### Color
 
 Refill includes color variations on black and white, starting with **high-contrast**, original **default**, and **gray**. High-Contrast is basic and minimal, and great for printing.
@@ -178,3 +180,41 @@ Current **MAJOR** versioned release:
 * `https://mapzen.com/carto/refill-style/7/themes/sepia.zip`
 * `https://mapzen.com/carto/refill-style-more-labels/7/themes/sepia.zip`
 * `https://mapzen.com/carto/refill-style-no-labels/7/themes/sepia.zip`
+
+
+### Label
+
+Refill includes label steps... including named styles for none, default, and more.
+
+<img src="../img/refill/refill-theme-mallorca_bw.jpg" width=780>
+
+#### 1
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-1.zip`
+
+#### 2
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
+
+
+### Detail
+
+Refill includes levels of detail...
+
+<img src="../img/refill/refill-theme-mallorca_bw.jpg" width=780>
+
+#### 1
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-1.zip`
+
+#### 2
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-2.zip`
