@@ -186,7 +186,7 @@ Current **MAJOR** versioned release:
 
 Refill includes label steps... including named styles for none, default, and more.
 
-<img src="../img/refill/refill-theme-mallorca_bw.jpg" width=780>
+<img src="https://mapzen-assets.s3.amazonaws.com/images/lod/meiji-jingu-z17.jpg" width=780>
 
 #### 1
 
@@ -259,7 +259,7 @@ Current **MAJOR** versioned release:
 
 Refill includes levels of detail...
 
-<img src="../img/refill/refill-theme-mallorca_bw.jpg" width=780>
+<img src="https://mapzen-assets.s3.amazonaws.com/images/lod/lod-zoom.jpg" width=780>
 
 #### 1
 
