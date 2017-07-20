@@ -101,20 +101,20 @@ Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most lev
 
 Current **MAJOR** versioned releases:
 
-| label  | note      | import
-|-------:|-----------|------------------------------------------------------------
-| 0      | "no"      | `https://mapzen.com/carto/refill-style/8/themes/label-0.zip`
-| 1      |           | `https://mapzen.com/carto/refill-style/8/themes/label-1.zip`
-| 2      |           | `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
-| 3      |           | `https://mapzen.com/carto/refill-style/8/themes/label-3.zip`
-| 4      |           | `https://mapzen.com/carto/refill-style/8/themes/label-4.zip`
-| 5      | _default_ | `https://mapzen.com/carto/refill-style/8/themes/label-5.zip`
-| 6      |           | `https://mapzen.com/carto/refill-style/8/themes/label-6.zip`
-| 7      |           | `https://mapzen.com/carto/refill-style/8/themes/label-7.zip`
-| 8      |           | `https://mapzen.com/carto/refill-style/8/themes/label-8.zip`
-| 9      |           | `https://mapzen.com/carto/refill-style/8/themes/label-9.zip`
-| 10     | "more"    | `https://mapzen.com/carto/refill-style/8/themes/label-10.zip`
-| 11     |           | `https://mapzen.com/carto/refill-style/8/themes/label-11.zip`
+| label  | note          | import
+|-------:|---------------|------------------------------------------------------------
+| 0      | "no-labels"   | `https://mapzen.com/carto/refill-style/8/themes/label-0.zip`
+| 1      |               | `https://mapzen.com/carto/refill-style/8/themes/label-1.zip`
+| 2      |               | `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
+| 3      |               | `https://mapzen.com/carto/refill-style/8/themes/label-3.zip`
+| 4      |               | `https://mapzen.com/carto/refill-style/8/themes/label-4.zip`
+| 5      | _default_     | `https://mapzen.com/carto/refill-style/8/themes/label-5.zip`
+| 6      |               | `https://mapzen.com/carto/refill-style/8/themes/label-6.zip`
+| 7      |               | `https://mapzen.com/carto/refill-style/8/themes/label-7.zip`
+| 8      |               | `https://mapzen.com/carto/refill-style/8/themes/label-8.zip`
+| 9      |               | `https://mapzen.com/carto/refill-style/8/themes/label-9.zip`
+| 10     | "more-labels" | `https://mapzen.com/carto/refill-style/8/themes/label-10.zip`
+| 11     |               | `https://mapzen.com/carto/refill-style/8/themes/label-11.zip`
 
 
 ### Detail
