@@ -56,7 +56,7 @@ var map = L.Mapzen.map('map', {
 
 ## Refill
 
-Supports 3 different theme options: color, label, and detail...
+Refill Style supports 3 different theme options: **color**, **label**, and **detail**.
 
 ### Color
 
@@ -184,9 +184,15 @@ Current **MAJOR** versioned release:
 
 ### Label
 
-Refill includes label steps... including named styles for none, default, and more.
+Refill includes **12** levels of labels, **0 to 11**. **11** at the top most level displays all. **0** displays no labels. The original Refill style is set to label level **5**.  including named styles for none, default, and more.
 
 <img src="https://mapzen-assets.s3.amazonaws.com/images/lod/meiji-jingu-z17.jpg" width=780>
+
+#### 0
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/label-0.zip`
 
 #### 1
 
@@ -257,9 +263,17 @@ Current **MAJOR** versioned release:
 
 ### Detail
 
-Refill includes levels of detail...
+Refill includes **12** levels of detail, **0 to 11**. **11** at the top most level displays all. **0** starts with water and earth. Water boundaries start at Detail Level 2. Roads begin at Detail 3, starting with highways. Major roads and place labels appear at Detail Level 4 and gradually build up as you go further up the levels. The original Refill style is set to level **10**. 
+
+Although some levels are clear-cut as to what's visible, each Level of Detail is never static, all LOD's show more detail accordingly as you zoom in.
 
 <img src="https://mapzen-assets.s3.amazonaws.com/images/lod/lod-zoom.jpg" width=780>
+
+#### 0
+
+Current **MAJOR** versioned release:
+
+* `https://mapzen.com/carto/refill-style/8/themes/detail-0.zip`
 
 #### 1
 
