@@ -263,7 +263,7 @@ Current **MAJOR** versioned release:
 
 ### Detail
 
-Refill includes **12** levels of detail, **0 to 11**. **11** at the top most level displays all. **0** starts with water and earth. Water boundaries start at Detail Level 2. Roads begin at Detail 3, starting with highways. Major roads and place labels appear at Detail Level 4 and gradually build up as you go further up the levels. The original Refill style is set to level **10**. 
+Refill includes **12** levels of detail, **0 to 11**. **11** at the top most level displays all. **0** starts with water and earth. Water boundaries start at **Detail Level 2**. Roads begin at **Detail 3**, starting with highways. Major roads and place labels appear at **Detail Level 4** and gradually build up as you go further up the levels. The original Refill style is set to **Detail Level 10**. 
 
 Although some levels are clear-cut as to what's visible, each Level of Detail is never static, all LOD's show more detail accordingly as you zoom in.
 
