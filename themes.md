@@ -93,9 +93,19 @@ Current **MAJOR** versioned releases:
 
 ### Label
 
-Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none. The original Refill style is set to **label=5** (default).  **Label-10** is equivalent to the the previous setting for "more labels".
+Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none. 
 
-...including named styles for none, default, and more.
+Starting with version 8 of Refill Mapzen recommends to import the default `refill-style` and then add or remove labels by importing a **label** theme.
+
+Mapping of Refill label variants in version 7 and earlier releases to new theme-based label steps:
+
+| Refill label variant       | label |
+|----------------------------|------:|
+| `refill-style` _(default)_ | 5     |
+| `refill-style-no-labels`   | 0     |
+| `refill-style-more-labels` | 10    |
+
+The two named Refill label variants `refill-style-no-labels` or `refill-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
 
 <img src="https://mapzen-assets.s3.amazonaws.com/images/lod/meiji-jingu-z17.jpg" width=780>
 
