@@ -107,7 +107,7 @@ Mapping of Refill label variants in version 7 and earlier releases to new theme-
 
 The two named Refill label variants `refill-style-no-labels` or `refill-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
 
-<img src="../img/refill/refill-theme-label.jpg" width=780>
+<img src="../img/refill/refill-themes-label.jpg" width=780>
 
 
 Current **MAJOR** versioned releases:
@@ -134,8 +134,7 @@ Refill includes **12 levels of detail**, **0 to 11**. **11** at the top most lev
 
 Although some levels are clear-cut as to what's visible, each Level of Detail is never static, all LOD's show more detail accordingly as you zoom in.
 
-<img src="../img/refill/refill-theme-detail.jpg" width=780>
-
+<img src="../img/refill/refill-themes-detail.jpg" width=780>
 
 Current **MAJOR** versioned releases:
 
