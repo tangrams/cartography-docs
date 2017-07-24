@@ -54,21 +54,17 @@ _NOTE: Bubble Wrap adopted the standard default (some), more, and no labels conf
 
 A minimalist map style designed for data visualization overlays. Inspired by the seminal Toner style by Stamen Design.
 
-Refill is offered in a range of [theme colors](themes.md).
+Refill is offered in a range of **color**, **label**, and **detail** [themes](themes.md).
 
 **View Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/refill-style/7/refill-style.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/7/refill-style-more-labels.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/7/refill-style-no-labels.zip`
+* `https://mapzen.com/carto/refill-style/8/refill-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/refill-style/refill-style.zip`
-* `https://mapzen.com/carto/refill-style-more-labels/refill-style-more-labels.zip`
-* `https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.zip`
 
 ## Walkabout
 
@@ -100,9 +96,9 @@ Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping t
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/tron-style/3/tron-style.zip`
-* `https://mapzen.com/carto/tron-style-more-labels/3/tron-style-more-labels.zip`
-* `https://mapzen.com/carto/tron-style-no-labels/3/tron-style-no-labels.zip`
+* `https://mapzen.com/carto/tron-style/4/tron-style.zip`
+* `https://mapzen.com/carto/tron-style-more-labels/4/tron-style-more-labels.zip`
+* `https://mapzen.com/carto/tron-style-no-labels/4/tron-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -120,9 +116,9 @@ A classic web map style for general mapping applications.
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/cinnabar-style/6/cinnabar-style.zip`
-* `https://mapzen.com/carto/cinnabar-style-more-labels/6/cinnabar-style-more-labels.zip`
-* `https://mapzen.com/carto/cinnabar-style-no-labels/6/cinnabar-style-no-labels.zip`
+* `https://mapzen.com/carto/cinnabar-style/7/cinnabar-style.zip`
+* `https://mapzen.com/carto/cinnabar-style-more-labels/7/cinnabar-style-more-labels.zip`
+* `https://mapzen.com/carto/cinnabar-style-no-labels/7/cinnabar-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -140,9 +136,9 @@ A dark, minimalist style that helps bright data overlays stand out. A great alte
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/zinc-style/5/zinc-style.zip`
-* `https://mapzen.com/carto/zinc-style-more-labels/5/zinc-style-more-labels.zip`
-* `https://mapzen.com/carto/zinc-style-no-labels/5/zinc-style-no-labels.zip`
+* `https://mapzen.com/carto/zinc-style/6/zinc-style.zip`
+* `https://mapzen.com/carto/zinc-style-more-labels/6/zinc-style-more-labels.zip`
+* `https://mapzen.com/carto/zinc-style-no-labels/6/zinc-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
