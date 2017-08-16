@@ -21,9 +21,33 @@ layers:
     my-layer:
         data: { source: my-source }
         draw:
-            icons:
+            mapzen_icon_library:
                 size: [[13, 18px], [16, 18px], [18, 22px]]
                 sprite: zoo
+```
+
+## Using Mapzen icons independently
+
+You can use the icons in this library independent of one of the Mapzen basemap styles, but there are a few required steps to doing this in Tangram:
+
+- You'll need to setup your own textures block with the spritesheet, and named sprites block.
+- You'll need to create a new style based on points, referencing the textures
+- In each layer's draw block, include the style:
+
+```
+import:
+    - https://mapzen.com/carto/refill-style/refill-style.zip
+    - https://mapzen.com/carto/refill-style/refill-icons.zip
+
+layers:
+    pois:
+        data: { source: mapzen, layer: pois }
+        filter: { kind: airport }
+        draw:
+            mapzen_icon_library:
+                sprite: airport
+                # necesary as the asset is 2x, but we want to show in CSS dimensions
+                size: 18px
 ```
 
 ## Sprites
@@ -361,47 +385,14 @@ winter_sports | ![winter_sports](img/sprite/bubble-wrap-style/2x/winter_sports.p
 works | ![works](img/sprite/bubble-wrap-style/2x/works.png) | ![works](img/sprite/walkabout-style/2x/works.png) | ![works](img/sprite/tron-style/2x/works.png) | ![works](img/sprite/refill-style/2x/works.png) | ![works](img/sprite/refill-style/2x/works.png) | ![works](img/sprite/refill-style/2x/works.png)
 zoo | ![zoo](img/sprite/bubble-wrap-style/2x/zoo.png) | ![zoo](img/sprite/walkabout-style/2x/zoo.png) | ![zoo](img/sprite/tron-style/2x/zoo.png) | ![zoo](img/sprite/refill-style/2x/zoo.png) | ![zoo](img/sprite/refill-style/2x/zoo.png) | ![zoo](img/sprite/refill-style/2x/zoo.png)
 
-## Using Mapzen icons independently
-
-You can use the icons in this library independent of one of the Mapzen basemap styles, but there are a few required steps to doing this in Tangram:
-
-- You'll need to setup your own textures block with the spritesheet, and named sprites block.
-- You'll need to create a new style based on points, referencing the textures
-- In each layer's draw block, include the style:
-
-```
-textures:
-    example-spritesheet:
-        url: images/walkabout@2x.png
-        filtering: mipmap
-        sprites:
-            # define sprites: [x origin, y origin, width, height]
-            airport: [952, 0, 36, 36]
-            zoo: [0, 126, 36, 36]
-
-styles:
-    icons:
-        base: points
-        texture: example-spritesheet
-
-layers:
-    pois:
-        data: { source: mapzen, layer: pois }
-        filter: { kind: airport }
-        draw:
-            icons:
-                sprite: airport
-                # necesary as the asset is 2x, but we want to show in CSS dimensions
-                size: 18px
-```
 
 ## Versions
 
 While earlier versions of Mapzen basemap styles supported _most_ icons in the table above, the following versions added full support:
 
-* Bubble Wrap: `6.0.0`
-* Walkabout: `3.0.0`
-* Tron: `3.0.0`
-* Refill: `6.0.0`
-* Cinnabar: `6.0.0`
-* Zinc: `5.0.0`
+* Bubble Wrap: `6.0.0 and later`
+* Walkabout: `3.0.0 and later`
+* Tron: `3.0.0 and later`
+* Refill: `6.0.0 and later`
+* Cinnabar: `6.0.0 and later`
+* Zinc: `5.0.0 and later`
