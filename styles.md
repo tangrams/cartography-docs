@@ -106,42 +106,24 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 * `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
 * `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
 
-## Cinnabar
+## Cinnabar and Zinc
 
 ![Cinnabar](./img/cinnabar-style.png)
+![Zinc](./img/zinc-style.png)
 
 A classic web map style for general mapping applications.
+
+Cinnabar is offered in a range of **color** (Zinc), and **label** [themes](themes.md).
 
 **View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/cinnabar-style/7/cinnabar-style.zip`
-* `https://mapzen.com/carto/cinnabar-style-more-labels/7/cinnabar-style-more-labels.zip`
-* `https://mapzen.com/carto/cinnabar-style-no-labels/7/cinnabar-style-no-labels.zip`
+* `https://mapzen.com/carto/cinnabar-style/8/cinnabar-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
-* `https://mapzen.com/carto/cinnabar-style-more-labels/cinnabar-style-more-labels.zip`
-* `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.zip`
 
-## Zinc
 
-![Zinc](./img/zinc-style.png)
 
-A dark, minimalist style that helps bright data overlays stand out. A great alternative to Refill.
-
-**View Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
-
-Current **MAJOR** versioned release (includes any minor and patch updates):
-
-* `https://mapzen.com/carto/zinc-style/6/zinc-style.zip`
-* `https://mapzen.com/carto/zinc-style-more-labels/6/zinc-style-more-labels.zip`
-* `https://mapzen.com/carto/zinc-style-no-labels/6/zinc-style-no-labels.zip`
-
-**LATEST** (same assets as MAJOR version above):
-
-* `https://mapzen.com/carto/zinc-style/zinc-style.zip`
-* `https://mapzen.com/carto/zinc-style-more-labels/zinc-style-more-labels.zip`
-* `https://mapzen.com/carto/zinc-style-no-labels/zinc-style-no-labels.zip`
