@@ -34,9 +34,9 @@ A full-featured wayfinding style loaded with helpful icons for points of interes
 
 Current **MAJOR** release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/bubble-wrap-style/7/bubble-wrap-style.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-more-labels/7/bubble-wrap-style-more-labels.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-no-labels/7/bubble-wrap-style-no-labels.zip`
+* `https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-style.zip`
+* `https://mapzen.com/carto/bubble-wrap-style-more-labels/8/bubble-wrap-style-more-labels.zip`
+* `https://mapzen.com/carto/bubble-wrap-style-no-labels/8/bubble-wrap-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -60,7 +60,7 @@ Refill is offered in a range of **color**, **label**, and **detail** [themes](th
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/refill-style/8/refill-style.zip`
+* `https://mapzen.com/carto/refill-style/9/refill-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -76,9 +76,9 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/walkabout-style/5/walkabout-style.zip`
-* `https://mapzen.com/carto/walkabout-style-more-labels/5/walkabout-style-more-labels.zip`
-* `https://mapzen.com/carto/walkabout-style-no-labels/5/walkabout-style-no-labels.zip`
+* `https://mapzen.com/carto/walkabout-style/6/walkabout-style.zip`
+* `https://mapzen.com/carto/walkabout-style-more-labels/6/walkabout-style-more-labels.zip`
+* `https://mapzen.com/carto/walkabout-style-no-labels/6/walkabout-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -96,9 +96,9 @@ Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping t
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/tron-style/4/tron-style.zip`
-* `https://mapzen.com/carto/tron-style-more-labels/4/tron-style-more-labels.zip`
-* `https://mapzen.com/carto/tron-style-no-labels/4/tron-style-no-labels.zip`
+* `https://mapzen.com/carto/tron-style/5/tron-style.zip`
+* `https://mapzen.com/carto/tron-style-more-labels/5/tron-style-more-labels.zip`
+* `https://mapzen.com/carto/tron-style-no-labels/5/tron-style-no-labels.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
