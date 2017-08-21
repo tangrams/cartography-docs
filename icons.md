@@ -455,8 +455,8 @@ zoo | ![zoo](img/sprite/bubble-wrap-style/2x/zoo.png) | ![zoo](img/sprite/walkab
 
 While earlier versions of Mapzen basemap styles supported _most_ icons in the table above, the following versions added full support:
 
-* Bubble Wrap: `6.0.0 and later`
-* Walkabout: `3.0.0 and later`
-* Tron: `3.0.0 and later`
-* Refill: `6.0.0 and later`
-* Cinnabar: `6.0.0 and later`
+* Bubble Wrap: `6.0.0` and later
+* Walkabout: `3.0.0` and later
+* Tron: `3.0.0` and later
+* Refill: `6.0.0` and later
+* Cinnabar: `6.0.0` and later
