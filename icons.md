@@ -8,9 +8,14 @@ The library has expanded to a several hundred icons with more continuing to be a
 
 Need an icon for your data visualization overlay?
 
-Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of any point-based draw style.
+Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of the `mapzen_icon_library` draw style.
+
+**By icon name:** This example imports the Refill basemap style (which includes the Mapzen icon library) and draws user-provided points on the map using the library's **zoo** icon.
 
 ```
+import:
+    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+
 sources:
     my-source:
         type: GeoJSON
@@ -19,35 +24,91 @@ sources:
 
 layers:
     my-layer:
-        data: { source: my-source }
+        data:
+            source: my-source
         draw:
             mapzen_icon_library:
-                size: [[13, 18px], [16, 18px], [18, 22px]]
                 sprite: zoo
+```
+
+**Data-driven styling** is supported when your data includes a `kind` property with values matched to the icon names in the table. Data is evaluated on a per-feature basis so you'll end up with a variety of icons shown on the map.
+
+```
+import:
+    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+
+sources:
+    my-source:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+        max_zoom: 16
+
+layers:
+    my-layer:
+        data:
+            source: my-source
+        draw:
+            mapzen_icon_library: {}
+```
+
+**Bring your own classification:** Tangram sprites can be defined with a Javascript function that allows remapping property values to the named icons in the library.
+
+```
+import:
+    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+
+sources:
+    my-source:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+        max_zoom: 16
+
+layers:
+    my-layer:
+        data:
+            source: my-source
+        draw:
+            mapzen_icon_library:
+                sprite: |
+                    function() {
+                        var class = feature.class;
+                        var kind = class == 'my_airport'   ? 'airport'  :
+                                   class == 'my_hospital'  ? 'hospital' :
+                                   class == 'my_zoo'       ? 'zoo'      :
+                                   'generic';
+                        return kind;
+                    }
 ```
 
 ## Using Mapzen icons independently
 
-You can use the icons in this library independent of one of the Mapzen basemap styles, but there are a few required steps to doing this in Tangram:
-
-- You'll need to setup your own textures block with the spritesheet, and named sprites block.
-- You'll need to create a new style based on points, referencing the textures
-- In each layer's draw block, include the style:
+You can use the icons in the Mapzen icon library independent of Mapzen basemap styles by importing just the icon assets.
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/refill-style.zip
-    - https://mapzen.com/carto/refill-style/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/8/refill-icons.zip
+
+sources:
+    my-source:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+        max_zoom: 16
 
 layers:
-    pois:
-        data: { source: mapzen, layer: pois }
-        filter: { kind: airport }
+    my-layer:
+        data:
+            source: my-source
         draw:
             mapzen_icon_library:
-                sprite: airport
-                # necesary as the asset is 2x, but we want to show in CSS dimensions
-                size: 18px
+                sprite: zoo
+```
+
+**Mix and match style elements:** You could even use the Bubble Wrap icons on Refill!
+
+```
+import:
+    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+    - https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-icons.zip
 ```
 
 ## Sprites
@@ -390,9 +451,8 @@ zoo | ![zoo](img/sprite/bubble-wrap-style/2x/zoo.png) | ![zoo](img/sprite/walkab
 
 While earlier versions of Mapzen basemap styles supported _most_ icons in the table above, the following versions added full support:
 
-* Bubble Wrap: `7.0.0 and later`
-* Walkabout: `4.0.0 and later`
-* Tron: `4.0.0 and later`
-* Refill: `7.0.0 and later`
-* Cinnabar: `7.0.0 and later`
-* Zinc: `6.0.0 and later`
+* Bubble Wrap: `6.0.0 and later`
+* Walkabout: `3.0.0 and later`
+* Tron: `3.0.0 and later`
+* Refill: `6.0.0 and later`
+* Cinnabar: `6.0.0 and later`

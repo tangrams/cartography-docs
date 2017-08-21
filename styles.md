@@ -106,7 +106,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 * `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
 * `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
 
-## Cinnabar and Zinc
+## Cinnabar
 
 ![Cinnabar](./img/cinnabar-style.png)
 ![Zinc](./img/zinc-style.png)

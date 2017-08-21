@@ -93,7 +93,7 @@ Current **MAJOR** versioned releases:
 
 ### Label
 
-Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none. 
+Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 Starting with version 8 of Refill Mapzen recommends to import the default `refill-style` and then add or remove labels by importing a **label** theme.
 
@@ -130,7 +130,7 @@ Current **MAJOR** versioned releases:
 
 ### Detail
 
-Refill includes **12 levels of detail**, **0 to 11**. **11** at the top most level displays all. **0** starts with *water* and *earth*. *Water boundaries* start at **detail-2**. *Roads* begin at **detail-3**, starting with *highways*. *Major roads* and *place labels* appear at **detail-4** and gradually build up as you go further up the levels. The original Refill style is set to **detail-10** (default). 
+Refill includes **12 levels of detail**, **0 to 11**. **11** at the top most level displays all. **0** starts with *water* and *earth*. *Water boundaries* start at **detail-2**. *Roads* begin at **detail-3**, starting with *highways*. *Major roads* and *place labels* appear at **detail-4** and gradually build up as you go further up the levels. The original Refill style is set to **detail-10** (default).
 
 Although some levels are clear-cut as to what's visible, each Level of Detail is never static, all LOD's show more detail accordingly as you zoom in.
 
@@ -160,7 +160,7 @@ Cinnabar Style supports 2 different theme options: **color** and **label**.
 
 ### Color
 
-Zinc is now a color theme of Cinnabar.
+Cinnabar is offered in one additional color theme: **Zinc**.
 
 Current **MAJOR** versioned releases:
 
@@ -171,7 +171,7 @@ Current **MAJOR** versioned releases:
 
 ### Label
 
-Cinnabar includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none. 
+Cinnabar includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 Starting with version 8 of Cinnabar, Mapzen recommends to import the default `cinnabar-style` and then add or remove labels by importing a **label** theme.
 
