@@ -2,7 +2,9 @@
 
 Mapzen basemap styles include custom icons to display points of interest on a map, ranging from airports to zoos. These can be used interchangeably between the different basemaps or in a custom [Tangram map](https://mapzen.com/documentation/tangram) of your own.
 
-The library has expanded to a several hundred icons. Most, but not all icons, are available in 4 or more styles. There are no rights restrictions on the icons. The examples below are for Tangram but you are free to use the icons in your favorite mapping library or application.
+The library has expanded to a several hundred icons. Most, but not all icons, are available in 4 or more styles.
+
+There are no rights restrictions on the icons. The examples below are for Tangram but you are free to use the icons in your favorite mapping library or application. The original Illustrator [vector artwork](https://github.com/tangrams/icons) is also available.
 
 ## Using built-in sprites
 
