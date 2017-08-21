@@ -12,7 +12,7 @@ Icons can be added to a Tangram map using the [sprites property](https://mapzen.
 
 ### By icon name
 
-Imports the Refill basemap style (which includes the Mapzen icon library) and draw user-provided points on the map using the library's **zoo** icon.
+Import the Refill basemap style (which includes the Mapzen icon library) and draw user-provided points on the map using the library's **zoo** icon.
 
 ```
 import:
@@ -22,7 +22,6 @@ sources:
     my-source:
         type: GeoJSON
         url:  https://example.com/filename.geojson
-        max_zoom: 16
 
 layers:
     my-layer:
@@ -45,7 +44,6 @@ sources:
     my-source:
         type: GeoJSON
         url:  https://example.com/filename.geojson
-        max_zoom: 16
 
 layers:
     my-layer:
@@ -67,7 +65,6 @@ sources:
     my-source:
         type: GeoJSON
         url:  https://example.com/filename.geojson
-        max_zoom: 16
 
 layers:
     my-layer:
@@ -98,7 +95,6 @@ sources:
     my-source:
         type: GeoJSON
         url:  https://example.com/filename.geojson
-        max_zoom: 16
 
 layers:
     my-layer:
