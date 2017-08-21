@@ -6,11 +6,11 @@ The library has expanded to a several hundred icons with more continuing to be a
 
 ## Using built-in sprites
 
-Need an icon for your data visualization overlay?
+Need an icon for your data visualization overlay? Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of the `mapzen_icon_library` draw style.
 
-Icons can be added to a Tangram map using the [sprites property](https://mapzen.com/documentation/tangram/draw/#sprite) of the `mapzen_icon_library` draw style.
+### By icon name
 
-**By icon name:** This example imports the Refill basemap style (which includes the Mapzen icon library) and draws user-provided points on the map using the library's **zoo** icon.
+Imports the Refill basemap style (which includes the Mapzen icon library) and draw user-provided points on the map using the library's **zoo** icon.
 
 ```
 import:
@@ -31,7 +31,9 @@ layers:
                 sprite: zoo
 ```
 
-**Data-driven styling** is supported when your data includes a `kind` property with values matched to the icon names in the table. Data is evaluated on a per-feature basis so you'll end up with a variety of icons shown on the map.
+### Data-driven styling
+
+Data-driven styling is supported when your data includes a `kind` property with values matched to the icon names in the table. Data is evaluated on a per-feature basis so you'll end up with a variety of icons shown on the map.
 
 ```
 import:
@@ -51,7 +53,9 @@ layers:
             mapzen_icon_library: {}
 ```
 
-**Bring your own classification:** Tangram sprites can be defined with a Javascript function that allows remapping property values to the named icons in the library.
+### Bring your own classification
+
+Sprites can be defined with a Javascript function that allows remapping property values to the named icons in the library.
 
 ```
 import:
@@ -103,7 +107,9 @@ layers:
                 sprite: zoo
 ```
 
-**Mix and match style elements:** You could even use the Bubble Wrap icons on Refill!
+### Mix and match style elements
+
+You could even use the Bubble Wrap icons on Refill!
 
 ```
 import:
