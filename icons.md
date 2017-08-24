@@ -105,6 +105,37 @@ layers:
                 sprite: zoo
 ```
 
+## Customize icon colors
+
+You can customize the icon colors by changing the global color of colorized-icons in styles. Assign the color in the global u_tint. If you would like to color the badge fill area, assign the color in the draw layer. See below:
+
+```
+import:
+    - https://mapzen.com/carto/refill-style/8/refill-icons.zip
+
+sources:
+    my-source:
+        type: GeoJSON
+        url:  https://example.com/filename.geojson
+        
+styles:
+    colorized-icons:
+        shaders:
+            uniforms:
+                # color the icon here
+                u_tint: [0.925,0.090,0.094]
+
+layers:
+    my-layer:
+        data:
+            source: my-source
+        draw:
+            mapzen_icon_library:
+                # color the badge fill area here
+                color: [0.724,1.000,0.893]
+                sprite: zoo
+```
+
 ### Mix and match style elements
 
 You could even use the Bubble Wrap icons on Refill!
