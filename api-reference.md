@@ -342,6 +342,22 @@ global:
     sdk_bathymetry: true
 ```
 
+Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage:
+
+```
+			var map = L.Mapzen.map('map', {
+				center: [38.9072, -77.0369],
+				zoom: 5,
+				tangramOptions: {
+					//scene: L.Mapzen.BasemapStyles.RefillMoreLabels
+					scene: {
+						import: L.Mapzen.BasemapStyles.WalkaboutMoreLabels,
+						global: {sdk_bathymetry: true}
+						}
+					}
+				});
+```
+
 ## Default draw styles
 
 Custom **draw styles** for icons, point, shield, line, and polygon overlays on the map. These set the feature order and blend order to be a standard overlay. For icons, point, and shield styles a default sprite is also set.
