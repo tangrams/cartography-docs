@@ -35,7 +35,8 @@ var layer = Tangram.leafletLayer({
     });
 ```
 
-Example **Mapzen.js** usage (all services):
+Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage (all services):
+
 
 ```
 L.Mapzen.apiKey = 'your-mapzen-api-key';
@@ -52,7 +53,7 @@ var map = L.Mapzen.map('map', {
 });
 ```
 
-Example **Mapzen.js** usage (just Tangram):
+Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage (just Tangram):
 
 ```
 var map = L.Mapzen.map('map', {
@@ -99,7 +100,7 @@ global:
     ux_language: fr
 ```
 
-Example **Mapzen.js** usage:
+Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage:
 
 ```
 var map = L.Mapzen.map('map', {
@@ -345,17 +346,18 @@ global:
 Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage:
 
 ```
-			var map = L.Mapzen.map('map', {
-				center: [38.9072, -77.0369],
-				zoom: 5,
-				tangramOptions: {
-					//scene: L.Mapzen.BasemapStyles.RefillMoreLabels
-					scene: {
-						import: L.Mapzen.BasemapStyles.WalkaboutMoreLabels,
-						global: {sdk_bathymetry: true}
-						}
-					}
-				});
+var map = L.Mapzen.map('map', {
+    center: [38.9072, -77.0369],
+    zoom: 5,
+    tangramOptions: {
+        scene: {
+            import: L.Mapzen.BasemapStyles.WalkaboutMoreLabels,
+            global: { 
+                sdk_bathymetry: true
+            }
+        }
+    }
+});
 ```
 
 ## Default draw styles
