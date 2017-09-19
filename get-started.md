@@ -51,10 +51,8 @@ The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#ba
     * `L.Mapzen.BasemapStyles.Cinnabar`
     * `L.Mapzen.BasemapStyles.CinnabarMoreLabels`
     * `L.Mapzen.BasemapStyles.CinnabarNoLabels`
-* **[Zinc](https://mapzen.com/products/maps/zinc/more-labels)**
-    * `L.Mapzen.BasemapStyles.Zinc`
-    * `L.Mapzen.BasemapStyles.ZincMoreLabels`
-    * `L.Mapzen.BasemapStyles.ZincNoLabels`
+
+_Note: Zinc has been retired as a standalone basemap style but is now available as a Refill color theme._
 
 ### Tangram
 
@@ -63,7 +61,7 @@ You can also use Mapzen's GL map renderer, [Tangram](https://mapzen.com/document
 Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/tangram/import/)) allows one scene file to import another:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://mapzen.com/carto/refill-style/9/refill-style.yaml
 
 global:
     sdk_mapzen_api_key: your-mapzen-api-key
@@ -77,7 +75,7 @@ Scene files and related assets are available for use in Tangram and Leaflet dire
 
 Where `{stylename}` and `{stylefile}` are generally the same and will likely converge in future versions.
 
-And where `{format}` is mostly `yaml` but Tangram scene file bundles can also be specified as `zip`. Only [Tron](https://mapzen.com/products/maps/tron/more-labels) currently supports a ZIP scene [bundles](https://github.com/tangrams/bundler).
+And where `{format}` is mostly `yaml` but Tangram scene file bundles can also be specified as `zip`.
 
 Looking to peg to a specific **version** of a style? We have you covered!
 
@@ -89,34 +87,22 @@ Where {version} is optional and can be major (eg: `1`), major + minor (`1.0`), o
 
 In this case, these all resolve to the same asset.
 
-* `https://mapzen.com/carto/refill-style/1/refill-style.yaml`
-* `https://mapzen.com/carto/refill-style/1.0/refill-style.yaml`
-* `https://mapzen.com/carto/refill-style/1.0.0/refill-style.yaml`
+* `https://mapzen.com/carto/refill-style/1/refill-style.zip`
+* `https://mapzen.com/carto/refill-style/1.0/refill-style.zip`
+* `https://mapzen.com/carto/refill-style/1.0.0/refill-style.zip`
 
 **Mapzen CDN basemap styles**
 
 * **Bubble Wrap**
-    * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml`
+    * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.zip`
 * **Refill**
-    * `https://mapzen.com/carto/refill-style-more-labels/refill-style-more-labels.yaml`
-    * `https://mapzen.com/carto/refill-style-no-labels/refill-style-no-labels.yaml`
-    * `https://mapzen.com/carto/refill-style/refill-style.yaml`
+    * `https://mapzen.com/carto/refill-style/refill-style.zip`
 * **Walkabout**
-    * `https://mapzen.com/carto/walkabout-style-more-labels/walkabout-style-more-labels.yaml`
-    * `https://mapzen.com/carto/walkabout-style-no-labels/walkabout-style-no-labels.yaml`
-    * `https://mapzen.com/carto/walkabout-style/walkabout-style.yaml`
+    * `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
 * **Tron**
     * `https://mapzen.com/carto/tron-style/tron-style.zip`
-    * `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
-    * `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
 * **Cinnabar**
-    * `https://mapzen.com/carto/cinnabar-style-more-labels/cinnabar-style-more-labels.yaml`
-    * `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.yaml`
-    * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.yaml`
-* **Zinc**
-    * `https://mapzen.com/carto/zinc-style-more-labels/zinc-style-more-labels.yaml`
-    * `https://mapzen.com/carto/zinc-style-no-labels/zinc-style-no-labels.yaml`
-    * `https://mapzen.com/carto/zinc-style/zinc-style.yaml`
+    * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
 
 ## Customize basemap
 
@@ -138,7 +124,7 @@ Import Mapzen basemaps into your own Tangram project and overlay your own data.
 For example:
 
 ```
-import: https://mapzen.com/carto/refill-style/refill-style.yaml
+import: https://mapzen.com/carto/refill-style/9/refill-style.yaml
 
 sources:
     polygons_in_polls:
