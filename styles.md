@@ -105,3 +105,15 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
+
+## SDK Default
+
+Design your own map but bring in Mapzen's UX and UI elements for search results and turn-by-turn navigation. 
+
+Current **MAJOR** versioned release (includes any minor and patch updates):
+
+* `https://mapzen.com/carto/sdk-default-style/1/sdk-default-style.zip`
+
+**LATEST** (same assets as MAJOR version above):
+
+* `https://mapzen.com/carto/sdk-default-style/sdk-default-style.zip`
