@@ -16,7 +16,7 @@ Import the Refill basemap style (which includes the Mapzen icon library) and dra
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+    - https://mapzen.com/carto/refill-style/9/refill-style.zip
 
 sources:
     my-source:
@@ -38,7 +38,7 @@ Data-driven styling is supported when your data includes a `kind` property with 
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+    - https://mapzen.com/carto/refill-style/9/refill-style.zip
 
 sources:
     my-source:
@@ -59,7 +59,7 @@ Sprites can be defined with a Javascript function that allows remapping property
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+    - https://mapzen.com/carto/refill-style/9/refill-style.zip
 
 sources:
     my-source:
@@ -89,7 +89,7 @@ You can use the icons in the Mapzen icon library independent of Mapzen basemap s
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/8/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/9/refill-icons.zip
 
 sources:
     my-source:
@@ -111,7 +111,7 @@ You can customize the icon colors by changing the global color of colorized-icon
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/8/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/9/refill-icons.zip
 
 sources:
     my-source:
@@ -142,7 +142,7 @@ You could even use the Bubble Wrap icons on Refill!
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+    - https://mapzen.com/carto/refill-style/9/refill-style.zip
     - https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-icons.zip
 ```
 
