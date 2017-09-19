@@ -92,10 +92,9 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 ## Cinnabar
 
-<div>
 <img src='./img/cinnabar-style.png' alt='Cinnabar' align=right width=300 height=300>
 
-A classic web map style for general mapping applications.
+A classic web map style for general mapping applications. Utiliarian, flat, daily workhorse.
 
 **View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
 
@@ -106,8 +105,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
-</div>
-</div>
+
 ## SDK Default
 
 Design your own map but bring in Mapzen's UX and UI elements for search results and turn-by-turn navigation. 
@@ -119,4 +117,3 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/sdk-default-style/sdk-default-style.zip`
-</div>
