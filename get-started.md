@@ -35,6 +35,8 @@ The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#ba
 
 * **[Bubble Wrap](https://mapzen.com/products/maps/bubble-wrap)**
     * `L.Mapzen.BasemapStyles.BubbleWrap`
+    * `L.Mapzen.BasemapStyles.BubbleWrapMoreLabels`
+    * `L.Mapzen.BasemapStyles.BubbleWrapNoLabels`
 * **[Refill](https://mapzen.com/products/maps/refill/more-labels)**
     * `L.Mapzen.BasemapStyles.Refill`
     * `L.Mapzen.BasemapStyles.RefillMoreLabels`
