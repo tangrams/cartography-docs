@@ -24,10 +24,9 @@ Because each style imports additional resources, we provide a scene bundle in `.
 * Path overlay _(Walkabout)_
 * Color themes _(Refill)_
 
+<img src='./img/bubble-wrap-style.png' alt='Bubble Wrap' align=right width=300 height=300>
 
 ## Bubble Wrap
-
-![Bubble Wrap](./img/bubble-wrap-style.png)
 
 A full-featured wayfinding style loaded with helpful icons for points of interest.
 
@@ -41,9 +40,9 @@ Current **MAJOR** release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap-style.zip`
 
-## Refill
+<img src='./img/refill-style.png' alt='Refill' align=right width=300 height=300>
 
-![Refill](./img/refill-style.png)
+## Refill
 
 A minimalist map style designed for data visualization overlays. Inspired by the seminal Toner style by Stamen Design.
 
@@ -59,9 +58,9 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/refill-style/refill-style.zip`
 
-## Walkabout
+<img src='./img/walkabout-style.png' alt='Walkabout' align=right width=300 height=300>
 
-![Walkabout](./img/walkabout-style.png)
+## Walkabout
 
 This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
 
@@ -75,9 +74,9 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
 
-## Tron
+<img src='./img/tron-style.png' alt='Tron' align=right width=300 height=300>
 
-![Tron](./img/tron-style.gif)
+## Tron
 
 Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping to new extremes with Tron, and it will push your GPU and fan to the limit.
 
@@ -91,9 +90,9 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/tron-style/tron-style.zip`
 
-## Cinnabar
+<img src='./img/cinnabar-style.png' alt='Cinnabar' align=right width=300 height=300>
 
-![Cinnabar](./img/cinnabar-style.png)
+## Cinnabar
 
 A classic web map style for general mapping applications.
 
