@@ -15,9 +15,9 @@ Example **Tangram YAML** usage:
 ```
 import:
     # basemap style
-    - https://mapzen.com/carto/refill-style/8/refill-style.zip
+    - https://mapzen.com/carto/refill-style/9/refill-style.zip
     # recolor basemap style with a theme color
-    - https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip
+    - https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip
     # other imports to taste...
 ```
 
@@ -29,8 +29,8 @@ Example **Tangram JS** usage:
 var layer = Tangram.leafletLayer({
         scene: {
           import: [
-            'https://mapzen.com/carto/refill-style/8/refill-style.zip',
-            'https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip'],
+            'https://mapzen.com/carto/refill-style/9/refill-style.zip',
+            'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip'],
           global: { 'sdk_mapzen_api_key': 'your-mapzen-api-key' } },
         attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
     });
@@ -48,8 +48,8 @@ var map = L.Mapzen.map('map', {
   tangramOptions: {
     scene: {
       import: [
-        'https://mapzen.com/carto/refill-style/8/refill-style.zip',
-        'https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip'
+        'https://mapzen.com/carto/refill-style/9/refill-style.zip',
+        'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip'
       ] } }
 });
 ```
@@ -62,7 +62,7 @@ Refill Style supports 3 different theme options: **color**, **label**, and **det
 
 Refill includes color variations on black and white, starting with **high-contrast**, original **default**, and **gray**. High-Contrast is basic and minimal, and great for printing.
 
-For data visualization purposes gray and several other muted color themes are including single color series in **blue**, **sepia**, and **pink**. Two-color series includes **pink-yellow**, **brown-orange**, and **blue-gray**.
+For data visualization purposes gray and several other muted color themes are including single color series in **blue**, **sepia**, and **pink**. Two-color series includes **pink-yellow**, **brown-orange**, and **blue-gray**. We've also migrated the old standalone basemap style Zinc to be a **zinc** Refill color theme.
 
 The dark series includes **inverted**, **purple-green**, and **gray-gold**.
 
@@ -78,18 +78,19 @@ Current **MAJOR** versioned releases:
 
 | color         | note      | import
 |:--------------|-----------|------------------------------------------------------------
-| black         | _default_ | `https://mapzen.com/carto/refill-style/8/themes/color-black.zip`
-| blue          |           | `https://mapzen.com/carto/refill-style/8/themes/color-blue.zip`
-| blue-gray     |           | `https://mapzen.com/carto/refill-style/8/themes/color-blue-gray.zip`
-| brown-orange  |           | `https://mapzen.com/carto/refill-style/8/themes/color-brown-orange.zip`
-| gray          |           | `https://mapzen.com/carto/refill-style/8/themes/color-gray.zip`
-| gray-gold     |           | `https://mapzen.com/carto/refill-style/8/themes/color-gray-gold.zip`
-| high-contrast |           | `https://mapzen.com/carto/refill-style/8/themes/color-high-contrast.zip`
-| inverted      |           | `https://mapzen.com/carto/refill-style/8/themes/color-inverted.zip`
-| pink          |           | `https://mapzen.com/carto/refill-style/8/themes/color-pink.zip`
-| pink-yellow   |           | `https://mapzen.com/carto/refill-style/8/themes/color-pink-yellow.zip`
-| purple-green  |           | `https://mapzen.com/carto/refill-style/8/themes/color-purple-green.zip`
-| sepia         |           | `https://mapzen.com/carto/refill-style/8/themes/color-sepia.zip`
+| black         | _default_ | `https://mapzen.com/carto/refill-style/9/themes/color-black.zip`
+| blue          |           | `https://mapzen.com/carto/refill-style/9/themes/color-blue.zip`
+| blue-gray     |           | `https://mapzen.com/carto/refill-style/9/themes/color-blue-gray.zip`
+| brown-orange  |           | `https://mapzen.com/carto/refill-style/9/themes/color-brown-orange.zip`
+| gray          |           | `https://mapzen.com/carto/refill-style/9/themes/color-gray.zip`
+| gray-gold     |           | `https://mapzen.com/carto/refill-style/9/themes/color-gray-gold.zip`
+| high-contrast |           | `https://mapzen.com/carto/refill-style/9/themes/color-high-contrast.zip`
+| inverted      |           | `https://mapzen.com/carto/refill-style/9/themes/color-inverted.zip`
+| pink          |           | `https://mapzen.com/carto/refill-style/9/themes/color-pink.zip`
+| pink-yellow   |           | `https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip`
+| purple-green  |           | `https://mapzen.com/carto/refill-style/9/themes/color-purple-green.zip`
+| sepia         |           | `https://mapzen.com/carto/refill-style/9/themes/color-sepia.zip`
+| zinc         |           | `https://mapzen.com/carto/refill-style/9/themes/color-zinc.zip`
 
 ### Label
 
@@ -114,18 +115,18 @@ Current **MAJOR** versioned releases:
 
 | label  | note            | import
 |-------:|-----------------|------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/refill-style/8/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/refill-style/8/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/refill-style/8/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/refill-style/8/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/refill-style/8/themes/label-11.zip`
+| 0      | **no-labels**   | `https://mapzen.com/carto/refill-style/9/themes/label-0.zip`
+| 1      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-1.zip`
+| 2      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-2.zip`
+| 3      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-3.zip`
+| 4      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-4.zip`
+| 5      | _default_       | `https://mapzen.com/carto/refill-style/9/themes/label-5.zip`
+| 6      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-6.zip`
+| 7      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-7.zip`
+| 8      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-8.zip`
+| 9      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-9.zip`
+| 10     | **more-labels** | `https://mapzen.com/carto/refill-style/9/themes/label-10.zip`
+| 11     |                 | `https://mapzen.com/carto/refill-style/9/themes/label-11.zip`
 
 
 ### Detail
@@ -140,34 +141,21 @@ Current **MAJOR** versioned releases:
 
 | detail | note      | import
 |-------:|-----------|-------------------------------------------------------------
-| 0      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-0.zip`
-| 1      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-1.zip`
-| 2      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-2.zip`
-| 3      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-3.zip`
-| 4      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-4.zip`
-| 5      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-5.zip`
-| 6      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-6.zip`
-| 7      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-7.zip`
-| 8      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-8.zip`
-| 9      |           | `https://mapzen.com/carto/refill-style/8/themes/detail-9.zip`
-| 10     | _default_ | `https://mapzen.com/carto/refill-style/8/themes/detail-10.zip`
-| 11     |           | `https://mapzen.com/carto/refill-style/8/themes/detail-11.zip`
+| 0      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-0.zip`
+| 1      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-1.zip`
+| 2      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-2.zip`
+| 3      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-3.zip`
+| 4      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-4.zip`
+| 5      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-5.zip`
+| 6      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-6.zip`
+| 7      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-7.zip`
+| 8      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-8.zip`
+| 9      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-9.zip`
+| 10     | _default_ | `https://mapzen.com/carto/refill-style/9/themes/detail-10.zip`
+| 11     |           | `https://mapzen.com/carto/refill-style/9/themes/detail-11.zip`
 
 
 ## Cinnabar
-
-Cinnabar Style supports 2 different theme options: **color** and **label**.
-
-### Color
-
-Cinnabar is offered in one additional color theme: **Zinc**.
-
-Current **MAJOR** versioned releases:
-
-| color         | note      | import
-|:--------------|-----------|-------------------------------------------------------------------
-| cinnabar      | _default_ | `https://mapzen.com/carto/refill-style/8/themes/color-cinnabar.zip`
-| zinc          |           | `https://mapzen.com/carto/refill-style/8/themes/color-zinc.zip`
 
 ### Label
 
@@ -184,9 +172,6 @@ Mapping of Cinnabar label variants in version 7 and earlier releases to new them
 | `cinnabar-style-more-labels` | 10    |
 
 The two named Cinnabar label variants `cinnabar-style-no-labels` or `cinnabar-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
-
-<img src="https://mapzen-assets.s3.amazonaws.com/images/cinnabar-zinc/cinnabar-zinc.jpg" width=780>
-
 
 Current **MAJOR** versioned releases:
 
