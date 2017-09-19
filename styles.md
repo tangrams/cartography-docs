@@ -108,7 +108,7 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 ## SDK Default
 
-Design your own map but bring in Mapzen's UX and UI elements for search results and turn-by-turn navigation. 
+Design your own map but bring in Mapzen's UX and UI elements for search results and turn-by-turn navigation. Uses Bubble Wrap icons, but others can be imported using Mapzen Icon Library theme imports.
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
