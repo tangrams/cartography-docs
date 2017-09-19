@@ -4,7 +4,7 @@
 
 Some styles are available in range of **color** palettes, **label** steps, and levels of **detail**. This section describes the options and shows how to import them.
 
-Managing imports
+### Managing imports
 
 Order matters when importing Tangram YAML files. First import the basemap style, then import themes.
 
