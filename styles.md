@@ -8,7 +8,7 @@ You should only peg to the **LATEST** version if you are not modifying documente
 
 Because each style imports additional resources, we provide a scene bundle in `.zip` format which includes the scene yaml, image, font, and any other required imports.
 
-All of Mapzen basemap styles support:
+### All of Mapzen basemap styles support:
 
 * Set Mapzen API key
 * Alter label language and density
@@ -18,7 +18,7 @@ All of Mapzen basemap styles support:
 * Transit overlay
 * Default draw and user experience styles
 
-Some Mapzen basemap styles support:
+### Some Mapzen basemap styles support:
 
 * Bike overlay _(Walkabout)_
 * Path overlay _(Walkabout)_
@@ -40,10 +40,6 @@ Current **MAJOR** release (includes any minor and patch updates):
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap-style.zip`
-
-_NOTE: Bubble Wrap adopted the standard default (some), more, and no labels configuration
- starting at version 6. Earlier versions of the default (1, 2, 3, 4, and 5) use the `more`
- labels configuration, and `no` labels assets are only available starting with version 6._
 
 ## Refill
 
