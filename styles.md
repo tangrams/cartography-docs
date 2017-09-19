@@ -2,7 +2,7 @@
 
 Use gorgeous 2D and 3D basemap styles created by Mapzen's expert cartographers for Tangram.
 
-As Mapzen's basemap styles are still in active development, you should peg an import to a specific **MAJOR** version, such as `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
+As Mapzen's basemap styles are still in active development, you should peg an import to a specific **MAJOR** version, such as `9`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
 You should only peg to the **LATEST** version if you are not modifying documented API scene elements.
 
