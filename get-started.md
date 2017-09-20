@@ -162,7 +162,7 @@ layers:
 
 ## Tile size
 
-Mapzen basemap styles use `512` pixel sized vector and terrain tiles to reduce API and network requests, overall latency, and improve label placements in Tangram. The following versions support `512` pixel tiles:
+Mapzen basemap styles use `512` pixel sized vector and terrain tiles to reduce API and network requests, overall latency, and improve label placements in Tangram. The following versions introduced `512` pixel tiles:
 
 * Bubble Wrap: `8.0.0` and later
 * Cinnabar: `8.0.0` and later
@@ -170,4 +170,4 @@ Mapzen basemap styles use `512` pixel sized vector and terrain tiles to reduce A
 * Tron: `5.0.0` and later
 * Walkabout: `6.0.0` and later
 
-Earlier versions of Mapzen basemap styles used `256` pixel sized tiles before September 2017.
+Earlier versions of Mapzen basemap styles used `256` tiles before September 2017.
