@@ -18,6 +18,8 @@ import:
     - https://mapzen.com/carto/refill-style/9/refill-style.zip
     # recolor basemap style with a theme color
     - https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip
+    # add more labels
+    - https://mapzen.com/carto/refill-style/9/themes/label-10.zip
     # other imports to taste...
 ```
 
@@ -30,7 +32,8 @@ var layer = Tangram.leafletLayer({
         scene: {
           import: [
             'https://mapzen.com/carto/refill-style/9/refill-style.zip',
-            'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip'],
+            'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip',
+            'https://mapzen.com/carto/refill-style/9/themes/label-10.zip'],
           global: { 'sdk_mapzen_api_key': 'your-mapzen-api-key' } },
         attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
     });
@@ -50,27 +53,39 @@ var map = L.Mapzen.map('map', {
       import: [
         'https://mapzen.com/carto/refill-style/9/refill-style.zip',
         'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip'
+        'https://mapzen.com/carto/refill-style/9/themes/label-10.zip'
       ] } }
 });
 ```
+
+## Bubble Wrap
+
+### Label
+
+Bubble Wrap includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+
+Current **MAJOR** versioned releases:
+
+| label  | note            | import
+|-------:|-----------------|--------------------------------------------------------------
+| 0      | **no-labels**   | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-0.zip`
+| 1      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-1.zip`
+| 2      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-2.zip`
+| 3      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-3.zip`
+| 4      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-4.zip`
+| 5      | _default_       | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-5.zip`
+| 6      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-6.zip`
+| 7      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-7.zip`
+| 8      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-8.zip`
+| 9      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-9.zip`
+| 10     | **more-labels** | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-10.zip`
+| 11     |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-11.zip`
 
 ## Cinnabar
 
 ### Label
 
 Cinnabar includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
-
-Starting with version 8 of Cinnabar, Mapzen recommends to import the default `cinnabar-style` and then add or remove labels by importing a **label** theme.
-
-Mapping of Cinnabar label variants in version 7 and earlier releases to new theme-based label steps:
-
-| Cinnabar label variant       | label |
-|------------------------------|------:|
-| `cinnabar-style` _(default)_ | 5     |
-| `cinnabar-style-no-labels`   | 0     |
-| `cinnabar-style-more-labels` | 10    |
-
-The two named Cinnabar label variants `cinnabar-style-no-labels` or `cinnabar-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
 
 Current **MAJOR** versioned releases:
 
@@ -131,18 +146,6 @@ Current **MAJOR** versioned releases:
 
 Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
-Starting with version 8 of Refill Mapzen recommends to import the default `refill-style` and then add or remove labels by importing a **label** theme.
-
-Mapping of Refill label variants in version 7 and earlier releases to new theme-based label steps:
-
-| Refill label variant       | label |
-|----------------------------|------:|
-| `refill-style` _(default)_ | 5     |
-| `refill-style-no-labels`   | 0     |
-| `refill-style-more-labels` | 10    |
-
-The two named Refill label variants `refill-style-no-labels` or `refill-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
-
 <img src="../img/refill/refill-themes-label.jpg" width=780>
 
 
@@ -188,3 +191,49 @@ Current **MAJOR** versioned releases:
 | 9      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-9.zip`
 | 10     | _default_ | `https://mapzen.com/carto/refill-style/9/themes/detail-10.zip`
 | 11     |           | `https://mapzen.com/carto/refill-style/9/themes/detail-11.zip`
+
+## Tron
+
+### Label
+
+Tron includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+
+Current **MAJOR** versioned releases:
+
+| label  | note            | import
+|-------:|-----------------|--------------------------------------------------------------
+| 0      | **no-labels**   | `https://mapzen.com/carto/tron-style/5/themes/label-0.zip`
+| 1      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-1.zip`
+| 2      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-2.zip`
+| 3      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-3.zip`
+| 4      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-4.zip`
+| 5      | _default_       | `https://mapzen.com/carto/tron-style/5/themes/label-5.zip`
+| 6      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-6.zip`
+| 7      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-7.zip`
+| 8      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-8.zip`
+| 9      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-9.zip`
+| 10     | **more-labels** | `https://mapzen.com/carto/tron-style/5/themes/label-10.zip`
+| 11     |                 | `https://mapzen.com/carto/tron-style/5/themes/label-11.zip`
+
+## Walkabout
+
+### Label
+
+Walkabout includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+
+Current **MAJOR** versioned releases:
+
+| label  | note            | import
+|-------:|-----------------|--------------------------------------------------------------
+| 0      | **no-labels**   | `https://mapzen.com/carto/walkabout-style/6/themes/label-0.zip`
+| 1      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-1.zip`
+| 2      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-2.zip`
+| 3      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-3.zip`
+| 4      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-4.zip`
+| 5      | _default_       | `https://mapzen.com/carto/walkabout-style/6/themes/label-5.zip`
+| 6      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-6.zip`
+| 7      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-7.zip`
+| 8      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-8.zip`
+| 9      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-9.zip`
+| 10     | **more-labels** | `https://mapzen.com/carto/walkabout-style/6/themes/label-10.zip`
+| 11     |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-11.zip`
