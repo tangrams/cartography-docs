@@ -1,6 +1,6 @@
 # Versioning
 
-When a new version of a Mapzen basemap or icon pack is released, developers should be able to tell from the version increment how much effort it will take them to integrate the new basemap with their map. We use semantic versioning to communicate this.
+When a new version of a Mapzen basemap or icon pack is released, developers should be able to tell from the version increment how much effort it will take them to integrate the new basemap with their map. We use semantic versioning to communicate this, and provide upgrade tips on in our [migration guide](migration-guide.md).
 
 ## What is Semantic Versioning?
 
