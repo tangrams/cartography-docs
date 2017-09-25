@@ -54,6 +54,41 @@ var map = L.Mapzen.map('map', {
 });
 ```
 
+## Cinnabar
+
+### Label
+
+Cinnabar includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+
+Starting with version 8 of Cinnabar, Mapzen recommends to import the default `cinnabar-style` and then add or remove labels by importing a **label** theme.
+
+Mapping of Cinnabar label variants in version 7 and earlier releases to new theme-based label steps:
+
+| Cinnabar label variant       | label |
+|------------------------------|------:|
+| `cinnabar-style` _(default)_ | 5     |
+| `cinnabar-style-no-labels`   | 0     |
+| `cinnabar-style-more-labels` | 10    |
+
+The two named Cinnabar label variants `cinnabar-style-no-labels` or `cinnabar-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
+
+Current **MAJOR** versioned releases:
+
+| label  | note            | import
+|-------:|-----------------|--------------------------------------------------------------
+| 0      | **no-labels**   | `https://mapzen.com/carto/cinnabar-style/8/themes/label-0.zip`
+| 1      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-1.zip`
+| 2      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-2.zip`
+| 3      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-3.zip`
+| 4      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-4.zip`
+| 5      | _default_       | `https://mapzen.com/carto/cinnabar-style/8/themes/label-5.zip`
+| 6      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-6.zip`
+| 7      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-7.zip`
+| 8      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-8.zip`
+| 9      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-9.zip`
+| 10     | **more-labels** | `https://mapzen.com/carto/cinnabar-style/8/themes/label-10.zip`
+| 11     |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-11.zip`
+
 ## Refill
 
 Refill Style supports 3 different theme options: **color**, **label**, and **detail**.
@@ -153,39 +188,3 @@ Current **MAJOR** versioned releases:
 | 9      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-9.zip`
 | 10     | _default_ | `https://mapzen.com/carto/refill-style/9/themes/detail-10.zip`
 | 11     |           | `https://mapzen.com/carto/refill-style/9/themes/detail-11.zip`
-
-
-## Cinnabar
-
-### Label
-
-Cinnabar includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
-
-Starting with version 8 of Cinnabar, Mapzen recommends to import the default `cinnabar-style` and then add or remove labels by importing a **label** theme.
-
-Mapping of Cinnabar label variants in version 7 and earlier releases to new theme-based label steps:
-
-| Cinnabar label variant       | label |
-|------------------------------|------:|
-| `cinnabar-style` _(default)_ | 5     |
-| `cinnabar-style-no-labels`   | 0     |
-| `cinnabar-style-more-labels` | 10    |
-
-The two named Cinnabar label variants `cinnabar-style-no-labels` or `cinnabar-style-more-labels` available in version 7 ane earlier are no longer supported directly – you need up upgrade to version 8 and import the label theme.
-
-Current **MAJOR** versioned releases:
-
-| label  | note            | import
-|-------:|-----------------|--------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/cinnabar-style/8/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/cinnabar-style/8/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/cinnabar-style/8/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-11.zip`
