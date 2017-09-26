@@ -2,7 +2,7 @@
 
 **Like a basemap style but want something just a little different?**
 
-Some styles are available in range of **color** palettes, **label** steps, and levels of **detail**. This section describes the options and shows how to import them.
+Some styles are available in range of **label** steps, **color** palettes, and levels of **detail**. This section describes the options and shows how to import them.
 
 ### Managing imports
 
