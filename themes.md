@@ -60,6 +60,8 @@ var map = L.Mapzen.map('map', {
 
 ## Bubble Wrap
 
+The Bubble Wrap style supports 1 theme options: **label**.
+
 ### Label
 
 Bubble Wrap includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
@@ -82,6 +84,8 @@ Current **MAJOR** versioned releases:
 | 11     |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-11.zip`
 
 ## Cinnabar
+
+The Cinnabar style supports 1 theme options: **label**.
 
 ### Label
 
@@ -194,6 +198,8 @@ Current **MAJOR** versioned releases:
 
 ## Tron
 
+The Tron style supports 1 theme options: **label**.
+
 ### Label
 
 Tron includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
@@ -216,6 +222,8 @@ Current **MAJOR** versioned releases:
 | 11     |                 | `https://mapzen.com/carto/tron-style/5/themes/label-11.zip`
 
 ## Walkabout
+
+The Walkabout style supports 1 theme options: **label**.
 
 ### Label
 
