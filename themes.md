@@ -64,7 +64,7 @@ The Bubble Wrap style supports 1 theme option: **label**.
 
 ### Label
 
-Bubble Wrap includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+Bubble Wrap includes **12 label steps**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 Current **MAJOR** versioned releases:
 
@@ -89,7 +89,7 @@ The Cinnabar style supports 1 theme option: **label**.
 
 ### Label
 
-Cinnabar includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+Cinnabar includes **12 label steps**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 Current **MAJOR** versioned releases:
 
@@ -148,7 +148,7 @@ Current **MAJOR** versioned releases:
 
 ### Label
 
-Refill includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+Refill includes **12 label steps**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 <img src="../img/refill/refill-themes-label.jpg" width=780>
 
@@ -202,7 +202,7 @@ The Tron style supports 1 theme option: **label**.
 
 ### Label
 
-Tron includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+Tron includes **12 label steps**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 Current **MAJOR** versioned releases:
 
@@ -227,7 +227,7 @@ The Walkabout style supports 1 theme option: **label**.
 
 ### Label
 
-Walkabout includes **12 Levels of Labels**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
+Walkabout includes **12 label steps**, **0 to 11**. **11** at the top most level displays all, while **0** displays none.
 
 Current **MAJOR** versioned releases:
 
