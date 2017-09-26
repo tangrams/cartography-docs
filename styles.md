@@ -40,6 +40,22 @@ Current **MAJOR** release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap-style.zip`
 
+## Cinnabar
+
+<img src='./img/cinnabar-style.png' alt='Cinnabar' align=right width=300 height=300>
+
+A classic web map style for general mapping applications. Roads are red and parks are green, this map is your utilitarian workhorse.
+
+**View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
+
+Current **MAJOR** versioned release (includes any minor and patch updates):
+
+* `https://mapzen.com/carto/cinnabar-style/8/cinnabar-style.zip`
+
+**LATEST** (same assets as MAJOR version above):
+
+* `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
+
 ## Refill
 
 <img src='./img/refill-style.png' alt='Refill' align=right width=300 height=300>
@@ -58,22 +74,6 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/refill-style/refill-style.zip`
 
-## Walkabout
-
-<img src='./img/walkabout-style.png' alt='Walkabout' align=right width=300 height=300>
-
-This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
-
-**View Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
-
-Current **MAJOR** versioned release (includes any minor and patch updates):
-
-* `https://mapzen.com/carto/walkabout-style/6/walkabout-style.zip`
-
-**LATEST** (same assets as MAJOR version above):
-
-* `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
-
 ## Tron
 
 <img src='./img/tron-style.gif' alt='Tron' align=right width=300 height=300>
@@ -90,21 +90,21 @@ Current **MAJOR** versioned release (includes any minor and patch updates):
 
 * `https://mapzen.com/carto/tron-style/tron-style.zip`
 
-## Cinnabar
+## Walkabout
 
-<img src='./img/cinnabar-style.png' alt='Cinnabar' align=right width=300 height=300>
+<img src='./img/walkabout-style.png' alt='Walkabout' align=right width=300 height=300>
 
-A classic web map style for general mapping applications. Roads are red and parks are green, this map is your utilitarian workhorse.
+This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
 
-**View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
+**View Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/cinnabar-style/8/cinnabar-style.zip`
+* `https://mapzen.com/carto/walkabout-style/6/walkabout-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
-* `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
+* `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
 
 ## SDK Default
 
