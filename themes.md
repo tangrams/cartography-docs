@@ -60,7 +60,7 @@ var map = L.Mapzen.map('map', {
 
 ## Bubble Wrap
 
-The Bubble Wrap style supports 1 theme options: **label**.
+The Bubble Wrap style supports 1 theme option: **label**.
 
 ### Label
 
@@ -85,7 +85,7 @@ Current **MAJOR** versioned releases:
 
 ## Cinnabar
 
-The Cinnabar style supports 1 theme options: **label**.
+The Cinnabar style supports 1 theme option: **label**.
 
 ### Label
 
@@ -198,7 +198,7 @@ Current **MAJOR** versioned releases:
 
 ## Tron
 
-The Tron style supports 1 theme options: **label**.
+The Tron style supports 1 theme option: **label**.
 
 ### Label
 
@@ -223,7 +223,7 @@ Current **MAJOR** versioned releases:
 
 ## Walkabout
 
-The Walkabout style supports 1 theme options: **label**.
+The Walkabout style supports 1 theme option: **label**.
 
 ### Label
 
