@@ -85,7 +85,9 @@ layers:
 
 ## Using Mapzen icons independently
 
-You can use the icons in the Mapzen icon library independent of Mapzen basemap styles by importing just the icon assets.
+### Tangram
+
+You can use the icons in the Mapzen icon library independent of Mapzen basemap styles by importing just the spritesheet assets into a Tangram scene.
 
 ```
 import:
@@ -105,6 +107,27 @@ layers:
                 sprite: zoo
 ```
 
+### Sprites
+
+The Mapzen Icon Library is available for use in your favorite mapping or graphics software as individual sprite images.
+
+Currently only only `png` format at `2x` resolution is supported.
+
+* `https://mapzen.com/carto/bubble-wrap-style/8/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/cinnabar-style/8/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/refill-style/9/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/tron-style/5/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/walkabout-style/6/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/sdk-default-style/1/icons/{resolution}/{sprite}.{format}`
+
+**For example:**
+
+Load the `adit` sprite in the **Bubble Wrap** style at `2x` in `png` format:
+
+```
+https://mapzen.com/carto/bubble-wrap-style/8/icons/2x/adit.png
+```
+
 ## Customize icon colors
 
 You can customize the icon colors by changing the global color of colorized-icons in styles. Assign the color in the global u_tint. If you would like to color the badge fill area, assign the color in the draw layer. See below:
@@ -117,7 +140,7 @@ sources:
     my-source:
         type: GeoJSON
         url:  https://example.com/filename.geojson
-        
+
 styles:
     colorized-icons:
         shaders:
