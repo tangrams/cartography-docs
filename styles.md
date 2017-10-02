@@ -2,31 +2,31 @@
 
 Use gorgeous 2D and 3D basemap styles created by Mapzen's expert cartographers for Tangram.
 
-As Mapzen's basemap styles are still in active development, you should peg an import to a specific **MAJOR** version, such as `7`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
+As Mapzen's basemap styles are still in active development, you should peg an import to a specific **MAJOR** version, such as `9`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
 You should only peg to the **LATEST** version if you are not modifying documented API scene elements.
 
 Because each style imports additional resources, we provide a scene bundle in `.zip` format which includes the scene yaml, image, font, and any other required imports.
 
-All of Mapzen basemap styles support:
+### All of Mapzen basemap styles support:
 
 * Set Mapzen API key
 * Alter label language and density
 * Customize basemap styling
+* Mapzen icon library
 * Data visualization overlays
 * Transit overlay
 * Default draw and user experience styles
 
-Some Mapzen basemap styles support:
+### Some Mapzen basemap styles support:
 
 * Bike overlay _(Walkabout)_
 * Path overlay _(Walkabout)_
-* Themes _(Refill)_
-
+* Color themes _(Refill)_
 
 ## Bubble Wrap
 
-![Bubble Wrap](./img/bubble-wrap-style.png)
+<img src='./img/bubble-wrap-style.png' alt='Bubble Wrap' align=right width=300 height=300>
 
 A full-featured wayfinding style loaded with helpful icons for points of interest.
 
@@ -34,61 +34,49 @@ A full-featured wayfinding style loaded with helpful icons for points of interes
 
 Current **MAJOR** release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/bubble-wrap-style/7/bubble-wrap-style.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-more-labels/7/bubble-wrap-style-more-labels.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-no-labels/7/bubble-wrap-style-no-labels.zip`
+* `https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap-style.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-more-labels/bubble-wrap-style-more-labels.zip`
-* `https://mapzen.com/carto/bubble-wrap-style-no-labels/refbubble-wrapill-style-no-labels.zip`
 
-_NOTE: Bubble Wrap adopted the standard default (some), more, and no labels configuration
- starting at version 6. Earlier versions of the default (1, 2, 3, 4, and 5) use the `more`
- labels configuration, and `no` labels assets are only available starting with version 6._
+## Cinnabar
+
+<img src='./img/cinnabar-style.png' alt='Cinnabar' align=right width=300 height=300>
+
+A classic web map style for general mapping applications. Roads are red and parks are green, this map is your utilitarian workhorse.
+
+**View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
+
+Current **MAJOR** versioned release (includes any minor and patch updates):
+
+* `https://mapzen.com/carto/cinnabar-style/8/cinnabar-style.zip`
+
+**LATEST** (same assets as MAJOR version above):
+
+* `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
 
 ## Refill
 
-![Refill](./img/refill-style.png)
+<img src='./img/refill-style.png' alt='Refill' align=right width=300 height=300>
 
 A minimalist map style designed for data visualization overlays. Inspired by the seminal Toner style by Stamen Design.
 
-Refill is offered in a range of **color**, **label**, and **detail** [themes](themes.md).
+Refill is offered in a range of **color**, **label**, and **detail** [themes](themes.md), including the **Zinc** color theme which was earlier offered as a standalone basemap style.
 
 **View Refill:** [default](https://mapzen.com/products/maps/refill) | [more labels](https://mapzen.com/products/maps/refill/more-labels) | [no labels](https://mapzen.com/products/maps/refill/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/refill-style/8/refill-style.zip`
+* `https://mapzen.com/carto/refill-style/9/refill-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/refill-style/refill-style.zip`
 
-## Walkabout
-
-![Walkabout](./img/walkabout-style.png)
-
-This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
-
-**View Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
-
-Current **MAJOR** versioned release (includes any minor and patch updates):
-
-* `https://mapzen.com/carto/walkabout-style/5/walkabout-style.zip`
-* `https://mapzen.com/carto/walkabout-style-more-labels/5/walkabout-style-more-labels.zip`
-* `https://mapzen.com/carto/walkabout-style-no-labels/5/walkabout-style-no-labels.zip`
-
-**LATEST** (same assets as MAJOR version above):
-
-* `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
-* `https://mapzen.com/carto/walkabout-style-more-labels/walkabout-style-more-labels.zip`
-* `https://mapzen.com/carto/walkabout-style-no-labels/walkabout-style-no-labels.zip`
-
 ## Tron
 
-![Tron](./img/tron-style.gif)
+<img src='./img/tron-style.gif' alt='Tron' align=right width=300 height=300>
 
 Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping to new extremes with Tron, and it will push your GPU and fan to the limit.
 
@@ -96,52 +84,36 @@ Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping t
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/tron-style/4/tron-style.zip`
-* `https://mapzen.com/carto/tron-style-more-labels/4/tron-style-more-labels.zip`
-* `https://mapzen.com/carto/tron-style-no-labels/4/tron-style-no-labels.zip`
+* `https://mapzen.com/carto/tron-style/5/tron-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
 * `https://mapzen.com/carto/tron-style/tron-style.zip`
-* `https://mapzen.com/carto/tron-style-more-labels/tron-style-more-labels.zip`
-* `https://mapzen.com/carto/tron-style-no-labels/tron-style-no-labels.zip`
 
-## Cinnabar
+## Walkabout
 
-![Cinnabar](./img/cinnabar-style.png)
+<img src='./img/walkabout-style.png' alt='Walkabout' align=right width=300 height=300>
 
-A classic web map style for general mapping applications.
+This outdoor style is perfect for hiking or getting out and about, with mountains, ski trails, biking paths, and transit stops.
 
-**View Cinnabar:** [default](https://mapzen.com/products/maps/cinnabar) | [more labels](https://mapzen.com/products/maps/cinnabar/more-labels) | [no labels](https://mapzen.com/products/maps/cinnabar/no-labels)
+**View Walkabout:** [default](https://mapzen.com/products/maps/walkabout) | [more labels](https://mapzen.com/products/maps/walkabout/more-labels) | [no labels](https://mapzen.com/products/maps/walkabout/no-labels)
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/cinnabar-style/7/cinnabar-style.zip`
-* `https://mapzen.com/carto/cinnabar-style-more-labels/7/cinnabar-style-more-labels.zip`
-* `https://mapzen.com/carto/cinnabar-style-no-labels/7/cinnabar-style-no-labels.zip`
+* `https://mapzen.com/carto/walkabout-style/6/walkabout-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
-* `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
-* `https://mapzen.com/carto/cinnabar-style-more-labels/cinnabar-style-more-labels.zip`
-* `https://mapzen.com/carto/cinnabar-style-no-labels/cinnabar-style-no-labels.zip`
+* `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
 
-## Zinc
+## SDK Default
 
-![Zinc](./img/zinc-style.png)
-
-A dark, minimalist style that helps bright data overlays stand out. A great alternative to Refill.
-
-**View Zinc:** [default](https://mapzen.com/products/maps/zinc) | [more labels](https://mapzen.com/products/maps/zinc/more-labels) | [no labels](https://mapzen.com/products/maps/zinc/no-labels)
+Design your own map but bring in Mapzen's UX and UI elements for search results and turn-by-turn navigation. Uses Bubble Wrap icons, but others can be imported using Mapzen Icon Library theme imports.
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/zinc-style/6/zinc-style.zip`
-* `https://mapzen.com/carto/zinc-style-more-labels/6/zinc-style-more-labels.zip`
-* `https://mapzen.com/carto/zinc-style-no-labels/6/zinc-style-no-labels.zip`
+* `https://mapzen.com/carto/sdk-default-style/1/sdk-default-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
-* `https://mapzen.com/carto/zinc-style/zinc-style.zip`
-* `https://mapzen.com/carto/zinc-style-more-labels/zinc-style-more-labels.zip`
-* `https://mapzen.com/carto/zinc-style-no-labels/zinc-style-no-labels.zip`
+* `https://mapzen.com/carto/sdk-default-style/sdk-default-style.zip`
