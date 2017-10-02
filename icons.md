@@ -143,7 +143,7 @@ You can customize the icon colors by changing the global color of colorized-icon
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip
 
 sources:
     my-source:
