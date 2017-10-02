@@ -87,11 +87,20 @@ layers:
 
 ### Tangram
 
-You can use the icons in the Mapzen icon library independent of Mapzen basemap styles by importing just the spritesheet assets into a Tangram scene.
+You can use the icons in the Mapzen icon library independent of Mapzen basemap styles by importing just the icon bundle into a Tangram scene. 
+
+* `https://mapzen.com/carto/bubble-wrap-style/8/themes/bubble-wrap-icons.zip`
+* `https://mapzen.com/carto/cinnabar-style/8/themes/cinnabar-icons.zip`
+* `https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip`
+* `https://mapzen.com/carto/tron-style/5/themes/tron-icons.zip`
+* `https://mapzen.com/carto/walkabout-style/6/themes/walkabout-icons.zip`
+* `https://mapzen.com/carto/sdk-default-style/1/themes/sdk-default-icons.zip`
+
+For example:
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip
 
 sources:
     my-source:
@@ -134,7 +143,7 @@ You can customize the icon colors by changing the global color of colorized-icon
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip
 
 sources:
     my-source:
@@ -159,14 +168,14 @@ layers:
                 sprite: zoo
 ```
 
-### Mix and match style elements
+### Mix and match icon styles
 
 You could even use the Bubble Wrap icons on Refill!
 
 ```
 import:
     - https://mapzen.com/carto/refill-style/9/refill-style.zip
-    - https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-icons.zip
+    - https://mapzen.com/carto/bubble-wrap-style/8/themes/bubble-wrap-icons.zip
 ```
 
 ## Sprites
