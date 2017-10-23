@@ -77,7 +77,8 @@ Example **Tangram ES** usage:
 map->loadScene(
     "https://mapzen.com/carto/refill-style/6/refill-style.yaml",
     false,
-    { "global.sdk_mapzen_api_key", "your-mapzen-api-key" }
+    { SceneUpdate("global.sdk_mapzen_api_key", "mapzen-xxxxxx"),
+      SceneUpdate("global.sdk_building_extrude:", "false") }
 );
 ```
 
