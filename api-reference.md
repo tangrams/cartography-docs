@@ -73,11 +73,14 @@ var map = L.Mapzen.map('map', {
 
 Example **Tangram ES** usage:
 
+_SceneUpdate allows globals to be chained together._
+
 ```
 map->loadScene(
     "https://mapzen.com/carto/refill-style/6/refill-style.yaml",
     false,
-    { "global.sdk_mapzen_api_key", "your-mapzen-api-key" }
+    { SceneUpdate("global.sdk_mapzen_api_key", "mapzen-xxxxxx"),
+      SceneUpdate("global.sdk_building_extrude:", "false") }
 );
 ```
 
@@ -379,8 +382,8 @@ sources:
 
 ### Icons
 
-* **draw style:** `icons`
-* **sprite:** multiple sprites supported in the `pois` texture, see [icon library](icons.md)
+* **draw style:** `mapzen_icon_library`
+* **sprite:** multiple sprites supported in the `pois` texture, see [mapzen icon library](icons.md)
 
 Example **Tangram YAML** usage:
 
@@ -396,8 +399,7 @@ layers:
     _my_layer:
         data: { source: _my_source }
         draw:
-            icons:
-                size: [[13, 18px], [16, 18px], [18, 22px]]
+            mapzen_icon_library:
                 sprite: zoo
 ```
 
