@@ -4,25 +4,25 @@ Mapzen basemaps offer several global properties to customize and extend the map.
 
 Not every basemap supports the full set of resources and the default styling of these assets is customized per Mapzen map style. See [Styles](styles.md) for what's supported.
 
-As the basemaps are still in active development, Mapzen recommends pegging an import to a specific major version, such as `6`. See the [versioning](versioning.md) doc for more details.
+As the basemaps are still in active development, Mapzen recommends pegging an import to a specific major version, such as `12`. See the [versioning](versioning.md) doc for more details.
 
-## Mapzen API keys
+## Nextzen API keys
 
-Mapzen basemaps require setting a Mapzen API key to access related Mapzen vector tile and terrain tile services.
+Mapzen basemaps require setting a Nextzen API key to access related Nextzen vector tile and terrain tile services.
 
 [Sign up](https://mapzen.com/documentation/overview/#developer-accounts-and-api-keys) for a Mapzen API key here.
 
-### sdk_mapzen_api_key
+### sdk_api_key
 
-* `sdk_mapzen_api_key`: defaults to `''` (an empty string)
+* `sdk_api_key`: defaults to `''` (an empty string)
 
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/12/refill-style.yaml
 
 global:
-    sdk_mapzen_api_key: your-mapzen-api-key
+    sdk_api_key: your-api-key
 ```
 
 Example **Tangram JS** usage:
@@ -30,12 +30,12 @@ Example **Tangram JS** usage:
 ```
 var layer = Tangram.leafletLayer({
     scene: {
-      import: 'https://mapzen.com/carto/refill-style/6/refill-style.yaml',
-      global: { sdk_mapzen_api_key: 'your-mapzen-api-key' }
+      import: 'https://www.nextzen.org/carto/refill-style/12/refill-style.yaml',
+      global: { sdk_api_key: 'your-api-key' }
     });
 ```
 
-Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage (all services):
+Example [mapzen.js](https://www.nextzen.org/documentation/mapzen-js/get-started/) usage (all services):
 
 
 ```
@@ -53,7 +53,7 @@ var map = L.Mapzen.map('map', {
 });
 ```
 
-Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage (just Tangram):
+Example [mapzen.js](https://www.nextzen.org/documentation/mapzen-js/get-started/) usage (just Tangram):
 
 ```
 var map = L.Mapzen.map('map', {
@@ -77,9 +77,9 @@ _SceneUpdate allows globals to be chained together._
 
 ```
 map->loadScene(
-    "https://mapzen.com/carto/refill-style/6/refill-style.yaml",
+    "https://www.nextzen.org/carto/refill-style/12/refill-style.yaml",
     false,
-    { SceneUpdate("global.sdk_mapzen_api_key", "mapzen-xxxxxx"),
+    { SceneUpdate("global.sdk_api_key", "mapzen-xxxxxx"),
       SceneUpdate("global.sdk_building_extrude:", "false") }
 );
 ```
@@ -97,13 +97,13 @@ If you ask for a language that isn't present in the data, it will automatically 
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 global:
     ux_language: fr
 ```
 
-Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage:
+Example [mapzen.js](https://www.nextzen.org/documentation/mapzen-js/get-started/) usage:
 
 ```
 var map = L.Mapzen.map('map', {
@@ -132,7 +132,7 @@ For instance, if someone reads French but not Japanese they would prefer to see 
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 global:
     ux_language: fr
@@ -151,7 +151,7 @@ Common language codes values include:
 - `es` Spanish
 - `bn` Bengali
 - `de` German
-- `gr` Greek
+- `el` Greek
 - `hi` Hindi
 - `id` Indonesian
 - `it` Italian
@@ -174,7 +174,7 @@ Road shield artwork can be disabled. This can be useful when showing transit ove
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_road_shields: false
@@ -197,7 +197,7 @@ Are the 3d buildings distracting? Turn them off.
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_building_extrude: false
@@ -205,12 +205,12 @@ global:
 
 ## Data visualization
 
-To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://mapzen.com/documentation/vector-tiles/layers/#feature-ordering) docs).
+To facilitate map customization and data visualizations several recommended sort orders are provided. The order properties abstract the values which work with specific versions of Mapzen vector tiles (see [feature ordering](https://www.nextzen.org/documentation/vector-tiles/layers/#feature-ordering) docs).
 
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 _layername:
     draw:
@@ -289,7 +289,7 @@ All basemap styles support a transit overlay.
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 global:
     sdk_transit_overlay: true
@@ -304,7 +304,7 @@ Some basemap styles support a bike overlay showing cycling routes and special ic
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/walkabout-style/5/walkabout-style.yaml
+import: https://www.nextzen.org/carto/walkabout-style/5/walkabout-style.yaml
 
 global:
     sdk_bike_overlay: true
@@ -325,7 +325,7 @@ Some basemap styles support a path overlay (only Walkabout).
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/walkabout-style/5/walkabout-style.yaml
+import: https://www.nextzen.org/carto/walkabout-style/5/walkabout-style.yaml
 
 global:
     sdk_path_overlay: false
@@ -340,13 +340,13 @@ Some basemap styles support [bathymetry](https://en.wikipedia.org/wiki/Bathymetr
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/walkabout-style/5/walkabout-style.yaml
+import: https://www.nextzen.org/carto/walkabout-style/5/walkabout-style.yaml
 
 global:
     sdk_bathymetry: true
 ```
 
-Example [mapzen.js](https://mapzen.com/documentation/mapzen-js/get-started/) usage:
+Example [mapzen.js](https://www.nextzen.org/documentation/mapzen-js/get-started/) usage:
 
 ```
 var map = L.Mapzen.map('map', {
@@ -355,7 +355,7 @@ var map = L.Mapzen.map('map', {
     tangramOptions: {
         scene: {
             import: L.Mapzen.BasemapStyles.WalkaboutMoreLabels,
-            global: { 
+            global: {
                 sdk_bathymetry: true
             }
         }
@@ -372,7 +372,7 @@ Special `mz_*` **data sources** are available to automatically render content us
 Example **Tangram YAML** examples for `mz_*` source names:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 sources:
     mz_default_polygon:
@@ -388,7 +388,7 @@ sources:
 Example **Tangram YAML** usage:
 
 ```
-import: https://mapzen.com/carto/refill-style/6/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/6/refill-style.yaml
 
 sources:
     _my_source:

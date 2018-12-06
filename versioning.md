@@ -29,7 +29,7 @@ Semantic versioning (or [SemVer](http://semver.org/)) is a formalized way of mak
 As Mapzen's basemap styles are still in active development we recommend peggging an import to a specific major version, eg: `5`, so you enjoy any minor and patch updates but are ensured of stable named scene elements.
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/5/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/12/refill-style.zip
 ```
 
 **LATEST versions**
@@ -37,7 +37,7 @@ import: https://mapzen.com/carto/refill-style-more-labels/5/refill-style-more-la
 We only recommend pegging to the **latest** vesion if you are not modifying documented API scene elements.
 
 ```
-import: https://mapzen.com/carto/refill-style-more-labels/refill-style-more-labels.yaml
+import: https://mapzen.com/carto/refill-style/refill-style.zip
 ```
 
 **MINOR versions**
