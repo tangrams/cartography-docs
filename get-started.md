@@ -1,55 +1,55 @@
 # Get started with Mapzen basemaps
 
-_You will need a free Mapzen API key to use the basemaps. Visit https://mapzen.com/developers to get yours now._
+_You will need a free Mapzen API key to use the basemaps. Visit https://www.nextzen.org/developers to get yours now._
 
 _Mapzen basemaps are written in Tangram's scene file syntax. They can be displayed in web maps using [Tangram JS](
-https://mapzen.com/documentation/tangram/Javascript-API/) or [mapzen.js](https://mapzen.com/documentation/mapzen-js/) and on [iOS](https://mapzen.com/documentation/ios/) and [Android](https://mapzen.com/documentation/tangram/android-walkthrough/) using [Tangram ES](https://github.com/tangrams/tangram-es)._
+https://www.nextzen.org/documentation/tangram/Javascript-API/) or [mapzen.js](https://www.nextzen.org/documentation/mapzen-js/) and on [iOS](https://www.nextzen.org/documentation/ios/) and [Android](https://www.nextzen.org/documentation/tangram/android-walkthrough/) using [Tangram ES](https://github.com/tangrams/tangram-es)._
 
 ## Add a basemap to a project
 
 There are two convenient methods to incorporate Mapzen basemaps into your project:
 
-### mapzen.js
+### nextzen.js
 
-[mapzen.js](https://mapzen.com/documentation/mapzen-js/) is an easy way to embed Mapzen basemaps into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen basemaps into an general toolkit.
+[nextzen.js](https://www.nextzen.org/documentation/nextzen-js/) is an easy way to embed Mapzen basemaps into web pages. mapzen.js wraps Leaflet, Tangram, and Mapzen basemaps into an general toolkit.
 
 For example:
 
 ```
-L.Mapzen.apiKey = 'your-mapzen-api-key';
+L.Mapzen.apiKey = 'your-api-key';
 
-var map = L.Mapzen.map('map', {
+var map = L.Nextzen.map('map', {
   tangramOptions: {
     scene: {
-      import: L.Mapzen.BasemapStyles.Refill
+      import: L.Nextzen.BasemapStyles.Refill
     }
   }
 })
 ```
 
-See the mapzen.js [Get Started](https://mapzen.com/documentation/mapzen-js/get-started/) guide for full examples.
+See the nextzen.js [Get Started](https://www.mapzen.org/documentation/mapzen-js/get-started/) guide for full examples.
 
-**mapzen.js basemap styles**
+**nextzen.js basemap styles**
 
-The [API reference](https://mapzen.com/documentation/mapzen-js/api-reference/#basemap-styles) lists out all named Mapzen basemap styles and is currently:
+The [API reference](https://www.mapzen.com/documentation/mapzen-js/api-reference/#basemap-styles) lists out all named Mapzen basemap styles and is currently:
 
-* **[Bubble Wrap](https://mapzen.com/products/maps/bubble-wrap)**
+* **[Bubble Wrap](https://www.nextzen.org/products/maps/bubble-wrap)**
     * `L.Mapzen.BasemapStyles.BubbleWrap`
     * `L.Mapzen.BasemapStyles.BubbleWrapMoreLabels`
     * `L.Mapzen.BasemapStyles.BubbleWrapNoLabels`
-* **[Refill](https://mapzen.com/products/maps/refill/more-labels)**
+* **[Refill](https://www.nextzen.org/products/maps/refill/more-labels)**
     * `L.Mapzen.BasemapStyles.Refill`
     * `L.Mapzen.BasemapStyles.RefillMoreLabels`
     * `L.Mapzen.BasemapStyles.RefillNoLabels`
-* **[Walkabout](https://mapzen.com/products/maps/walkabout/more-labels)**
+* **[Walkabout](https://www.nextzen.org/products/maps/walkabout/more-labels)**
     * `L.Mapzen.BasemapStyles.Walkabout`
     * `L.Mapzen.BasemapStyles.WalkaboutMoreLabels`
     * `L.Mapzen.BasemapStyles.WalkaboutNoLabels`
-* **[Tron](https://mapzen.com/products/maps/tron/more-labels)**
+* **[Tron](https://www.nextzen.org/products/maps/tron/more-labels)**
     * `L.Mapzen.BasemapStyles.Tron`
     * `L.Mapzen.BasemapStyles.TronMoreLabels`
     * `L.Mapzen.BasemapStyles.TronNoLabels`
-* **[Cinnabar](https://mapzen.com/products/maps/cinnabar/more-labels)**
+* **[Cinnabar](https://www.nextzen.org/products/maps/cinnabar/more-labels)**
     * `L.Mapzen.BasemapStyles.Cinnabar`
     * `L.Mapzen.BasemapStyles.CinnabarMoreLabels`
     * `L.Mapzen.BasemapStyles.CinnabarNoLabels`
@@ -58,22 +58,22 @@ _Note: Zinc has been retired as a standalone basemap style but is now available 
 
 ### Tangram
 
-You can also use Mapzen's GL map renderer, [Tangram](https://mapzen.com/documentation/tangram/) to add basemaps to your project.
+You can also use Mapzen's GL map renderer, [Tangram](https://www.nextzen.org/documentation/tangram/) to add basemaps to your project.
 
-Tangram's scene import syntax ([documentation](https://mapzen.com/documentation/tangram/import/)) allows one scene file to import another:
+Tangram's scene import syntax ([documentation](https://www.nextzen.org/documentation/tangram/import/)) allows one scene file to import another:
 
 ```
-import: https://mapzen.com/carto/refill-style/9/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/10/refill-style.yaml
 
 global:
-    sdk_mapzen_api_key: your-mapzen-api-key
+    sdk_api_key: your-api-key
 ```
 
 Scene files and related assets are available for use in Tangram and Leaflet directly via the Mapzen CDN.
 
 **Template**
 
-* `https://mapzen.com/carto/{stylename}/{stylefile}.{format}`
+* `https://www.nextzen.org/carto/{stylename}/{stylefile}.{format}`
 
 Where `{stylename}` and `{stylefile}` are generally the same and will likely converge in future versions.
 
@@ -81,7 +81,7 @@ And where `{format}` is mostly `yaml` but Tangram scene file bundles can also be
 
 Looking to peg to a specific **version** of a style? We have you covered!
 
-* `https://mapzen.com/carto/{stylename}/{version}/{stylefile}.{format}`
+* `https://www.nextzen.org/carto/{stylename}/{version}/{stylefile}.{format}`
 
 Where {version} is optional and can be major (eg: `1`), major + minor (`1.0`), or major + minor + patch (`1.0.0`).
 
@@ -89,22 +89,22 @@ Where {version} is optional and can be major (eg: `1`), major + minor (`1.0`), o
 
 In this case, these all resolve to the same asset.
 
-* `https://mapzen.com/carto/refill-style/1/refill-style.zip`
-* `https://mapzen.com/carto/refill-style/1.0/refill-style.zip`
-* `https://mapzen.com/carto/refill-style/1.0.0/refill-style.zip`
+* `https://www.nextzen.org/carto/refill-style/1/refill-style.zip`
+* `https://www.nextzen.org/carto/refill-style/1.0/refill-style.zip`
+* `https://www.nextzen.org/carto/refill-style/1.0.0/refill-style.zip`
 
 **Mapzen CDN basemap styles**
 
 * **Bubble Wrap**
-    * `https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.zip`
+    * `https://www.nextzen.org/carto/bubble-wrap-style/bubble-wrap.zip`
 * **Refill**
-    * `https://mapzen.com/carto/refill-style/refill-style.zip`
+    * `https://www.nextzen.org/carto/refill-style/refill-style.zip`
 * **Walkabout**
-    * `https://mapzen.com/carto/walkabout-style/walkabout-style.zip`
+    * `https://www.nextzen.org/carto/walkabout-style/walkabout-style.zip`
 * **Tron**
-    * `https://mapzen.com/carto/tron-style/tron-style.zip`
+    * `https://www.nextzen.org/carto/tron-style/tron-style.zip`
 * **Cinnabar**
-    * `https://mapzen.com/carto/cinnabar-style/cinnabar-style.zip`
+    * `https://www.nextzen.org/carto/cinnabar-style/cinnabar-style.zip`
 
 ## Customize basemap
 
@@ -113,7 +113,7 @@ Modify Mapzen basemap styles using the scene file's global properties. See [API 
 For example, modify the default labels in Bubble Wrap to show Kannada, an Indian language:
 
 ```
-import: https://mapzen.com/carto/bubble-wrap-style/bubble-wrap.yaml
+import: https://www.nextzen.org/carto/bubble-wrap-style/bubble-wrap.yaml
 
 global:
     ux_language: kn
@@ -126,7 +126,7 @@ Import Mapzen basemaps into your own Tangram project and overlay your own data.
 For example:
 
 ```
-import: https://mapzen.com/carto/refill-style/9/refill-style.yaml
+import: https://www.nextzen.org/carto/refill-style/10/refill-style.yaml
 
 sources:
     polygons_in_polls:

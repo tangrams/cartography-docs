@@ -15,11 +15,11 @@ Example **Tangram YAML** usage:
 ```
 import:
     # basemap style
-    - https://mapzen.com/carto/refill-style/9/refill-style.zip
+    - https://www.nextzen.org/carto/refill-style/12/refill-style.zip
     # recolor basemap style with a theme color
-    - https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip
+    - https://www.nextzen.org/carto/refill-style/12/themes/color-pink-yellow.zip
     # add more labels
-    - https://mapzen.com/carto/refill-style/9/themes/label-10.zip
+    - https://www.nextzen.org/carto/refill-style/12/themes/label-10.zip
     # other imports to taste...
 ```
 
@@ -31,11 +31,11 @@ Example **Tangram JS** usage:
 var layer = Tangram.leafletLayer({
         scene: {
           import: [
-            'https://mapzen.com/carto/refill-style/9/refill-style.zip',
-            'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip',
-            'https://mapzen.com/carto/refill-style/9/themes/label-10.zip'],
+            'https://www.nextzen.org/carto/refill-style/12/refill-style.zip',
+            'https://www.nextzen.org/carto/refill-style/12/themes/color-pink-yellow.zip',
+            'https://www.nextzen.org/carto/refill-style/12/themes/label-10.zip'],
           global: { 'sdk_mapzen_api_key': 'your-mapzen-api-key' } },
-        attribution: '<a href="https://mapzen.com/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
+        attribution: '<a href="https://www.nextzen.org/tangram" target="_blank">Tangram</a>, &copy; OSM contributors'
     });
 ```
 
@@ -51,9 +51,9 @@ var map = L.Mapzen.map('map', {
   tangramOptions: {
     scene: {
       import: [
-        'https://mapzen.com/carto/refill-style/9/refill-style.zip',
-        'https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip'
-        'https://mapzen.com/carto/refill-style/9/themes/label-10.zip'
+        'https://www.nextzen.org/carto/refill-style/12/refill-style.zip',
+        'https://www.nextzen.org/carto/refill-style/12/themes/color-pink-yellow.zip'
+        'https://www.nextzen.org/carto/refill-style/12/themes/label-10.zip'
       ] } }
 });
 ```
@@ -70,18 +70,18 @@ Current **MAJOR** versioned releases:
 
 | label  | note            | import
 |-------:|-----------------|--------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/bubble-wrap-style/8/themes/label-11.zip`
+| 0      | **no-labels**   | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-0.zip`
+| 1      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-1.zip`
+| 2      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-2.zip`
+| 3      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-3.zip`
+| 4      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-4.zip`
+| 5      | _default_       | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-5.zip`
+| 6      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-6.zip`
+| 7      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-7.zip`
+| 8      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-8.zip`
+| 9      |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-9.zip`
+| 10     | **more-labels** | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-10.zip`
+| 11     |                 | `https://www.nextzen.org/carto/bubble-wrap-style/10/themes/label-11.zip`
 
 ## Cinnabar
 
@@ -95,18 +95,18 @@ Current **MAJOR** versioned releases:
 
 | label  | note            | import
 |-------:|-----------------|--------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/cinnabar-style/8/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/cinnabar-style/8/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/cinnabar-style/8/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/cinnabar-style/8/themes/label-11.zip`
+| 0      | **no-labels**   | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-0.zip`
+| 1      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-1.zip`
+| 2      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-2.zip`
+| 3      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-3.zip`
+| 4      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-4.zip`
+| 5      | _default_       | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-5.zip`
+| 6      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-6.zip`
+| 7      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-7.zip`
+| 8      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-8.zip`
+| 9      |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-9.zip`
+| 10     | **more-labels** | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-10.zip`
+| 11     |                 | `https://www.nextzen.org/carto/cinnabar-style/10/themes/label-11.zip`
 
 ## Refill
 
@@ -132,19 +132,19 @@ Current **MAJOR** versioned releases:
 
 | color         | note      | import
 |:--------------|-----------|------------------------------------------------------------
-| black         | _default_ | `https://mapzen.com/carto/refill-style/9/themes/color-black.zip`
-| blue          |           | `https://mapzen.com/carto/refill-style/9/themes/color-blue.zip`
-| blue-gray     |           | `https://mapzen.com/carto/refill-style/9/themes/color-blue-gray.zip`
-| brown-orange  |           | `https://mapzen.com/carto/refill-style/9/themes/color-brown-orange.zip`
-| gray          |           | `https://mapzen.com/carto/refill-style/9/themes/color-gray.zip`
-| gray-gold     |           | `https://mapzen.com/carto/refill-style/9/themes/color-gray-gold.zip`
-| high-contrast |           | `https://mapzen.com/carto/refill-style/9/themes/color-high-contrast.zip`
-| inverted      |           | `https://mapzen.com/carto/refill-style/9/themes/color-inverted.zip`
-| pink          |           | `https://mapzen.com/carto/refill-style/9/themes/color-pink.zip`
-| pink-yellow   |           | `https://mapzen.com/carto/refill-style/9/themes/color-pink-yellow.zip`
-| purple-green  |           | `https://mapzen.com/carto/refill-style/9/themes/color-purple-green.zip`
-| sepia         |           | `https://mapzen.com/carto/refill-style/9/themes/color-sepia.zip`
-| zinc         |           | `https://mapzen.com/carto/refill-style/9/themes/color-zinc.zip`
+| black         | _default_ | `https://www.nextzen.org/carto/refill-style/12/themes/color-black.zip`
+| blue          |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-blue.zip`
+| blue-gray     |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-blue-gray.zip`
+| brown-orange  |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-brown-orange.zip`
+| gray          |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-gray.zip`
+| gray-gold     |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-gray-gold.zip`
+| high-contrast |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-high-contrast.zip`
+| inverted      |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-inverted.zip`
+| pink          |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-pink.zip`
+| pink-yellow   |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-pink-yellow.zip`
+| purple-green  |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-purple-green.zip`
+| sepia         |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-sepia.zip`
+| zinc         |           | `https://www.nextzen.org/carto/refill-style/12/themes/color-zinc.zip`
 
 ### Label
 
@@ -157,18 +157,18 @@ Current **MAJOR** versioned releases:
 
 | label  | note            | import
 |-------:|-----------------|------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/refill-style/9/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/refill-style/9/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/refill-style/9/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/refill-style/9/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/refill-style/9/themes/label-11.zip`
+| 0      | **no-labels**   | `https://www.nextzen.org/carto/refill-style/12/themes/label-0.zip`
+| 1      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-1.zip`
+| 2      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-2.zip`
+| 3      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-3.zip`
+| 4      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-4.zip`
+| 5      | _default_       | `https://www.nextzen.org/carto/refill-style/12/themes/label-5.zip`
+| 6      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-6.zip`
+| 7      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-7.zip`
+| 8      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-8.zip`
+| 9      |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-9.zip`
+| 10     | **more-labels** | `https://www.nextzen.org/carto/refill-style/12/themes/label-10.zip`
+| 11     |                 | `https://www.nextzen.org/carto/refill-style/12/themes/label-11.zip`
 
 
 ### Detail
@@ -183,18 +183,18 @@ Current **MAJOR** versioned releases:
 
 | detail | note      | import
 |-------:|-----------|-------------------------------------------------------------
-| 0      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-0.zip`
-| 1      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-1.zip`
-| 2      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-2.zip`
-| 3      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-3.zip`
-| 4      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-4.zip`
-| 5      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-5.zip`
-| 6      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-6.zip`
-| 7      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-7.zip`
-| 8      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-8.zip`
-| 9      |           | `https://mapzen.com/carto/refill-style/9/themes/detail-9.zip`
-| 10     | _default_ | `https://mapzen.com/carto/refill-style/9/themes/detail-10.zip`
-| 11     |           | `https://mapzen.com/carto/refill-style/9/themes/detail-11.zip`
+| 0      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-0.zip`
+| 1      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-1.zip`
+| 2      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-2.zip`
+| 3      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-3.zip`
+| 4      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-4.zip`
+| 5      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-5.zip`
+| 6      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-6.zip`
+| 7      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-7.zip`
+| 8      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-8.zip`
+| 9      |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-9.zip`
+| 10     | _default_ | `https://www.nextzen.org/carto/refill-style/12/themes/detail-10.zip`
+| 11     |           | `https://www.nextzen.org/carto/refill-style/12/themes/detail-11.zip`
 
 ## Tron
 
@@ -208,18 +208,18 @@ Current **MAJOR** versioned releases:
 
 | label  | note            | import
 |-------:|-----------------|--------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/tron-style/5/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/tron-style/5/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/tron-style/5/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/tron-style/5/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/tron-style/5/themes/label-11.zip`
+| 0      | **no-labels**   | `https://www.nextzen.org/carto/tron-style/6/themes/label-0.zip`
+| 1      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-1.zip`
+| 2      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-2.zip`
+| 3      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-3.zip`
+| 4      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-4.zip`
+| 5      | _default_       | `https://www.nextzen.org/carto/tron-style/6/themes/label-5.zip`
+| 6      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-6.zip`
+| 7      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-7.zip`
+| 8      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-8.zip`
+| 9      |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-9.zip`
+| 10     | **more-labels** | `https://www.nextzen.org/carto/tron-style/6/themes/label-10.zip`
+| 11     |                 | `https://www.nextzen.org/carto/tron-style/6/themes/label-11.zip`
 
 ## Walkabout
 
@@ -233,15 +233,15 @@ Current **MAJOR** versioned releases:
 
 | label  | note            | import
 |-------:|-----------------|--------------------------------------------------------------
-| 0      | **no-labels**   | `https://mapzen.com/carto/walkabout-style/6/themes/label-0.zip`
-| 1      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-1.zip`
-| 2      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-2.zip`
-| 3      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-3.zip`
-| 4      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-4.zip`
-| 5      | _default_       | `https://mapzen.com/carto/walkabout-style/6/themes/label-5.zip`
-| 6      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-6.zip`
-| 7      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-7.zip`
-| 8      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-8.zip`
-| 9      |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-9.zip`
-| 10     | **more-labels** | `https://mapzen.com/carto/walkabout-style/6/themes/label-10.zip`
-| 11     |                 | `https://mapzen.com/carto/walkabout-style/6/themes/label-11.zip`
+| 0      | **no-labels**   | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-0.zip`
+| 1      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-1.zip`
+| 2      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-2.zip`
+| 3      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-3.zip`
+| 4      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-4.zip`
+| 5      | _default_       | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-5.zip`
+| 6      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-6.zip`
+| 7      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-7.zip`
+| 8      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-8.zip`
+| 9      |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-9.zip`
+| 10     | **more-labels** | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-10.zip`
+| 11     |                 | `https://www.nextzen.org/carto/walkabout-style/8/themes/label-11.zip`

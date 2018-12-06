@@ -34,7 +34,7 @@ A full-featured wayfinding style loaded with helpful icons for points of interes
 
 Current **MAJOR** release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/bubble-wrap-style/8/bubble-wrap-style.zip`
+* `https://mapzen.com/carto/bubble-wrap-style/10/bubble-wrap-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -50,7 +50,7 @@ A classic web map style for general mapping applications. Roads are red and park
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/cinnabar-style/8/cinnabar-style.zip`
+* `https://mapzen.com/carto/cinnabar-style/10/cinnabar-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -68,7 +68,7 @@ Refill is offered in a range of **color**, **label**, and **detail** [themes](th
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/refill-style/9/refill-style.zip`
+* `https://mapzen.com/carto/refill-style/12/refill-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -84,7 +84,7 @@ Will autonomous cars dream as they charge overnight? Mapzen is pushing mapping t
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/tron-style/5/tron-style.zip`
+* `https://mapzen.com/carto/tron-style/6/tron-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 
@@ -100,7 +100,7 @@ This outdoor style is perfect for hiking or getting out and about, with mountain
 
 Current **MAJOR** versioned release (includes any minor and patch updates):
 
-* `https://mapzen.com/carto/walkabout-style/6/walkabout-style.zip`
+* `https://mapzen.com/carto/walkabout-style/8/walkabout-style.zip`
 
 **LATEST** (same assets as MAJOR version above):
 

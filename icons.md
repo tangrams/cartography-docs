@@ -38,7 +38,7 @@ Data-driven styling is supported when your data includes a `kind` property with 
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/refill-style.zip
+    - https://mapzen.com/carto/refill-style/10/refill-style.zip
 
 sources:
     my-source:
@@ -59,7 +59,7 @@ Sprites can be defined with a Javascript function that allows remapping property
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/refill-style.zip
+    - https://mapzen.com/carto/refill-style/10/refill-style.zip
 
 sources:
     my-source:
@@ -89,18 +89,18 @@ layers:
 
 You can use the icons in the Mapzen icon library independent of Mapzen basemap styles by importing just the icon bundle into a Tangram scene.
 
-* `https://mapzen.com/carto/bubble-wrap-style/8/themes/bubble-wrap-icons.zip`
-* `https://mapzen.com/carto/cinnabar-style/8/themes/cinnabar-icons.zip`
-* `https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip`
-* `https://mapzen.com/carto/tron-style/5/themes/tron-icons.zip`
-* `https://mapzen.com/carto/walkabout-style/6/themes/walkabout-icons.zip`
+* `https://mapzen.com/carto/bubble-wrap-style/10/themes/bubble-wrap-icons.zip`
+* `https://mapzen.com/carto/cinnabar-style/10/themes/cinnabar-icons.zip`
+* `https://mapzen.com/carto/refill-style/12/themes/refill-icons.zip`
+* `https://mapzen.com/carto/tron-style/6/themes/tron-icons.zip`
+* `https://mapzen.com/carto/walkabout-style/8/themes/walkabout-icons.zip`
 * `https://mapzen.com/carto/sdk-default-style/1/themes/sdk-default-icons.zip`
 
 For example:
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/10/themes/refill-icons.zip
 
 sources:
     my-source:
@@ -122,11 +122,11 @@ The Mapzen Icon Library is available for use in your favorite mapping or graphic
 
 Currently only only `png` format at `2x` resolution is supported.
 
-* `https://mapzen.com/carto/bubble-wrap-style/8/icons/{resolution}/{sprite}.{format}`
-* `https://mapzen.com/carto/cinnabar-style/8/icons/{resolution}/{sprite}.{format}`
-* `https://mapzen.com/carto/refill-style/9/icons/{resolution}/{sprite}.{format}`
-* `https://mapzen.com/carto/tron-style/5/icons/{resolution}/{sprite}.{format}`
-* `https://mapzen.com/carto/walkabout-style/6/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/bubble-wrap-style/10/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/cinnabar-style/10/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/refill-style/12/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/tron-style/6/icons/{resolution}/{sprite}.{format}`
+* `https://mapzen.com/carto/walkabout-style/8/icons/{resolution}/{sprite}.{format}`
 * `https://mapzen.com/carto/sdk-default-style/1/icons/{resolution}/{sprite}.{format}`
 
 **For example:**
@@ -134,7 +134,7 @@ Currently only only `png` format at `2x` resolution is supported.
 Load the `adit` sprite in the **Bubble Wrap** style at `2x` in `png` format:
 
 ```
-https://mapzen.com/carto/bubble-wrap-style/8/icons/2x/adit.png
+https://mapzen.com/carto/bubble-wrap-style/10/icons/2x/adit.png
 ```
 
 ## Customize icon colors
@@ -143,7 +143,7 @@ You can customize the icon colors by changing the global color of colorized-icon
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/themes/refill-icons.zip
+    - https://mapzen.com/carto/refill-style/10/themes/refill-icons.zip
 
 sources:
     my-source:
@@ -174,8 +174,8 @@ You could even use the Bubble Wrap icons on Refill!
 
 ```
 import:
-    - https://mapzen.com/carto/refill-style/9/refill-style.zip
-    - https://mapzen.com/carto/bubble-wrap-style/8/themes/bubble-wrap-icons.zip
+    - https://mapzen.com/carto/refill-style/12/refill-style.zip
+    - https://mapzen.com/carto/bubble-wrap-style/10/themes/bubble-wrap-icons.zip
 ```
 
 ## Sprites
@@ -186,7 +186,7 @@ Some exceptions:
 
 - [Populated places](https://mapzen.com/documentation/vector-tiles/layers/#places) that are displayed as point features (capitals, cities, and towns for instance) use the `capital` or `townspot` icons, respectively.
 - Icons for sports pitches and religious places of worship are based on `kind_detail`.
-- Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation)
+- Road shields are generally sourced from the `network` values in the [roads layer](https://mapzen.com/documentation/vector-tiles/layers/#roads-transportation), 2-character variant shown but support for 1, 2, 3, 4, and 5 is provided.
 - User experience assets are prefixed with `ux-`.
 
 sprite | Bubble Wrap | Walkabout | Tron | Refill | Cinnabar
